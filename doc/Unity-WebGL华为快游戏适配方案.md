@@ -77,7 +77,7 @@ Unity游戏是使用C\#语言开发的游戏，而华为快游戏的运行环境
     </tbody>
     </table>
 
--   您已下载**适配层代码**和**快游戏打包工具**。
+-   您已下载[适配层代码](http://test-runtime.cocos.com/cocos-runtime-src/huawei_web_adapter/index.html)和**tools\>快游戏打包工具**。
 -   您已前往[node官网](https://nodejs.org/en/download)下载并安装node.js，且npm版本大于9.6.1。
 -   您的测试设备已[安装快应用加载器](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-installtool-0000001166035569#section20867195051318)。
 -   您已提前准备如下素材内容。
@@ -126,9 +126,8 @@ Unity游戏是使用C\#语言开发的游戏，而华为快游戏的运行环境
 
 ## 技术支持<a name="section1215932993610"></a>
 
-1.  请先仔细阅读文档，部分功能对设备和系统有限制。
-2.  查看[FAQ](FAQ.md)。
-3.  通过[智能客服](https://developer.huawei.com/consumer/cn/customerService/#/bot-dev-top/faq-top/faq-talk-top)查找问题解决方案。
-4.  登录[华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/block/ag-connect)和[Stack Overflow社区](https://stackoverflow.com/questions/tagged/appgallery-connect)参与问题讨论。
-5.  如果以上方法仍未解决您的问题，可以通过[在线工单系统](https://developer.huawei.com/consumer/cn/support/feedback/#/add/89?level2=201653621232848259)与我们进行联系。提交后的工单可在开发者联盟“管理中心”的“开发者中心 \> 我的客服”页面查看工单处理进展。
+1.  查看[FAQ](FAQ.md)。
+2.  通过[智能客服](https://developer.huawei.com/consumer/cn/customerService/#/bot-dev-top/faq-top/faq-talk-top)查找问题解决方案。
+3.  登录[华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/block/ag-connect)和[Stack Overflow社区](https://stackoverflow.com/questions/tagged/appgallery-connect)参与问题讨论。
+4.  如果以上方法仍未解决您的问题，可以通过[在线工单系统](https://developer.huawei.com/consumer/cn/support/feedback/#/add/89?level2=201653621232848259)与我们进行联系。提交后的工单可在开发者联盟“管理中心”的“开发者中心 \> 我的客服”页面查看工单处理进展。
 
