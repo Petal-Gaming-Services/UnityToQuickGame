@@ -77,7 +77,7 @@ Unity游戏是使用C\#语言开发的游戏，而华为快游戏的运行环境
     </tbody>
     </table>
 
--   您已下载[适配层代码](http://test-runtime.cocos.com/cocos-runtime-src/huawei_web_adapter/index.html)和**tools\>快游戏打包工具**。
+-   您已下载[适配层代码](../adapter)和**tools\>快游戏打包工具**。
 -   您已前往[node官网](https://nodejs.org/en/download)下载并安装node.js，且npm版本大于9.6.1。
 -   您的测试设备已[安装快应用加载器](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-installtool-0000001166035569#section20867195051318)。
 -   您已提前准备如下素材内容。
