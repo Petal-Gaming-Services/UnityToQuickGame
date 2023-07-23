@@ -1,0 +1,10 @@
+/.vscode
+/[Bb]uilds
+/[Bb]uild
+/[Ll]ibrary
+/[Ll]ogs
+/[Oo]bj
+/[Tt]emp
+/Assets/HW-WASM-SDK
+*.csproj
+*.sln
