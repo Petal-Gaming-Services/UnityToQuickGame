@@ -43,7 +43,12 @@ public class PaySubscribeScene : MonoBehaviour
             success = res =>
             {
                 string sign = res.inAppDataSignature;
-                InAppPurchaseData inAppPurchaseData = res.inAppPurchaseData;
+                string inAppPurchaseDataStr = res.inAppPurchaseData;
+                InAppPurchaseData inAppPurchaseData = null;
+                if (!string.IsNullOrEmpty(inAppPurchaseDataStr))
+                {
+                    inAppPurchaseData = JsonUtility.FromJson<InAppPurchaseData>(inAppPurchaseDataStr);
+                }
                 Debug.Log("PayForSubs CreatePurchaseIntent success returnCode: " + res.returnCode + ", errMsg: " +
                           res.errMsg + ", inAppDataSignature: " + sign + ", inAppPurchaseData: " +
                           (inAppPurchaseData != null ? JsonUtility.ToJson(inAppPurchaseData) : ""));

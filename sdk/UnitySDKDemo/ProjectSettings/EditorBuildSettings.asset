@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RewardedVideoAdScene.unity
     guid: 451d9dfa1c760734cbf2fec6adf70c58
+  - enabled: 1
+    path: Assets/Scenes/KeyboardScene.unity
+    guid: 1c2fbc6477f3a614397811989b66a120
+  - enabled: 1
+    path: Assets/Scenes/LocalStorageScene.unity
+    guid: 6c6ec9adb965a6a4cac3f71c08c974f6
+  - enabled: 1
+    path: Assets/Scenes/PlayerPrefsScene.unity
+    guid: 5a49e2ef07d19d84e94c1d416bb41052
+  - enabled: 1
+    path: Assets/Scenes/FrameRateScene.unity
+    guid: 8fbf05b1e9ff96e4284e5f5f1e3e6f08
   m_configObjects: {}

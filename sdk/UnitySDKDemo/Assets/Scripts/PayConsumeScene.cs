@@ -55,15 +55,17 @@ public class PayConsumeScene : MonoBehaviour
 
     public void ParseOwnedPurchases(ObtainOwnedPurchasesSuccessResult res)
     {
-        List<InAppPurchaseData> inAppPurchaseDataList = res.inAppPurchaseDataList;
+        List<string> inAppPurchaseDataListStr = res.inAppPurchaseDataList;
         List<string> inAppSignature = res.inAppSignature;
-        if (inAppPurchaseDataList != null && inAppPurchaseDataList.Count != 0 && inAppSignature != null &&
-            inAppSignature.Count == inAppPurchaseDataList.Count)
+        if (inAppPurchaseDataListStr != null && inAppPurchaseDataListStr.Count != 0 && inAppSignature != null &&
+            inAppSignature.Count == inAppPurchaseDataListStr.Count)
         {
-            for (int i = 0; i < inAppPurchaseDataList.Count; i++)
+            for (int i = 0; i < inAppPurchaseDataListStr.Count; i++)
             {
-                CheckSign(inAppPurchaseDataList[i].purchaseState, inAppSignature[i],
-                    inAppPurchaseDataList[i].purchaseToken);
+                InAppPurchaseData inAppPurchaseData =
+                    JsonUtility.FromJson<InAppPurchaseData>(inAppPurchaseDataListStr[i]);
+                CheckSign(inAppPurchaseData.purchaseState, inAppSignature[i],
+                    inAppPurchaseData.purchaseToken);
             }
         }
 
@@ -127,10 +129,17 @@ public class PayConsumeScene : MonoBehaviour
             publicKey = "MIIBojANBgkqhkiG9w0*************************EeKlAgMBAAE",
             success = res =>
             {
+                string consumePurchaseDataStr = res.consumePurchaseData;
+                ConsumePurchaseData consumePurchaseData = null;
+                if (!string.IsNullOrEmpty(consumePurchaseDataStr))
+                {
+                    consumePurchaseData = JsonUtility.FromJson<ConsumePurchaseData>(consumePurchaseDataStr);
+                }
+
                 Debug.Log("ConfirmTransct ConsumeOwnedPurchase returnCode: " + res.returnCode + ", errMsg: " +
-                          res.errMsg + ", consumePurchaseData: " + (res.consumePurchaseData != null
-                    ? JsonUtility.ToJson(res.consumePurchaseData)
-                    : "") + ", dataSignature: " +
+                          res.errMsg + ", consumePurchaseData: " + (consumePurchaseData != null
+                              ? JsonUtility.ToJson(consumePurchaseData)
+                              : "") + ", dataSignature: " +
                           res.dataSignature);
             },
             fail = res =>
@@ -153,7 +162,13 @@ public class PayConsumeScene : MonoBehaviour
             success = res =>
             {
                 string sign = res.inAppDataSignature;
-                InAppPurchaseData inAppPurchaseData = res.inAppPurchaseData;
+                string inAppPurchaseDataStr = res.inAppPurchaseData;
+                InAppPurchaseData inAppPurchaseData = null;
+                if (!string.IsNullOrEmpty(inAppPurchaseDataStr))
+                {
+                    inAppPurchaseData = JsonUtility.FromJson<InAppPurchaseData>(inAppPurchaseDataStr);
+                }
+
                 Debug.Log("PayForConsumable CreatePurchaseIntent success returnCode: " + res.returnCode + ", errMsg: " +
                           res.errMsg + ", inAppDataSignature: " + sign + ", inAppPurchaseData: " +
                           (inAppPurchaseData != null ? JsonUtility.ToJson(inAppPurchaseData) : ""));

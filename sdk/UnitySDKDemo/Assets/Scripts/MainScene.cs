@@ -27,4 +27,24 @@ public class MainScene : MonoBehaviour
     {
         SceneManager.LoadScene("PayScene");
     }
+
+    public void OnKeyboardClick()
+    {
+        SceneManager.LoadScene("KeyboardScene");
+    }
+
+    public void OnLocalStorageClick()
+    {
+        SceneManager.LoadScene("LocalStorageScene");
+    }
+
+    public void OnPlayerPrefsClick()
+    {
+        SceneManager.LoadScene("PlayerPrefsScene");
+    }
+
+    public void OnFrameRateClick()
+    {
+        SceneManager.LoadScene("FrameRateScene");
+    }
 }

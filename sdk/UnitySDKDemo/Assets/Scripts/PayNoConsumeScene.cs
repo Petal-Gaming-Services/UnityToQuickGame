@@ -43,7 +43,13 @@ public class PayNoConsumeScene : MonoBehaviour
             success = res =>
             {
                 string sign = res.inAppDataSignature;
-                InAppPurchaseData inAppPurchaseData = res.inAppPurchaseData;
+                string inAppPurchaseDataStr = res.inAppPurchaseData;
+                InAppPurchaseData inAppPurchaseData = null;
+                if (!string.IsNullOrEmpty(inAppPurchaseDataStr))
+                {
+                    inAppPurchaseData = JsonUtility.FromJson<InAppPurchaseData>(inAppPurchaseDataStr);
+                }
+
                 Debug.Log("PayForNonConsumable CreatePurchaseIntent success returnCode: " + res.returnCode +
                           ", errMsg: " + res.errMsg + ", inAppDataSignature: " + sign +
                           ", inAppPurchaseData: " +
@@ -131,15 +137,17 @@ public class PayNoConsumeScene : MonoBehaviour
 
     public void ParseOwnedPurchases(ObtainOwnedPurchasesSuccessResult res)
     {
-        List<InAppPurchaseData> inAppPurchaseDataList = res.inAppPurchaseDataList;
+        List<string> inAppPurchaseDataListStr = res.inAppPurchaseDataList;
         List<string> inAppSignature = res.inAppSignature;
-        if (inAppPurchaseDataList != null && inAppPurchaseDataList.Count != 0 && inAppSignature != null &&
-            inAppSignature.Count == inAppPurchaseDataList.Count)
+        if (inAppPurchaseDataListStr != null && inAppPurchaseDataListStr.Count != 0 && inAppSignature != null &&
+            inAppSignature.Count == inAppPurchaseDataListStr.Count)
         {
-            for (int i = 0; i < inAppPurchaseDataList.Count; i++)
+            for (int i = 0; i < inAppPurchaseDataListStr.Count; i++)
             {
-                CheckSign(inAppPurchaseDataList[i].purchaseState, inAppSignature[i],
-                    inAppPurchaseDataList[i].purchaseToken);
+                InAppPurchaseData inAppPurchaseData =
+                    JsonUtility.FromJson<InAppPurchaseData>(inAppPurchaseDataListStr[i]);
+                CheckSign(inAppPurchaseData.purchaseState, inAppSignature[i],
+                    inAppPurchaseData.purchaseToken);
             }
         }
 
