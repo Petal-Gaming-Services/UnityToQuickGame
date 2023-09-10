@@ -6,6 +6,8 @@
 -   [运行RPK包报错AbortController is not defined](#section1349532810374)
 -   [运行快游戏RPK时黑屏](#section1396074113370)
 -   [Unity帧率问题](#section1365215152016)
+-   [转快游戏后不支持Unity原生的PlayerPrefs](#section118551314173816)
+-   [如何使用快游戏的缓存能力？](#section143211315836)
 
 ## 如何处理依赖文件安装失败<a name="section144922623620"></a>
 
@@ -95,5 +97,24 @@
 
 ## Unity帧率问题<a name="section1365215152016"></a>
 
-建议不要使用Unity中的帧率设置。
+请勿使用Unity中的帧率设置，若想使用帧率，可参考[SetPreferredFramesPerSecond \(int fps\)](C-SDK-API参考.md#section73161511193412)。
+
+## 转快游戏后不支持Unity原生的PlayerPrefs<a name="section118551314173816"></a>
+
+Unity游戏转快游戏后，存储数据的能力可以集成SDK后：
+
+-   可以使用命名空间**HWWASM**下的PlayerPrefs。
+-   可以直接使用LocalStorage。
+
+由于命名空间空间**HWWASM**下的PlayerPrefs底层实现是SDK LocalStorage，建议使用时二选一，否则可能会造成冲突。
+
+## 如何使用快游戏的缓存能力？<a name="section143211315836"></a>
+
+快游戏新增资源缓存的能力，如果请求的URL中包含标识符“**StreamingAssets**”，如下所示，即可对该响应进行缓存，下次请求相同URL时将直接使用缓存，开发者可以**正常使用Unity**的网络请求接口，对缓存过程、是否使用缓存数据、缓存清理等底层实现无感。
+
+```
+https://xxx.xxx.com/x/x/x/StreamingAssets/x/textures_8d265a3dfd6cb4629cdd8b726a0afb1e.ab
+```
+
+打包资源时，请使用hash** **[BuildAssetBundleOptions.AppendHashToAssetBundleName](https://docs.unity3d.com/ScriptReference/BuildAssetBundleOptions.AppendHashToAssetBundleName.html)，这样更新资源时可以生成新的hash，即生成不同的请求URL，而不返回缓存数据。
 
