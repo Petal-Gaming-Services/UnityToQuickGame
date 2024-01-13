@@ -1,15 +1,14 @@
-# 数据存储<a name="ZH-CN_TOPIC_0000001646566996"></a>
+# 数据存储API<a name="ZH-CN_TOPIC_0000001646566996"></a>
 
--   [属性和接口定义](#section75725131222)
-    -   [LocalStorage.Length](#section1697222151314)
-    -   [LocalStorage.clear\(\)](#section2035405572817)
-    -   [LocalStorage.RemoveItem\(string key\)](#section1591718211292)
-    -   [LocalStorage.SetItem\(string key, string value\)](#section10159244102917)
-    -   [LocalStorage.GetItem\(string key\)](#section070295602911)
-    -   [LocalStorage.Key\(int index\)](#section1967251243017)
+-   [LocalStorage类的属性和接口定义](#section75725131222)
+    -   [Length](#section1697222151314)
+    -   [static void Clear\(\)](#section2035405572817)
+    -   [static void RemoveItem\(string key\)](#section1591718211292)
+    -   [static void SetItem\(string key, string value\)](#section10159244102917)
+    -   [static string GetItem\(string key\)](#section070295602911)
+    -   [static string Key\(int index\)](#section1967251243017)
 
-
-## 属性和接口定义<a name="section75725131222"></a>
+## LocalStorage类的属性和接口定义<a name="section75725131222"></a>
 
 <a name="table12871118202312"></a>
 <table><thead align="left"><tr id="row887161862317"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.4.1.1"><p id="p17784191719183"><a name="p17784191719183"></a><a name="p17784191719183"></a>分类</p>
@@ -22,34 +21,34 @@
 </thead>
 <tbody><tr id="row1027385203615"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.4.1.1 "><p id="p14784417181814"><a name="p14784417181814"></a><a name="p14784417181814"></a>属性</p>
 </td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.4.1.2 "><p id="p1343764061214"><a name="p1343764061214"></a><a name="p1343764061214"></a><a href="#section1697222151314">LocalStorage.Length</a></p>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.4.1.2 "><p id="p1343764061214"><a name="p1343764061214"></a><a name="p1343764061214"></a><a href="#section1697222151314">Length</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.4.1.3 "><p id="p943704010120"><a name="p943704010120"></a><a name="p943704010120"></a>用于获取存储在localStorage对象中的数据项数量（只读）。</p>
 </td>
 </tr>
 <tr id="row08721518152316"><td class="cellrowborder" rowspan="5" valign="top" width="20%" headers="mcps1.1.4.1.1 "><p id="p178441718186"><a name="p178441718186"></a><a name="p178441718186"></a>接口</p>
 </td>
-<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.4.1.2 "><p id="p4921138162316"><a name="p4921138162316"></a><a name="p4921138162316"></a><a href="#section2035405572817">LocalStorage.clear()</a></p>
+<td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.4.1.2 "><p id="p4921138162316"><a name="p4921138162316"></a><a name="p4921138162316"></a><a href="#section2035405572817">static void Clear()</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.4.1.3 "><p id="p2092033812314"><a name="p2092033812314"></a><a name="p2092033812314"></a>清空localStorage中的数据。</p>
 </td>
 </tr>
-<tr id="row1797719202232"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1897822016236"><a name="p1897822016236"></a><a name="p1897822016236"></a><a href="#section1591718211292">LocalStorage.RemoveItem(string key)</a></p>
+<tr id="row1797719202232"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p1897822016236"><a name="p1897822016236"></a><a name="p1897822016236"></a><a href="#section1591718211292">static void RemoveItem(string key)</a></p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p897810203231"><a name="p897810203231"></a><a name="p897810203231"></a>根据key删除单条存在localStorage中的数据。</p>
 </td>
 </tr>
-<tr id="row929522282314"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p18295162292315"><a name="p18295162292315"></a><a name="p18295162292315"></a><a href="#section10159244102917">LocalStorage.SetItem(string key, string value)</a></p>
+<tr id="row929522282314"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p18295162292315"><a name="p18295162292315"></a><a name="p18295162292315"></a><a href="#section10159244102917">static void SetItem(string key, string value)</a></p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p629562272310"><a name="p629562272310"></a><a name="p629562272310"></a>保存数据到localStorage。</p>
 </td>
 </tr>
-<tr id="row1322182413238"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p222110244232"><a name="p222110244232"></a><a name="p222110244232"></a><a href="#section070295602911">LocalStorage.GetItem(string key)</a></p>
+<tr id="row1322182413238"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p222110244232"><a name="p222110244232"></a><a name="p222110244232"></a><a href="#section070295602911">static string GetItem(string key)</a></p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p142218241237"><a name="p142218241237"></a><a name="p142218241237"></a>根据key查询单条存在localStorage中的数据。</p>
 </td>
 </tr>
-<tr id="row75515155245"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p0551191512417"><a name="p0551191512417"></a><a name="p0551191512417"></a><a href="#section1967251243017">LocalStorage.Key(int index)</a></p>
+<tr id="row75515155245"><td class="cellrowborder" valign="top" headers="mcps1.1.4.1.1 "><p id="p0551191512417"><a name="p0551191512417"></a><a name="p0551191512417"></a><a href="#section1967251243017">static string Key(int index)</a></p>
 </td>
 <td class="cellrowborder" valign="top" headers="mcps1.1.4.1.2 "><p id="p105511115152413"><a name="p105511115152413"></a><a name="p105511115152413"></a>根据index下标查询对应的key数据。</p>
 </td>
@@ -57,7 +56,7 @@
 </tbody>
 </table>
 
-### LocalStorage.Length<a name="section1697222151314"></a>
+### Length<a name="section1697222151314"></a>
 
 -   描述
 
@@ -69,8 +68,7 @@
     Debug.Log("Length: " + QG.LocalStorage.Length);
     ```
 
-
-### LocalStorage.clear\(\)<a name="section2035405572817"></a>
+### static void Clear\(\)<a name="section2035405572817"></a>
 
 -   描述
 
@@ -82,8 +80,7 @@
     QG.LocalStorage.Clear();
     ```
 
-
-### LocalStorage.RemoveItem\(string key\)<a name="section1591718211292"></a>
+### static void RemoveItem\(string key\)<a name="section1591718211292"></a>
 
 -   描述
 
@@ -118,14 +115,13 @@
 
     ```
     public void RemoveItem()
-        {
-            string key = "key";
-            QG.LocalStorage.RemoveItem(key);
-        }
+    {
+        string key = "key";
+        QG.LocalStorage.RemoveItem(key);
+    }
     ```
 
-
-### LocalStorage.SetItem\(string key, string value\)<a name="section10159244102917"></a>
+### static void SetItem\(string key, string value\)<a name="section10159244102917"></a>
 
 -   描述
 
@@ -169,15 +165,14 @@
 
     ```
     public void SetItem()
-        {
-            string key = "key";
-            string value = "value";
-            QG.LocalStorage.SetItem(key, value);
-        }
+    {
+        string key = "key";
+        string value = "value";
+        QG.LocalStorage.SetItem(key, value);
+    }
     ```
 
-
-### LocalStorage.GetItem\(string key\)<a name="section070295602911"></a>
+### static string GetItem\(string key\)<a name="section070295602911"></a>
 
 -   描述
 
@@ -208,18 +203,21 @@
     </tbody>
     </table>
 
+-   return
+
+    key的对应的value值。
+
 -   示例代码
 
     ```
     public void GetItem()
-        {
-            string key = "key";
-            QG.LocalStorage.GetItem(key);
-        }
+    {
+        string key = "key";
+        QG.LocalStorage.GetItem(key);
+    }
     ```
 
-
-### LocalStorage.Key\(int index\)<a name="section1967251243017"></a>
+### static string Key\(int index\)<a name="section1967251243017"></a>
 
 -   描述
 
@@ -250,18 +248,17 @@
     </tbody>
     </table>
 
--   响应参数
+-   return
 
-    index下标对应数据。
+    index对应的value值。
 
 -   示例代码
 
     ```
     public void Key()
-        {
-            int index = 1; // 索引的取值必须小于LocalStorage.Length
-            QG.LocalStorage.Key(index);
-        }
+    {
+        int index = 1; // 索引的取值必须小于LocalStorage.Length
+        QG.LocalStorage.Key(index);
+    }
     ```
-
 

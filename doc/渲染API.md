@@ -1,8 +1,7 @@
-# 渲染<a name="ZH-CN_TOPIC_0000001646407732"></a>
+# 渲染API<a name="ZH-CN_TOPIC_0000001646407732"></a>
 
 -   [接口定义](#section183503126613)
-    -   [SetPreferredFramesPerSecond \(int fps\)](#section73161511193412)
-
+    -   [static void SetPreferredFramesPerSecond\(int fps\)](#section73161511193412)
 
 ## 接口定义<a name="section183503126613"></a>
 
@@ -13,7 +12,7 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row19241298367"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p1051153612361"><a name="p1051153612361"></a><a name="p1051153612361"></a><a href="#section73161511193412">SetPreferredFramesPerSecond (int fps)</a></p>
+<tbody><tr id="row19241298367"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.1 "><p id="p1051153612361"><a name="p1051153612361"></a><a name="p1051153612361"></a><a href="#section73161511193412">static void SetPreferredFramesPerSecond(int fps)</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.3.1.2 "><p id="p64892036133619"><a name="p64892036133619"></a><a name="p64892036133619"></a>修改渲染帧率。</p>
 </td>
@@ -21,7 +20,7 @@
 </tbody>
 </table>
 
-### SetPreferredFramesPerSecond \(int fps\)<a name="section73161511193412"></a>
+### static void SetPreferredFramesPerSecond\(int fps\)<a name="section73161511193412"></a>
 
 -   描述
 
@@ -56,11 +55,10 @@
 
     ```
     public void SetPreferredFramesPerSecond()
-        {
-            int fps = 55;
-            Debug.Log("SetPreferredFramesPerSecond success fps: " + fps);
-            QG.SetPreferredFramesPerSecond(fps);
-        }
+    {
+        int fps = 55;
+        Debug.Log("SetPreferredFramesPerSecond success fps: " + fps);
+        QG.SetPreferredFramesPerSecond(fps);
+    }
     ```
-
 

@@ -29,8 +29,6 @@
         npm install
         ```
 
-
-
 ## 执行npm打包快游戏时报错<a name="section117651448143620"></a>
 
 -   问题描述
@@ -39,16 +37,13 @@
 
     ![](figures/zh-cn_image_0000001547487361.jpg)
 
-
 -   问题原因
 
     对于想要转换成快游戏的Unity游戏来说，我们会区分Unity版本号，建议在2018.3、2018.4、2019.2、2019.4、2020.3开头的Unity版本中导出WebGL项目，并且推荐使用2020.3版本。使用未支持的Unity版本打包快游戏，可能因为无法识别部分参数而导致打包失败。
 
-
 -   解决方案
     -   重新安装可支持的Unity版本，再根据流程打包成RPK包体。
     -   上述报错需将WebGL项目本地目录Build/output\_WebGL.json中asmFrameworkUrl参数改为wasmFrameworkUrl就可以打包成功了。
-
 
 ## Unity转RPK快游戏包体过大<a name="section1812814107377"></a>
 
@@ -56,8 +51,7 @@
 
     最终打包的快游戏RPK包体超过规定的20MB。
 
-
--   解决办法
+-   解决方案
 
     对于Unity发布的游戏体积过大，我们需要处理Unity游戏本身的打包过程。
 
@@ -67,7 +61,6 @@
     4.  打包快游戏RPK前，配置打包工具根目录下**config.json**中**addressable\_asset\_system\_streaming\_assets\_url**为您的服务器地址。打包后的RPK包体缩小不少，成功把分包中的资源放到远程服务器上请求了。
 
     经过上述处理后，打包的RPK包体仍然超出规定的20MB，后续还可以考虑压缩、优化、重构源代码。
-
 
 ## 运行RPK包报错AbortController is not defined<a name="section1349532810374"></a>
 
@@ -79,10 +72,9 @@
 
     对于Unity发布的游戏来说，我们是区分不同Unity版本的。对于Unity2021.3版本我们是有限支持的，在Unity2021.3版本上发布打包成快游戏后，确实报**AbortController is not defined**错误。当前我们支持2018.3、2018.4、2019.2、2019.4、2020.3开头的Unity版本，推荐2020.3开头的Unity版本。若发现游戏性能无法满足需求，推荐版本2021.3.11f1c2，其它2021开头的版本可能不能直接转换。
 
--   ****解决方案
+-   解决方案
 
     重新安装可支持的Unity版本，再根据流程打包成RPK包体。
-
 
 ## 运行快游戏RPK时黑屏<a name="section1396074113370"></a>
 
@@ -94,19 +86,18 @@
 
     在已支持的Unity版本上导出WegGL项目，需严格按照[发布WebGL项目](第二步-发布WebGL项目.md)、[打包快游戏](第三步-打包快游戏.md)发布打包，否则会导致不兼容等一系列错误。
 
-
 ## Unity帧率问题<a name="section1365215152016"></a>
 
-请勿使用Unity中的帧率设置，若想使用帧率，可参考[SetPreferredFramesPerSecond \(int fps\)](C-SDK-API参考.md#section73161511193412)。
+请勿使用Unity中的帧率设置，若想使用帧率，可参考[SetPreferredFramesPerSecond \(int fps\)](渲染API.md#section73161511193412)。
 
 ## 转快游戏后不支持Unity原生的PlayerPrefs<a name="section118551314173816"></a>
 
-Unity游戏转快游戏后，存储数据的能力可以集成SDK后：
+Unity游戏转快游戏后，存储数据的能力可以在集成**SDK**后：
 
--   可以使用命名空间**HWWASM**下的PlayerPrefs。
+-   可以使用**SDK**下的PlayerPrefs。
 -   可以直接使用LocalStorage。
 
-由于命名空间空间**HWWASM**下的PlayerPrefs底层实现是SDK LocalStorage，建议使用时二选一，否则可能会造成冲突。
+由于**SDK**下的PlayerPrefs底层实现是SDK LocalStorage，建议使用时二选一，否则可能会造成冲突。
 
 ## 如何使用快游戏的缓存能力？<a name="section143211315836"></a>
 
@@ -116,5 +107,5 @@ Unity游戏转快游戏后，存储数据的能力可以集成SDK后：
 https://xxx.xxx.com/x/x/x/StreamingAssets/x/textures_8d265a3dfd6cb4629cdd8b726a0afb1e.ab
 ```
 
-打包资源时，请使用hash** **[BuildAssetBundleOptions.AppendHashToAssetBundleName](https://docs.unity3d.com/ScriptReference/BuildAssetBundleOptions.AppendHashToAssetBundleName.html)，这样更新资源时可以生成新的hash，即生成不同的请求URL，而不返回缓存数据。
+打包资源时，请使用hash[BuildAssetBundleOptions.AppendHashToAssetBundleName](https://docs.unity3d.com/ScriptReference/BuildAssetBundleOptions.AppendHashToAssetBundleName.html)，这样更新资源时可以生成新的hash，即生成不同的请求URL，而不返回缓存数据。
 

@@ -47,4 +47,29 @@ public class MainScene : MonoBehaviour
     {
         SceneManager.LoadScene("FrameRateScene");
     }
+    
+    public void OnInnerAudioContextClick()
+    {
+        SceneManager.LoadScene("InnerAudioContextScene");
+    }
+    
+    public void OnClipboardClick()
+    {
+        SceneManager.LoadScene("ClipboardScene");
+    }
+    
+    public void OnTouchClick()
+    {
+        SceneManager.LoadScene("TouchScene");
+    }
+    
+    public void OnSystemInfoClick()
+    {
+        SceneManager.LoadScene("SystemInfoScene");
+    }
+    
+    public void OnSystemEventsClick()
+    {
+        SceneManager.LoadScene("SystemEventsScene");
+    }
 }

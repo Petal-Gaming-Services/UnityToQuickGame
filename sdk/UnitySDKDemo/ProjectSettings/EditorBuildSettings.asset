@@ -29,4 +29,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FrameRateScene.unity
     guid: 8fbf05b1e9ff96e4284e5f5f1e3e6f08
+  - enabled: 1
+    path: Assets/Scenes/InnerAudioContextScene.unity
+    guid: 71c9409be8e1018438db56a602897bdf
+  - enabled: 1
+    path: Assets/Scenes/ClipboardScene.unity
+    guid: 4dcc799cf78251344816c6b8bc1cf1a9
+  - enabled: 1
+    path: Assets/Scenes/TouchScene.unity
+    guid: ce2f188c1ec524443bb58271efed5d71
+  - enabled: 1
+    path: Assets/Scenes/SystemInfoScene.unity
+    guid: 0c6e9ee31092f2e47bec4e99d4df0d45
+  - enabled: 1
+    path: Assets/Scenes/SystemEventsScene.unity
+    guid: bf0373ff312a00b46bf5dbea5562cc67
   m_configObjects: {}

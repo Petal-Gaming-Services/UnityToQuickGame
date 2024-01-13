@@ -16,6 +16,8 @@
     -   [本地调试](#section23801612224)
     -   [发布上架](#section20355777264)
 
+-   [FAQ](#section8212725134119)
+-   [C\# SDK API参考](#section13942133811414)
 
 ## 业务简介<a name="section15199104714389"></a>
 
@@ -41,34 +43,44 @@ Unity游戏是使用C\#语言开发的游戏，而快游戏的运行环境却是
 
 更多案例可参考[成功案例](成功案例.md)。
 
-<a name="simpletable17169195151016"></a>
-<table id="simpletable17169195151016"><tr id="strow2017045113106"><td valign="top" id="stentry1129313357139"><p id="p963195414472"><a name="p963195414472"></a><a name="p963195414472"></a>地铁跑酷</p>
+<a name="table643015264332"></a>
+<table><tbody><tr id="row184301826143318"><td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p11687352173418"><a name="p11687352173418"></a><a name="p11687352173418"></a><strong id="b268795215342"><a name="b268795215342"></a><a name="b268795215342"></a>大圣顶住</strong></p>
 </td>
-<td valign="top" id="stentry1317020517103"><p id="p3170185191012"><a name="p3170185191012"></a><a name="p3170185191012"></a>百变化妆大师</p>
+<td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p114774586340"><a name="p114774586340"></a><a name="p114774586340"></a><strong id="b17477125873413"><a name="b17477125873413"></a><a name="b17477125873413"></a>地铁跑酷</strong></p>
 </td>
-<td valign="top" id="stentry9170195115106"><p id="p3170145141013"><a name="p3170145141013"></a><a name="p3170145141013"></a>合合美美</p>
-</td>
-<td valign="top" id="stentry1417055114107"><p id="p2170851191015"><a name="p2170851191015"></a><a name="p2170851191015"></a>装扮小屋</p>
+<td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p99024211354"><a name="p99024211354"></a><a name="p99024211354"></a><strong id="b49021823353"><a name="b49021823353"></a><a name="b49021823353"></a>百变化妆大师</strong></p>
 </td>
 </tr>
-<tr id="strow17170205118104"><td valign="top" id="stentry929393516134"><p id="p18631155419473"><a name="p18631155419473"></a><a name="p18631155419473"></a>游戏主线从三条铁轨上展开，玩家要以孩子Jake的身份不断在铁轨中穿梭来躲避列车，同时收集金币，躲避警察及猎狗的追捕。</p>
+<tr id="row643032615338"><td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p106871852193418"><a name="p106871852193418"></a><a name="p106871852193418"></a>摒弃了传统塔防“防御塔”的设定，以耳熟能详的仙、妖、圣各类仙灵组成自己想要的阵容，与征天路上的天兵天将短兵相接。华丽的技能，爽快的操作，带来前所未有的塔防新体验。</p>
 </td>
-<td valign="top" id="stentry6170195171014"><p id="p017010513105"><a name="p017010513105"></a><a name="p017010513105"></a>一款以化妆为背景的模拟体验游戏，系统会根据玩家的选择与场景的适配性为玩家打分，让每个玩家都能描绘出属于自己的靓丽美貌。</p>
+<td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p4477115817347"><a name="p4477115817347"></a><a name="p4477115817347"></a>游戏主线从三条铁轨上展开，玩家要以孩子Jake的身份不断在铁轨中穿梭来躲避列车，同时收集金币，躲避警察及猎狗的追捕。</p>
 </td>
-<td valign="top" id="stentry17170135117107"><p id="p1917035115104"><a name="p1917035115104"></a><a name="p1917035115104"></a>一款简单的合成消除游戏，融合经营、消除、合成元素，在现有的棋盘上，找到相同的物品，拖拽合并，便可轻松完成搭配收集的任务，简单易上手的操作。</p>
-</td>
-<td valign="top" id="stentry12170155118102"><p id="p2170551161010"><a name="p2170551161010"></a><a name="p2170551161010"></a>一款模拟装修的游戏，玩家在里面可以对房屋进行装扮，完成任务获得更多的家具，能够自由地摆放家具，按照自己的喜好装扮不同风格的小屋。</p>
+<td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p1090212210353"><a name="p1090212210353"></a><a name="p1090212210353"></a>一款以化妆为背景的模拟体验游戏，系统会根据玩家的选择与场景的适配性为玩家打分，让每个玩家都能描绘出属于自己的靓丽美貌。</p>
 </td>
 </tr>
-<tr id="strow1817012515108"><td valign="top" id="stentry102931635151310"><p id="p626782116592"><a name="p626782116592"></a><a name="p626782116592"></a><a name="image1926702145913"></a><a name="image1926702145913"></a><span><img id="image1926702145913" src="figures/地铁跑酷.png"></span></p>
+<tr id="row4431226133315"><td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p8688105212341"><a name="p8688105212341"></a><a name="p8688105212341"></a><a name="image106881452133412"></a><a name="image106881452133412"></a><span><img id="image106881452133412" src="figures/大圣顶住.png"></span></p>
 </td>
-<td valign="top" id="stentry81701951181010"><p id="p166802121565"><a name="p166802121565"></a><a name="p166802121565"></a><a name="image868071215616"></a><a name="image868071215616"></a><span><img id="image868071215616" src="figures/百变化妆大师.png"></span></p>
+<td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p134771158133414"><a name="p134771158133414"></a><a name="p134771158133414"></a><a name="image7477145883418"></a><a name="image7477145883418"></a><span><img id="image7477145883418" src="figures/地铁跑酷.png"></span></p>
 </td>
-<td valign="top" id="stentry417012513103"><p id="p65022308562"><a name="p65022308562"></a><a name="p65022308562"></a><a name="image12501113075620"></a><a name="image12501113075620"></a><span><img id="image12501113075620" src="figures/合合美美2.png"></span></p>
-</td>
-<td valign="top" id="stentry4170951131016"><p id="p293333865619"><a name="p293333865619"></a><a name="p293333865619"></a><a name="image1793253845616"></a><a name="image1793253845616"></a><span><img id="image1793253845616" src="figures/装扮小屋2.png"></span></p>
+<td class="cellrowborder" colspan="2" align="center" valign="top"><p id="p2902132193515"><a name="p2902132193515"></a><a name="p2902132193515"></a><a name="image790210218359"></a><a name="image790210218359"></a><span><img id="image790210218359" src="figures/百变化妆大师.png"></span></p>
 </td>
 </tr>
+<tr id="row44311426143313"><td class="cellrowborder" colspan="3" align="center" valign="top"><p id="p138454723512"><a name="p138454723512"></a><a name="p138454723512"></a><strong id="b484507113518"><a name="b484507113518"></a><a name="b484507113518"></a>合合美美</strong></p>
+</td>
+<td class="cellrowborder" colspan="3" align="center" valign="top"><p id="p0293812183517"><a name="p0293812183517"></a><a name="p0293812183517"></a><strong id="b12293121213516"><a name="b12293121213516"></a><a name="b12293121213516"></a>装扮小屋</strong></p>
+</td>
+</tr>
+<tr id="row2043182617331"><td class="cellrowborder" colspan="3" align="center" valign="top"><p id="p48451743519"><a name="p48451743519"></a><a name="p48451743519"></a>一款简单的合成消除游戏，融合经营、消除、合成元素，在现有的棋盘上，找到相同的物品，拖拽合并，便可轻松完成搭配收集的任务，简单易上手的操作。</p>
+</td>
+<td class="cellrowborder" colspan="3" align="center" valign="top"><p id="p1629331210352"><a name="p1629331210352"></a><a name="p1629331210352"></a>一款模拟装修的游戏，玩家在里面可以对房屋进行装扮，完成任务获得更多的家具，能够自由地摆放家具，按照自己的喜好装扮不同风格的小屋。</p>
+</td>
+</tr>
+<tr id="row743162643319"><td class="cellrowborder" colspan="3" align="center" valign="top"><p id="p188453733514"><a name="p188453733514"></a><a name="p188453733514"></a><a name="image384513717356"></a><a name="image384513717356"></a><span><img id="image384513717356" src="figures/合合美美2.png"></span></p>
+</td>
+<td class="cellrowborder" colspan="3" align="center" valign="top"><p id="p1529318126357"><a name="p1529318126357"></a><a name="p1529318126357"></a><a name="image10293151216353"></a><a name="image10293151216353"></a><span><img id="image10293151216353" src="figures/装扮小屋2.png"></span></p>
+</td>
+</tr>
+</tbody>
 </table>
 
 ## 准备工作<a name="section1081804723120"></a>
@@ -102,7 +114,6 @@ Unity游戏是使用C\#语言开发的游戏，而快游戏的运行环境却是
 -   准备Android 6.0及以上版本的手机/平板设备，要求：
     -   设备已[安装快应用加载器](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-installtool-0000001166035569#section20867195051318)。
     -   设备已成功连接电脑，详细操作可参考[手机如何成功连接电脑](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-developer-mode-0000001634026457)。
-
 
 ### 素材准备<a name="section162721931181311"></a>
 
@@ -151,4 +162,12 @@ Unity游戏项目使用C\#开发语言，快游戏使用JS开发语言，C\#不�
 1.  在AppGallery Connect控制台[配置快游戏的基本信息](https://developer.huawei.com/consumer/cn/doc/distribution/app/agc-help-configure-appinfo-0000001100086630)。
 2.  在AppGallery Connect控制台[发布快游戏](https://developer.huawei.com/consumer/cn/doc/distribution/app/agc-help--release-fastapp-0000001099836868)。
 3.  提交上架申请后，请耐心等待审核。
+
+## FAQ<a name="section8212725134119"></a>
+
+若遇到问题，请先仔细阅读文档，若仍未解决您的问题，请前往[FAQ](FAQ.md)进行查看。
+
+## C\# SDK API参考<a name="section13942133811414"></a>
+
+C\# SDK的API接口详细介绍请参见[C\# SDK API参考](C-SDK-API参考.md)。
 

@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-// 注意：快游戏如果要用PlayerPrefs，需使用HWWASM.PlayerPrefs
-using PlayerPrefs = HWWASM.PlayerPrefs;
 
 public class PlayerPrefsScene : MonoBehaviour
 {
