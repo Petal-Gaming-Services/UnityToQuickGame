@@ -110,61 +110,59 @@
 
     创建激励视频广告。
 
--   请求参数
-    -   CreateRewardedVideoAdOption
+-   请求参数CreateRewardedVideoAdOption
 
-        <a name="table4949532162220"></a>
-        <table><thead align="left"><tr id="row6950113252214"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p2950103219222"><a name="p2950103219222"></a><a name="p2950103219222"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1295033232214"><a name="p1295033232214"></a><a name="p1295033232214"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p119504322227"><a name="p119504322227"></a><a name="p119504322227"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p17950732172210"><a name="p17950732172210"></a><a name="p17950732172210"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row189501732122213"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p0820165741114"><a name="p0820165741114"></a><a name="p0820165741114"></a>adUnitId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p104572653714"><a name="p104572653714"></a><a name="p104572653714"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p78207574110"><a name="p78207574110"></a><a name="p78207574110"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p282005781112"><a name="p282005781112"></a><a name="p282005781112"></a>激励视频广告位标识。</p>
-        </td>
-        </tr>
-        <tr id="row1695215324226"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14952193272218"><a name="p14952193272218"></a><a name="p14952193272218"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p49521532182210"><a name="p49521532182210"></a><a name="p49521532182210"></a>Action&lt;<a href="#li116535765213">CreateRewardedVideoAdSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7952732142215"><a name="p7952732142215"></a><a name="p7952732142215"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1695217323224"><a name="p1695217323224"></a><a name="p1695217323224"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1095273212212"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p11952932102217"><a name="p11952932102217"></a><a name="p11952932102217"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p79523323229"><a name="p79523323229"></a><a name="p79523323229"></a>Action&lt;<a href="#li16365436192112">CreateRewardedVideoAdFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p5952143212216"><a name="p5952143212216"></a><a name="p5952143212216"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p5953332162216"><a name="p5953332162216"></a><a name="p5953332162216"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row129531532152210"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p6953133216228"><a name="p6953133216228"></a><a name="p6953133216228"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p16953143210228"><a name="p16953143210228"></a><a name="p16953143210228"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p39537322225"><a name="p39537322225"></a><a name="p39537322225"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1195333216229"><a name="p1195333216229"></a><a name="p1195333216229"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table4949532162220"></a>
+    <table><thead align="left"><tr id="row6950113252214"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p2950103219222"><a name="p2950103219222"></a><a name="p2950103219222"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1295033232214"><a name="p1295033232214"></a><a name="p1295033232214"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p119504322227"><a name="p119504322227"></a><a name="p119504322227"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p17950732172210"><a name="p17950732172210"></a><a name="p17950732172210"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row189501732122213"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p0820165741114"><a name="p0820165741114"></a><a name="p0820165741114"></a>adUnitId</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p104572653714"><a name="p104572653714"></a><a name="p104572653714"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p78207574110"><a name="p78207574110"></a><a name="p78207574110"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p282005781112"><a name="p282005781112"></a><a name="p282005781112"></a>激励视频广告位标识。</p>
+    </td>
+    </tr>
+    <tr id="row1695215324226"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14952193272218"><a name="p14952193272218"></a><a name="p14952193272218"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p49521532182210"><a name="p49521532182210"></a><a name="p49521532182210"></a>Action&lt;<a href="#li932313361059">CreateRewardedVideoAdSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7952732142215"><a name="p7952732142215"></a><a name="p7952732142215"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1695217323224"><a name="p1695217323224"></a><a name="p1695217323224"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1095273212212"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p11952932102217"><a name="p11952932102217"></a><a name="p11952932102217"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p79523323229"><a name="p79523323229"></a><a name="p79523323229"></a>Action&lt;<a href="#li152791321526">CreateRewardedVideoAdFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p5952143212216"><a name="p5952143212216"></a><a name="p5952143212216"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p5953332162216"><a name="p5953332162216"></a><a name="p5953332162216"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row129531532152210"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p6953133216228"><a name="p6953133216228"></a><a name="p6953133216228"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p16953143210228"><a name="p16953143210228"></a><a name="p16953143210228"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p39537322225"><a name="p39537322225"></a><a name="p39537322225"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1195333216229"><a name="p1195333216229"></a><a name="p1195333216229"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li116535765213"></a>CreateRewardedVideoAdSuccessResult
+    -   <a name="li932313361059"></a>CreateRewardedVideoAdSuccessResult
 
         <a name="table1332713267527"></a>
         <table><thead align="left"><tr id="row11327526155211"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p113271226195210"><a name="p113271226195210"></a><a name="p113271226195210"></a>参数</p>
@@ -192,7 +190,7 @@
         </tbody>
         </table>
 
-    -   <a name="li16365436192112"></a>CreateRewardedVideoAdFailResult
+    -   <a name="li152791321526"></a>CreateRewardedVideoAdFailResult
 
         <a name="table4524742102320"></a>
         <table><thead align="left"><tr id="row752404215239"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p1552584252312"><a name="p1552584252312"></a><a name="p1552584252312"></a>参数</p>
@@ -220,9 +218,9 @@
         </tbody>
         </table>
 
--   return
+-   返回参数
 
-    RewardedVideoAd
+    激励视频广告组件。
 
 -   示例代码
 
@@ -356,7 +354,7 @@
     </thead>
     <tbody><tr id="row7489332153513"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p10489332183514"><a name="p10489332183514"></a><a name="p10489332183514"></a>callback</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1648963213519"><a name="p1648963213519"></a><a name="p1648963213519"></a>Action&lt;<a href="#li116581034165518">RewardedVideoAdCloseResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1648963213519"><a name="p1648963213519"></a><a name="p1648963213519"></a>Action&lt;<a href="#li136661921774">RewardedVideoAdCloseResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1148973216359"><a name="p1148973216359"></a><a name="p1148973216359"></a>M</p>
     </td>
@@ -366,8 +364,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li116581034165518"></a>RewardedVideoAdCloseResult
+    -   <a name="li136661921774"></a>RewardedVideoAdCloseResult
 
         <a name="table3762133816016"></a>
         <table><thead align="left"><tr id="row476223811016"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p7762113816019"><a name="p7762113816019"></a><a name="p7762113816019"></a>参数</p>
@@ -447,7 +444,7 @@
     </thead>
     <tbody><tr id="row1441224369"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1741729360"><a name="p1741729360"></a><a name="p1741729360"></a>callback</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p101751459193516"><a name="p101751459193516"></a><a name="p101751459193516"></a>Action&lt;<a href="#li136250112017">AdErrorResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p101751459193516"><a name="p101751459193516"></a><a name="p101751459193516"></a>Action&lt;<a href="#li151223413246">AdErrorResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p20516212368"><a name="p20516212368"></a><a name="p20516212368"></a>M</p>
     </td>
@@ -457,8 +454,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li136250112017"></a>AdErrorResult
+    -   <a name="li151223413246"></a>AdErrorResult
 
         <a name="table511817377312"></a>
         <table><thead align="left"><tr id="row1711913371132"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p18119143716313"><a name="p18119143716313"></a><a name="p18119143716313"></a>参数</p>

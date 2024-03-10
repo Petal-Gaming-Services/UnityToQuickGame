@@ -44,4 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SystemEventsScene.unity
     guid: bf0373ff312a00b46bf5dbea5562cc67
+  - enabled: 1
+    path: Assets/Scenes/LifecycleScene.unity
+    guid: fea4bf635296dbf4d9b3174152999d71
+  - enabled: 1
+    path: Assets/Scenes/DeeplinkScene.unity
+    guid: 7f1ee5b0f2cd6264d914fbcb758e2af4
+  - enabled: 1
+    path: Assets/Scenes/ShortcutScene.unity
+    guid: f94d58d443d8f6b4f8ffd24558faa7ef
   m_configObjects: {}

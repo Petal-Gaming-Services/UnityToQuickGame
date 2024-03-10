@@ -74,49 +74,48 @@
 
     隐藏软键盘。
 
--   请求参数
-    -   HideKeyboardOption
+-   请求参数HideKeyboardOption
 
-        <a name="table840761595016"></a>
-        <table><thead align="left"><tr id="row94071615185016"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p640791575015"><a name="p640791575015"></a><a name="p640791575015"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1340751525013"><a name="p1340751525013"></a><a name="p1340751525013"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p64071715125014"><a name="p64071715125014"></a><a name="p64071715125014"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p114081815205019"><a name="p114081815205019"></a><a name="p114081815205019"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row14409171510501"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1640911575015"><a name="p1640911575015"></a><a name="p1640911575015"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p7409181555011"><a name="p7409181555011"></a><a name="p7409181555011"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1840951535017"><a name="p1840951535017"></a><a name="p1840951535017"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p104091715125019"><a name="p104091715125019"></a><a name="p104091715125019"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row11409141555011"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1441016159501"><a name="p1441016159501"></a><a name="p1441016159501"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p14410161525013"><a name="p14410161525013"></a><a name="p14410161525013"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p441051518504"><a name="p441051518504"></a><a name="p441051518504"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p2410131516501"><a name="p2410131516501"></a><a name="p2410131516501"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row74100156504"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p441013151503"><a name="p441013151503"></a><a name="p441013151503"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1241011515505"><a name="p1241011515505"></a><a name="p1241011515505"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p141018151508"><a name="p141018151508"></a><a name="p141018151508"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p441017155504"><a name="p441017155504"></a><a name="p441017155504"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table840761595016"></a>
+    <table><thead align="left"><tr id="row94071615185016"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p640791575015"><a name="p640791575015"></a><a name="p640791575015"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1340751525013"><a name="p1340751525013"></a><a name="p1340751525013"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p64071715125014"><a name="p64071715125014"></a><a name="p64071715125014"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p114081815205019"><a name="p114081815205019"></a><a name="p114081815205019"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row14409171510501"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1640911575015"><a name="p1640911575015"></a><a name="p1640911575015"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p7409181555011"><a name="p7409181555011"></a><a name="p7409181555011"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1840951535017"><a name="p1840951535017"></a><a name="p1840951535017"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p104091715125019"><a name="p104091715125019"></a><a name="p104091715125019"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row11409141555011"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1441016159501"><a name="p1441016159501"></a><a name="p1441016159501"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p14410161525013"><a name="p14410161525013"></a><a name="p14410161525013"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p441051518504"><a name="p441051518504"></a><a name="p441051518504"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p2410131516501"><a name="p2410131516501"></a><a name="p2410131516501"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row74100156504"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p441013151503"><a name="p441013151503"></a><a name="p441013151503"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1241011515505"><a name="p1241011515505"></a><a name="p1241011515505"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p141018151508"><a name="p141018151508"></a><a name="p141018151508"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p441017155504"><a name="p441017155504"></a><a name="p441017155504"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
 -   示例代码
 
@@ -139,95 +138,94 @@
 
     显示软键盘。
 
--   请求参数
-    -   ShowKeyboardOption
+-   请求参数ShowKeyboardOption
 
-        <a name="table19436165084619"></a>
-        <table><thead align="left"><tr id="row174368504467"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p94367507466"><a name="p94367507466"></a><a name="p94367507466"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1543615502460"><a name="p1543615502460"></a><a name="p1543615502460"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p20437125019463"><a name="p20437125019463"></a><a name="p20437125019463"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p6437135019463"><a name="p6437135019463"></a><a name="p6437135019463"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row76124574920"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1661745194912"><a name="p1661745194912"></a><a name="p1661745194912"></a>defaultValue</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p56174594916"><a name="p56174594916"></a><a name="p56174594916"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p18616454494"><a name="p18616454494"></a><a name="p18616454494"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p461545164916"><a name="p461545164916"></a><a name="p461545164916"></a>键盘输入框显示的默认值。</p>
-        </td>
-        </tr>
-        <tr id="row168591640154912"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p2860340114918"><a name="p2860340114918"></a><a name="p2860340114918"></a>maxLength</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p15860940184918"><a name="p15860940184918"></a><a name="p15860940184918"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p12131219115712"><a name="p12131219115712"></a><a name="p12131219115712"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p286019406496"><a name="p286019406496"></a><a name="p286019406496"></a>键盘中文本的最大长度。</p>
-        </td>
-        </tr>
-        <tr id="row565325395617"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p97301305715"><a name="p97301305715"></a><a name="p97301305715"></a>multiple</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p773033125712"><a name="p773033125712"></a><a name="p773033125712"></a>bool</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p3136196579"><a name="p3136196579"></a><a name="p3136196579"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p10730193155713"><a name="p10730193155713"></a><a name="p10730193155713"></a>是否为多行输入。</p>
-        </td>
-        </tr>
-        <tr id="row13736145017562"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1873020310574"><a name="p1873020310574"></a><a name="p1873020310574"></a>confirmHold</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p117301395715"><a name="p117301395715"></a><a name="p117301395715"></a>bool</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p201281916577"><a name="p201281916577"></a><a name="p201281916577"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p13730183205712"><a name="p13730183205712"></a><a name="p13730183205712"></a>当点击完成时键盘是否保持。</p>
-        </td>
-        </tr>
-        <tr id="row1322143135616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p147305310576"><a name="p147305310576"></a><a name="p147305310576"></a>confirmType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1173014320573"><a name="p1173014320573"></a><a name="p1173014320573"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1399051810574"><a name="p1399051810574"></a><a name="p1399051810574"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6731539577"><a name="p6731539577"></a><a name="p6731539577"></a>键盘右下角confirm按钮的类型，只影响按钮的文本内容：</p>
-        <a name="ul16649432155916"></a><a name="ul16649432155916"></a><ul id="ul16649432155916"><li>done：完成。</li><li>next：下一个。</li><li>search：搜索。</li><li>go：前往。</li><li>send：发送。</li></ul>
-        </td>
-        </tr>
-        <tr id="row84379503465"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1043755094618"><a name="p1043755094618"></a><a name="p1043755094618"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p9437145019463"><a name="p9437145019463"></a><a name="p9437145019463"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p114377503469"><a name="p114377503469"></a><a name="p114377503469"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p114371450164612"><a name="p114371450164612"></a><a name="p114371450164612"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row64371350124618"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p743815019469"><a name="p743815019469"></a><a name="p743815019469"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1543845020465"><a name="p1543845020465"></a><a name="p1543845020465"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p243815502469"><a name="p243815502469"></a><a name="p243815502469"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p194381950124613"><a name="p194381950124613"></a><a name="p194381950124613"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1543812509460"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p134381500468"><a name="p134381500468"></a><a name="p134381500468"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p64381050104614"><a name="p64381050104614"></a><a name="p64381050104614"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1643825094613"><a name="p1643825094613"></a><a name="p1643825094613"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p443819502465"><a name="p443819502465"></a><a name="p443819502465"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table19436165084619"></a>
+    <table><thead align="left"><tr id="row174368504467"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p94367507466"><a name="p94367507466"></a><a name="p94367507466"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1543615502460"><a name="p1543615502460"></a><a name="p1543615502460"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p20437125019463"><a name="p20437125019463"></a><a name="p20437125019463"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p6437135019463"><a name="p6437135019463"></a><a name="p6437135019463"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row76124574920"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1661745194912"><a name="p1661745194912"></a><a name="p1661745194912"></a>defaultValue</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p56174594916"><a name="p56174594916"></a><a name="p56174594916"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p18616454494"><a name="p18616454494"></a><a name="p18616454494"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p461545164916"><a name="p461545164916"></a><a name="p461545164916"></a>键盘输入框显示的默认值。</p>
+    </td>
+    </tr>
+    <tr id="row168591640154912"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p2860340114918"><a name="p2860340114918"></a><a name="p2860340114918"></a>maxLength</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p15860940184918"><a name="p15860940184918"></a><a name="p15860940184918"></a>int</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p12131219115712"><a name="p12131219115712"></a><a name="p12131219115712"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p286019406496"><a name="p286019406496"></a><a name="p286019406496"></a>键盘中文本的最大长度。</p>
+    </td>
+    </tr>
+    <tr id="row565325395617"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p97301305715"><a name="p97301305715"></a><a name="p97301305715"></a>multiple</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p773033125712"><a name="p773033125712"></a><a name="p773033125712"></a>bool</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p3136196579"><a name="p3136196579"></a><a name="p3136196579"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p10730193155713"><a name="p10730193155713"></a><a name="p10730193155713"></a>是否为多行输入。</p>
+    </td>
+    </tr>
+    <tr id="row13736145017562"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1873020310574"><a name="p1873020310574"></a><a name="p1873020310574"></a>confirmHold</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p117301395715"><a name="p117301395715"></a><a name="p117301395715"></a>bool</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p201281916577"><a name="p201281916577"></a><a name="p201281916577"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p13730183205712"><a name="p13730183205712"></a><a name="p13730183205712"></a>当点击完成时键盘是否保持。</p>
+    </td>
+    </tr>
+    <tr id="row1322143135616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p147305310576"><a name="p147305310576"></a><a name="p147305310576"></a>confirmType</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1173014320573"><a name="p1173014320573"></a><a name="p1173014320573"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1399051810574"><a name="p1399051810574"></a><a name="p1399051810574"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6731539577"><a name="p6731539577"></a><a name="p6731539577"></a>键盘右下角confirm按钮的类型，只影响按钮的文本内容：</p>
+    <a name="ul16649432155916"></a><a name="ul16649432155916"></a><ul id="ul16649432155916"><li>done：完成。</li><li>next：下一个。</li><li>search：搜索。</li><li>go：前往。</li><li>send：发送。</li></ul>
+    </td>
+    </tr>
+    <tr id="row84379503465"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1043755094618"><a name="p1043755094618"></a><a name="p1043755094618"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p9437145019463"><a name="p9437145019463"></a><a name="p9437145019463"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p114377503469"><a name="p114377503469"></a><a name="p114377503469"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p114371450164612"><a name="p114371450164612"></a><a name="p114371450164612"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row64371350124618"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p743815019469"><a name="p743815019469"></a><a name="p743815019469"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1543845020465"><a name="p1543845020465"></a><a name="p1543845020465"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p243815502469"><a name="p243815502469"></a><a name="p243815502469"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p194381950124613"><a name="p194381950124613"></a><a name="p194381950124613"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1543812509460"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p134381500468"><a name="p134381500468"></a><a name="p134381500468"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p64381050104614"><a name="p64381050104614"></a><a name="p64381050104614"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1643825094613"><a name="p1643825094613"></a><a name="p1643825094613"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p443819502465"><a name="p443819502465"></a><a name="p443819502465"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
 -   示例代码
 
@@ -260,61 +258,59 @@
 
     更新键盘输入框显示的默认值。
 
--   请求参数
-    -   UpdateKeyboardOption
+-   请求参数UpdateKeyboardOption
 
-        <a name="table849817617266"></a>
-        <table><thead align="left"><tr id="row1498364262"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p14989672613"><a name="p14989672613"></a><a name="p14989672613"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p34981610267"><a name="p34981610267"></a><a name="p34981610267"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p1049819672619"><a name="p1049819672619"></a><a name="p1049819672619"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1849826142611"><a name="p1849826142611"></a><a name="p1849826142611"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row649913672613"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p2974149112618"><a name="p2974149112618"></a><a name="p2974149112618"></a>value</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p79736911268"><a name="p79736911268"></a><a name="p79736911268"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p16973994262"><a name="p16973994262"></a><a name="p16973994262"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1997216917267"><a name="p1997216917267"></a><a name="p1997216917267"></a>键盘输入的当前值。</p>
-        </td>
-        </tr>
-        <tr id="row2502136102620"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p75025611266"><a name="p75025611266"></a><a name="p75025611266"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1250219642615"><a name="p1250219642615"></a><a name="p1250219642615"></a>Action&lt;<a href="#li51441235102013">UpdateKeyboardSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p950315622616"><a name="p950315622616"></a><a name="p950315622616"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1050310610267"><a name="p1050310610267"></a><a name="p1050310610267"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1050314616266"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p3503196102612"><a name="p3503196102612"></a><a name="p3503196102612"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p185036617265"><a name="p185036617265"></a><a name="p185036617265"></a>Action&lt;<a href="#li8986194143420">UpdateKeyboardFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p450320616267"><a name="p450320616267"></a><a name="p450320616267"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p19503962266"><a name="p19503962266"></a><a name="p19503962266"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row17503763268"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p7503368268"><a name="p7503368268"></a><a name="p7503368268"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p050416182615"><a name="p050416182615"></a><a name="p050416182615"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p350406162618"><a name="p350406162618"></a><a name="p350406162618"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p850416632612"><a name="p850416632612"></a><a name="p850416632612"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table849817617266"></a>
+    <table><thead align="left"><tr id="row1498364262"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p14989672613"><a name="p14989672613"></a><a name="p14989672613"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p34981610267"><a name="p34981610267"></a><a name="p34981610267"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p1049819672619"><a name="p1049819672619"></a><a name="p1049819672619"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1849826142611"><a name="p1849826142611"></a><a name="p1849826142611"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row649913672613"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p2974149112618"><a name="p2974149112618"></a><a name="p2974149112618"></a>value</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p79736911268"><a name="p79736911268"></a><a name="p79736911268"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p16973994262"><a name="p16973994262"></a><a name="p16973994262"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1997216917267"><a name="p1997216917267"></a><a name="p1997216917267"></a>键盘输入的当前值。</p>
+    </td>
+    </tr>
+    <tr id="row2502136102620"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p75025611266"><a name="p75025611266"></a><a name="p75025611266"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1250219642615"><a name="p1250219642615"></a><a name="p1250219642615"></a>Action&lt;<a href="#li14100175119293">UpdateKeyboardSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p950315622616"><a name="p950315622616"></a><a name="p950315622616"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1050310610267"><a name="p1050310610267"></a><a name="p1050310610267"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1050314616266"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p3503196102612"><a name="p3503196102612"></a><a name="p3503196102612"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p185036617265"><a name="p185036617265"></a><a name="p185036617265"></a>Action&lt;<a href="#li16941541955">UpdateKeyboardFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p450320616267"><a name="p450320616267"></a><a name="p450320616267"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p19503962266"><a name="p19503962266"></a><a name="p19503962266"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row17503763268"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p7503368268"><a name="p7503368268"></a><a name="p7503368268"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p050416182615"><a name="p050416182615"></a><a name="p050416182615"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p350406162618"><a name="p350406162618"></a><a name="p350406162618"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p850416632612"><a name="p850416632612"></a><a name="p850416632612"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li51441235102013"></a>UpdateKeyboardSuccessResult
+    -   <a name="li14100175119293"></a>UpdateKeyboardSuccessResult
 
         <a name="table32061921103413"></a>
         <table><thead align="left"><tr id="row14206142173415"><th class="cellrowborder" valign="top" width="23.53%" id="mcps1.1.4.1.1"><p id="p2206821143415"><a name="p2206821143415"></a><a name="p2206821143415"></a>参数</p>
@@ -335,7 +331,7 @@
         </tbody>
         </table>
 
-    -   <a name="li8986194143420"></a>UpdateKeyboardFailResult
+    -   <a name="li16941541955"></a>UpdateKeyboardFailResult
 
         <a name="table1550704803511"></a>
         <table><thead align="left"><tr id="row9507174818356"><th class="cellrowborder" valign="top" width="23.53%" id="mcps1.1.4.1.1"><p id="p250718483353"><a name="p250718483353"></a><a name="p250718483353"></a>参数</p>
@@ -434,7 +430,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1439422832410"><a name="p1439422832410"></a><a name="p1439422832410"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p206414416303"><a name="p206414416303"></a><a name="p206414416303"></a>OnKeyboardInput传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p206414416303"><a name="p206414416303"></a><a name="p206414416303"></a>OnKeyboardInput传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>
@@ -508,7 +504,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p179079113112"><a name="p179079113112"></a><a name="p179079113112"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1279011993119"><a name="p1279011993119"></a><a name="p1279011993119"></a>OnKeyboardConfirm传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1279011993119"><a name="p1279011993119"></a><a name="p1279011993119"></a>OnKeyboardConfirm传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>
@@ -582,7 +578,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p21800576331"><a name="p21800576331"></a><a name="p21800576331"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6180195743313"><a name="p6180195743313"></a><a name="p6180195743313"></a>OnKeyboardComplete传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6180195743313"><a name="p6180195743313"></a><a name="p6180195743313"></a>OnKeyboardComplete传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>

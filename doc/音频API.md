@@ -301,9 +301,9 @@
 
     获取用于播放的音频实例，每次调用均会创建一个新的实例对象。
 
--   return
+-   返回参数
 
-    InnerAudioContext
+    音频实例。
 
 -   示例代码
 
@@ -710,7 +710,7 @@
     </thead>
     <tbody><tr id="row7155204419477"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p715684424715"><a name="p715684424715"></a><a name="p715684424715"></a>callback</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p41561344124710"><a name="p41561344124710"></a><a name="p41561344124710"></a>Action&lt;<a href="#li34096616505">InnerAudioContextErrorResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p41561344124710"><a name="p41561344124710"></a><a name="p41561344124710"></a>Action&lt;<a href="#li7939635103417">InnerAudioContextErrorResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p21568443472"><a name="p21568443472"></a><a name="p21568443472"></a>M</p>
     </td>
@@ -720,8 +720,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li34096616505"></a>InnerAudioContextErrorResult
+    -   <a name="li7939635103417"></a>InnerAudioContextErrorResult
 
         <a name="table3762133816016"></a>
         <table><thead align="left"><tr id="row476223811016"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p7762113816019"><a name="p7762113816019"></a><a name="p7762113816019"></a>参数</p>

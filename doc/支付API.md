@@ -69,60 +69,58 @@
 
     通过该接口可以判断当前华为帐号所在的服务国家/地区是否支持IAP支付。
 
--   请求参数
-    -   IsEnvReadyOption
+-   请求参数IsEnvReadyOption
 
-        <a name="table1849914993314"></a>
-        <table><thead align="left"><tr id="row1049917993316"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p20499179173313"><a name="p20499179173313"></a><a name="p20499179173313"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p124991198334"><a name="p124991198334"></a><a name="p124991198334"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p6499179153319"><a name="p6499179153319"></a><a name="p6499179153319"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p84991293337"><a name="p84991293337"></a><a name="p84991293337"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row44997917336"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p4367227183420"><a name="p4367227183420"></a><a name="p4367227183420"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p193666273342"><a name="p193666273342"></a><a name="p193666273342"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p20365227153418"><a name="p20365227153418"></a><a name="p20365227153418"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p136522713414"><a name="p136522713414"></a><a name="p136522713414"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row125009983313"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p950011913317"><a name="p950011913317"></a><a name="p950011913317"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p6660027143215"><a name="p6660027143215"></a><a name="p6660027143215"></a>Action&lt;<a href="#li1011517173311">IsEnvReadySuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p5500109173314"><a name="p5500109173314"></a><a name="p5500109173314"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1250013983319"><a name="p1250013983319"></a><a name="p1250013983319"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row7500179103319"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p95008983317"><a name="p95008983317"></a><a name="p95008983317"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p165001095334"><a name="p165001095334"></a><a name="p165001095334"></a>Action&lt;<a href="#li132141715337">IsEnvReadyFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p20500159143314"><a name="p20500159143314"></a><a name="p20500159143314"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p16500129153315"><a name="p16500129153315"></a><a name="p16500129153315"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row95001992338"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p19500129183320"><a name="p19500129183320"></a><a name="p19500129183320"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p155005918335"><a name="p155005918335"></a><a name="p155005918335"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p650012933316"><a name="p650012933316"></a><a name="p650012933316"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p35006918333"><a name="p35006918333"></a><a name="p35006918333"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table1849914993314"></a>
+    <table><thead align="left"><tr id="row1049917993316"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p20499179173313"><a name="p20499179173313"></a><a name="p20499179173313"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p124991198334"><a name="p124991198334"></a><a name="p124991198334"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p6499179153319"><a name="p6499179153319"></a><a name="p6499179153319"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p84991293337"><a name="p84991293337"></a><a name="p84991293337"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row44997917336"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p4367227183420"><a name="p4367227183420"></a><a name="p4367227183420"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p193666273342"><a name="p193666273342"></a><a name="p193666273342"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p20365227153418"><a name="p20365227153418"></a><a name="p20365227153418"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p136522713414"><a name="p136522713414"></a><a name="p136522713414"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row125009983313"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p950011913317"><a name="p950011913317"></a><a name="p950011913317"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p6660027143215"><a name="p6660027143215"></a><a name="p6660027143215"></a>Action&lt;<a href="#li1011517173311">IsEnvReadySuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p5500109173314"><a name="p5500109173314"></a><a name="p5500109173314"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1250013983319"><a name="p1250013983319"></a><a name="p1250013983319"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row7500179103319"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p95008983317"><a name="p95008983317"></a><a name="p95008983317"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p165001095334"><a name="p165001095334"></a><a name="p165001095334"></a>Action&lt;<a href="#li132141715337">IsEnvReadyFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p20500159143314"><a name="p20500159143314"></a><a name="p20500159143314"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p16500129153315"><a name="p16500129153315"></a><a name="p16500129153315"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row95001992338"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p19500129183320"><a name="p19500129183320"></a><a name="p19500129183320"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p155005918335"><a name="p155005918335"></a><a name="p155005918335"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p650012933316"><a name="p650012933316"></a><a name="p650012933316"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p35006918333"><a name="p35006918333"></a><a name="p35006918333"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
     -   <a name="li1011517173311"></a>IsEnvReadySuccessResult
 
         <a name="table4121718337"></a>
@@ -196,61 +194,59 @@
 
     通过该接口可以判断当前设备登录的华为帐号及快游戏的RPK版本是否满足沙盒条件。
 
--   请求参数
-    -   IsSandboxActivatedOption
+-   请求参数IsSandboxActivatedOption
 
-        <a name="table1858303016371"></a>
-        <table><thead align="left"><tr id="row1758383014379"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p7583113023714"><a name="p7583113023714"></a><a name="p7583113023714"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p11583730153714"><a name="p11583730153714"></a><a name="p11583730153714"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p1158315301376"><a name="p1158315301376"></a><a name="p1158315301376"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p3583183020378"><a name="p3583183020378"></a><a name="p3583183020378"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row1758393017372"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p12583630103711"><a name="p12583630103711"></a><a name="p12583630103711"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p8583930163711"><a name="p8583930163711"></a><a name="p8583930163711"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p058423033716"><a name="p058423033716"></a><a name="p058423033716"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p3584830133712"><a name="p3584830133712"></a><a name="p3584830133712"></a>快游戏APP ID。创建快游戏后分配的游戏唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row858483023710"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14584173093718"><a name="p14584173093718"></a><a name="p14584173093718"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p19584153012372"><a name="p19584153012372"></a><a name="p19584153012372"></a>Action&lt;<a href="#li21031045346">IsSandboxActivatedSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p10584123010370"><a name="p10584123010370"></a><a name="p10584123010370"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1958416302378"><a name="p1958416302378"></a><a name="p1958416302378"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1658463083711"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p165841130123719"><a name="p165841130123719"></a><a name="p165841130123719"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p105846307377"><a name="p105846307377"></a><a name="p105846307377"></a>Action&lt;<a href="#li21041944340">IsSandboxActivatedFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p25841130143713"><a name="p25841130143713"></a><a name="p25841130143713"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6584133013373"><a name="p6584133013373"></a><a name="p6584133013373"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row358483053710"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p12584163018371"><a name="p12584163018371"></a><a name="p12584163018371"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p155841830123715"><a name="p155841830123715"></a><a name="p155841830123715"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p95849306376"><a name="p95849306376"></a><a name="p95849306376"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p858473016372"><a name="p858473016372"></a><a name="p858473016372"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table1858303016371"></a>
+    <table><thead align="left"><tr id="row1758383014379"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p7583113023714"><a name="p7583113023714"></a><a name="p7583113023714"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p11583730153714"><a name="p11583730153714"></a><a name="p11583730153714"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p1158315301376"><a name="p1158315301376"></a><a name="p1158315301376"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p3583183020378"><a name="p3583183020378"></a><a name="p3583183020378"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row1758393017372"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p12583630103711"><a name="p12583630103711"></a><a name="p12583630103711"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p8583930163711"><a name="p8583930163711"></a><a name="p8583930163711"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p058423033716"><a name="p058423033716"></a><a name="p058423033716"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p3584830133712"><a name="p3584830133712"></a><a name="p3584830133712"></a>快游戏APP ID。创建快游戏后分配的游戏唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row858483023710"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14584173093718"><a name="p14584173093718"></a><a name="p14584173093718"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p19584153012372"><a name="p19584153012372"></a><a name="p19584153012372"></a>Action&lt;<a href="#li176510413414">IsSandboxActivatedSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p10584123010370"><a name="p10584123010370"></a><a name="p10584123010370"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1958416302378"><a name="p1958416302378"></a><a name="p1958416302378"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1658463083711"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p165841130123719"><a name="p165841130123719"></a><a name="p165841130123719"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p105846307377"><a name="p105846307377"></a><a name="p105846307377"></a>Action&lt;<a href="#li825754175020">IsSandboxActivatedFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p25841130143713"><a name="p25841130143713"></a><a name="p25841130143713"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6584133013373"><a name="p6584133013373"></a><a name="p6584133013373"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row358483053710"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p12584163018371"><a name="p12584163018371"></a><a name="p12584163018371"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p155841830123715"><a name="p155841830123715"></a><a name="p155841830123715"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p95849306376"><a name="p95849306376"></a><a name="p95849306376"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p858473016372"><a name="p858473016372"></a><a name="p858473016372"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li21031045346"></a>IsSandboxActivatedSuccessResult
+    -   <a name="li176510413414"></a>IsSandboxActivatedSuccessResult
 
         <a name="table1110344173414"></a>
         <table><thead align="left"><tr id="row310217423414"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p161024419343"><a name="p161024419343"></a><a name="p161024419343"></a>参数</p>
@@ -306,7 +302,7 @@
         </tbody>
         </table>
 
-    -   <a name="li21041944340"></a>IsSandboxActivatedFailResult
+    -   <a name="li825754175020"></a>IsSandboxActivatedFailResult
 
         <a name="table101040403411"></a>
         <table><thead align="left"><tr id="row61041413411"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p1610317418343"><a name="p1610317418343"></a><a name="p1610317418343"></a>参数</p>
@@ -391,89 +387,87 @@
     </tbody>
     </table>
 
--   请求参数
-    -   ObtainOwnedPurchasesOption
+-   请求参数ObtainOwnedPurchasesOption
 
-        <a name="table1884215455462"></a>
-        <table><thead align="left"><tr id="row1884216457468"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p19842124514612"><a name="p19842124514612"></a><a name="p19842124514612"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p148421845164614"><a name="p148421845164614"></a><a name="p148421845164614"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p18842104524611"><a name="p18842104524611"></a><a name="p18842104524611"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p16842184514611"><a name="p16842184514611"></a><a name="p16842184514611"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row7842104574619"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p784214457468"><a name="p784214457468"></a><a name="p784214457468"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p138421645124611"><a name="p138421645124611"></a><a name="p138421645124611"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p15842144513464"><a name="p15842144513464"></a><a name="p15842144513464"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p3842154574612"><a name="p3842154574612"></a><a name="p3842154574612"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row19167121013485"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p51671710194816"><a name="p51671710194816"></a><a name="p51671710194816"></a>priceType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p17167210194818"><a name="p17167210194818"></a><a name="p17167210194818"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p416781014483"><a name="p416781014483"></a><a name="p416781014483"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p7544122954817"><a name="p7544122954817"></a><a name="p7544122954817"></a>商品类型：</p>
-        <a name="ul343153284815"></a><a name="ul343153284815"></a><ul id="ul343153284815"><li>0：消耗型商品。</li><li>1：非消耗型商品。</li><li>2：订阅类商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row1226419719480"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p152649710488"><a name="p152649710488"></a><a name="p152649710488"></a>publicKey</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1226410764810"><a name="p1226410764810"></a><a name="p1226410764810"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p626413754810"><a name="p626413754810"></a><a name="p626413754810"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p226497154819"><a name="p226497154819"></a><a name="p226497154819"></a>开通应用内支付服务时的公钥。</p>
-        </td>
-        </tr>
-        <tr id="row26812415485"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p186911411486"><a name="p186911411486"></a><a name="p186911411486"></a>continuationToken</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1693410489"><a name="p1693410489"></a><a name="p1693410489"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p56944124817"><a name="p56944124817"></a><a name="p56944124817"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p116911417480"><a name="p116911417480"></a><a name="p116911417480"></a>数据定位标志。首次请求时无需传入。</p>
-        </td>
-        </tr>
-        <tr id="row184212453461"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p684274518463"><a name="p684274518463"></a><a name="p684274518463"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p168431745184615"><a name="p168431745184615"></a><a name="p168431745184615"></a>Action&lt;<a href="#li5321151583516">ObtainOwnedPurchasesSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p128435451460"><a name="p128435451460"></a><a name="p128435451460"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p12843145104613"><a name="p12843145104613"></a><a name="p12843145104613"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row2084314554616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p584315457464"><a name="p584315457464"></a><a name="p584315457464"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p9843124544615"><a name="p9843124544615"></a><a name="p9843124544615"></a>Action&lt;<a href="#li123349158354">ObtainOwnedPurchasesFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9843124515465"><a name="p9843124515465"></a><a name="p9843124515465"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p68431645114616"><a name="p68431645114616"></a><a name="p68431645114616"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row168431345204610"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16843124594620"><a name="p16843124594620"></a><a name="p16843124594620"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p20843144554614"><a name="p20843144554614"></a><a name="p20843144554614"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9843144516466"><a name="p9843144516466"></a><a name="p9843144516466"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p2843124584610"><a name="p2843124584610"></a><a name="p2843124584610"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table1884215455462"></a>
+    <table><thead align="left"><tr id="row1884216457468"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p19842124514612"><a name="p19842124514612"></a><a name="p19842124514612"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p148421845164614"><a name="p148421845164614"></a><a name="p148421845164614"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p18842104524611"><a name="p18842104524611"></a><a name="p18842104524611"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p16842184514611"><a name="p16842184514611"></a><a name="p16842184514611"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row7842104574619"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p784214457468"><a name="p784214457468"></a><a name="p784214457468"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p138421645124611"><a name="p138421645124611"></a><a name="p138421645124611"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p15842144513464"><a name="p15842144513464"></a><a name="p15842144513464"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p3842154574612"><a name="p3842154574612"></a><a name="p3842154574612"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row19167121013485"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p51671710194816"><a name="p51671710194816"></a><a name="p51671710194816"></a>priceType</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p17167210194818"><a name="p17167210194818"></a><a name="p17167210194818"></a>int</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p416781014483"><a name="p416781014483"></a><a name="p416781014483"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p7544122954817"><a name="p7544122954817"></a><a name="p7544122954817"></a>商品类型：</p>
+    <a name="ul343153284815"></a><a name="ul343153284815"></a><ul id="ul343153284815"><li>0：消耗型商品。</li><li>1：非消耗型商品。</li><li>2：订阅类商品。</li></ul>
+    </td>
+    </tr>
+    <tr id="row1226419719480"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p152649710488"><a name="p152649710488"></a><a name="p152649710488"></a>publicKey</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1226410764810"><a name="p1226410764810"></a><a name="p1226410764810"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p626413754810"><a name="p626413754810"></a><a name="p626413754810"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p226497154819"><a name="p226497154819"></a><a name="p226497154819"></a>开通应用内支付服务时的公钥。</p>
+    </td>
+    </tr>
+    <tr id="row26812415485"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p186911411486"><a name="p186911411486"></a><a name="p186911411486"></a>continuationToken</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1693410489"><a name="p1693410489"></a><a name="p1693410489"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p56944124817"><a name="p56944124817"></a><a name="p56944124817"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p116911417480"><a name="p116911417480"></a><a name="p116911417480"></a>数据定位标志。首次请求时无需传入。</p>
+    </td>
+    </tr>
+    <tr id="row184212453461"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p684274518463"><a name="p684274518463"></a><a name="p684274518463"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p168431745184615"><a name="p168431745184615"></a><a name="p168431745184615"></a>Action&lt;<a href="#li843841412354">ObtainOwnedPurchasesSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p128435451460"><a name="p128435451460"></a><a name="p128435451460"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p12843145104613"><a name="p12843145104613"></a><a name="p12843145104613"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row2084314554616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p584315457464"><a name="p584315457464"></a><a name="p584315457464"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p9843124544615"><a name="p9843124544615"></a><a name="p9843124544615"></a>Action&lt;<a href="#li26082825120">ObtainOwnedPurchasesFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9843124515465"><a name="p9843124515465"></a><a name="p9843124515465"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p68431645114616"><a name="p68431645114616"></a><a name="p68431645114616"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row168431345204610"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16843124594620"><a name="p16843124594620"></a><a name="p16843124594620"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p20843144554614"><a name="p20843144554614"></a><a name="p20843144554614"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9843144516466"><a name="p9843144516466"></a><a name="p9843144516466"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p18697123111410"><a name="p18697123111410"></a><a name="p18697123111410"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li5321151583516"></a>ObtainOwnedPurchasesSuccessResult
+    -   <a name="li843841412354"></a>ObtainOwnedPurchasesSuccessResult
 
         <a name="table12321181512350"></a>
         <table><thead align="left"><tr id="row1531811511358"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p10318715133512"><a name="p10318715133512"></a><a name="p10318715133512"></a>参数</p>
@@ -546,336 +540,7 @@
         </tbody>
         </table>
 
-    -   <a name="li123330156355"></a>InAppPurchaseData
-
-        <a name="table7333215173518"></a>
-        <table><thead align="left"><tr id="row532191573517"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p1321161563516"><a name="p1321161563516"></a><a name="p1321161563516"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.2"><p id="p9321181513358"><a name="p9321181513358"></a><a name="p9321181513358"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="50%" id="mcps1.1.4.1.3"><p id="p193215157358"><a name="p193215157358"></a><a name="p193215157358"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row14321215103520"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p3321121515352"><a name="p3321121515352"></a><a name="p3321121515352"></a>applicationId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1332141520358"><a name="p1332141520358"></a><a name="p1332141520358"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p10321161512354"><a name="p10321161512354"></a><a name="p10321161512354"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row732291517355"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1532161518352"><a name="p1532161518352"></a><a name="p1532161518352"></a>autoRenewing</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p4321815173517"><a name="p4321815173517"></a><a name="p4321815173517"></a>bool</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p17321131543513"><a name="p17321131543513"></a><a name="p17321131543513"></a>是否自动续订：</p>
-        <a name="ul203221415133512"></a><a name="ul203221415133512"></a><ul id="ul203221415133512"><li>非订阅类商品返回false。</li><li>订阅类商品：<a name="ul23221515103519"></a><a name="ul23221515103519"></a><ul id="ul23221515103519"><li>ture：处于订阅状态，且在下一个续费周期自动续订。</li><li>false：订阅类商品已取消订阅。用户可在下个续费周期之前访问历史订阅内容。</li></ul>
-        </li></ul>
-        <div class="note" id="note12322515203512"><a name="note12322515203512"></a><a name="note12322515203512"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p173227157359"><a name="p173227157359"></a><a name="p173227157359"></a>只要未过订阅类商品的宽限期，就会返回true。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row1332211156356"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1932251512357"><a name="p1932251512357"></a><a name="p1932251512357"></a>orderId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p123226159357"><a name="p123226159357"></a><a name="p123226159357"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p203227158352"><a name="p203227158352"></a><a name="p203227158352"></a>华为支付的订单ID，在成功支付后生成。</p>
-        </td>
-        </tr>
-        <tr id="row10322415103514"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183223150358"><a name="p183223150358"></a><a name="p183223150358"></a>kind</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p12322121543513"><a name="p12322121543513"></a><a name="p12322121543513"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p0322141533512"><a name="p0322141533512"></a><a name="p0322141533512"></a>商品类型：</p>
-        <a name="ul432211155357"></a><a name="ul432211155357"></a><ul id="ul432211155357"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 订阅类商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row33231215143510"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p103221115123517"><a name="p103221115123517"></a><a name="p103221115123517"></a>packageName</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p23221715203519"><a name="p23221715203519"></a><a name="p23221715203519"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p632313153357"><a name="p632313153357"></a><a name="p632313153357"></a>快游戏包名。</p>
-        </td>
-        </tr>
-        <tr id="row332311155354"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p16323191563511"><a name="p16323191563511"></a><a name="p16323191563511"></a>productId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p23231415193513"><a name="p23231415193513"></a><a name="p23231415193513"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p532391518358"><a name="p532391518358"></a><a name="p532391518358"></a>商品ID。</p>
-        </td>
-        </tr>
-        <tr id="row103237157357"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1732351514358"><a name="p1732351514358"></a><a name="p1732351514358"></a>productName</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p8323161517359"><a name="p8323161517359"></a><a name="p8323161517359"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1832351519359"><a name="p1832351519359"></a><a name="p1832351519359"></a>商品名称。</p>
-        </td>
-        </tr>
-        <tr id="row173236151358"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p832311523513"><a name="p832311523513"></a><a name="p832311523513"></a>purchaseTime</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p232331517352"><a name="p232331517352"></a><a name="p232331517352"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p20323315153510"><a name="p20323315153510"></a><a name="p20323315153510"></a>商品购买的时间戳。从1970年1月1日0时起到商品购买时间的毫秒数。</p>
-        </td>
-        </tr>
-        <tr id="row133247158353"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p123231115153514"><a name="p123231115153514"></a><a name="p123231115153514"></a>purchaseState</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p7323415123510"><a name="p7323415123510"></a><a name="p7323415123510"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p3323171518359"><a name="p3323171518359"></a><a name="p3323171518359"></a>订单交易状态：</p>
-        <a name="ul1324171573520"></a><a name="ul1324171573520"></a><ul id="ul1324171573520"><li>-1：初始化。</li><li>0：已购买。</li><li>1：已取消。</li><li>2：已退款。</li></ul>
-        </td>
-        </tr>
-        <tr id="row13243151352"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1532410157356"><a name="p1532410157356"></a><a name="p1532410157356"></a>developerPayload</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1232471543520"><a name="p1232471543520"></a><a name="p1232471543520"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p93241015143512"><a name="p93241015143512"></a><a name="p93241015143512"></a>商户侧保留信息，调用接口时传入。</p>
-        </td>
-        </tr>
-        <tr id="row103248159358"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7324181515357"><a name="p7324181515357"></a><a name="p7324181515357"></a>developerChallenge</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p43244158358"><a name="p43244158358"></a><a name="p43244158358"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p53246152358"><a name="p53246152358"></a><a name="p53246152358"></a>应用请求消耗商品时自定义的挑战字，唯一标识本次消耗请求。消耗成功后此挑战字会记录在购买信息中并返回。如果挑战字与已有挑战字重复，表示重复消耗，同样会原样返回该挑战字。</p>
-        </td>
-        </tr>
-        <tr id="row33240157352"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p43243152358"><a name="p43243152358"></a><a name="p43243152358"></a>consumptionState</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p832481511353"><a name="p832481511353"></a><a name="p832481511353"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p232481513513"><a name="p232481513513"></a><a name="p232481513513"></a>消费状态：</p>
-        <a name="ul17324131583511"></a><a name="ul17324131583511"></a><ul id="ul17324131583511"><li>0：未消费。</li><li>1：已消费。</li></ul>
-        </td>
-        </tr>
-        <tr id="row11325181503511"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183241415153518"><a name="p183241415153518"></a><a name="p183241415153518"></a>purchaseToken</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p132411518355"><a name="p132411518355"></a><a name="p132411518355"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p232517150354"><a name="p232517150354"></a><a name="p232517150354"></a>标识商品和用户对应关系的购买令牌，长度92位，完成支付后由华为支付服务器生成，若您需要存储此信息，建议预留128位的长度。</p>
-        <div class="note" id="note132521503511"><a name="note132521503511"></a><a name="note132521503511"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p732541517352"><a name="p732541517352"></a><a name="p732541517352"></a>订阅类商品正常订阅不会发生改变。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row1632520155359"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p5325111513354"><a name="p5325111513354"></a><a name="p5325111513354"></a>purchaseType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p113251015143520"><a name="p113251015143520"></a><a name="p113251015143520"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p123251215193511"><a name="p123251215193511"></a><a name="p123251215193511"></a>购买类型：</p>
-        <a name="ul163251215143513"></a><a name="ul163251215143513"></a><ul id="ul163251215143513"><li>0：沙盒环境。</li><li>1：促销（暂不支持）。</li></ul>
-        <div class="note" id="note1632519155351"><a name="note1632519155351"></a><a name="note1632519155351"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p7325131518355"><a name="p7325131518355"></a><a name="p7325131518355"></a>正常购买不返回此参数。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row20325201510355"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1532518156354"><a name="p1532518156354"></a><a name="p1532518156354"></a>currency</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1132516159359"><a name="p1132516159359"></a><a name="p1132516159359"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p173251915113515"><a name="p173251915113515"></a><a name="p173251915113515"></a>支付商品的币种。中国大陆传值为CNY，其他国家/地区请参见<a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/huawei-iap-coverage-0000001050438753" target="_blank" rel="noopener noreferrer">华为IAP范围覆盖</a>。</p>
-        </td>
-        </tr>
-        <tr id="row4326131517354"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p113251415153519"><a name="p113251415153519"></a><a name="p113251415153519"></a>price</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p232551593516"><a name="p232551593516"></a><a name="p232551593516"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p10326115123519"><a name="p10326115123519"></a><a name="p10326115123519"></a>商品展示价格。</p>
-        </td>
-        </tr>
-        <tr id="row932681517359"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1732671517359"><a name="p1732671517359"></a><a name="p1732671517359"></a>country</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p53261715113517"><a name="p53261715113517"></a><a name="p53261715113517"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p9326151518354"><a name="p9326151518354"></a><a name="p9326151518354"></a>国家/地区码。中国大陆为CN，其他国家/地区请参见<a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/huawei-iap-coverage-0000001050438753" target="_blank" rel="noopener noreferrer">华为IAP范围覆盖</a>。</p>
-        </td>
-        </tr>
-        <tr id="row632791515356"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p193261315183510"><a name="p193261315183510"></a><a name="p193261315183510"></a>payType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p153261215163512"><a name="p153261215163512"></a><a name="p153261215163512"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p19326121593519"><a name="p19326121593519"></a><a name="p19326121593519"></a>支付方式：</p>
-        <a name="ul10327131573516"></a><a name="ul10327131573516"></a><ul id="ul10327131573516"><li>0：花币。</li><li>3：信用卡。</li><li>4：支付宝。</li><li>6：话费。</li><li>13：PayPal。</li><li>16：借记卡。</li><li>17：微信。</li><li>19：礼品卡。</li><li>20：零钱。</li><li>21：花币卡。</li><li>24：WP。</li><li>31：华为Pay。</li><li>32：花呗。</li><li>200：MPESA。</li></ul>
-        </td>
-        </tr>
-        <tr id="row1932713158356"><td class="cellrowborder" colspan="3" valign="top" headers="mcps1.1.4.1.1 mcps1.1.4.1.2 mcps1.1.4.1.3 "><p id="p1132751543513"><a name="p1132751543513"></a><a name="p1132751543513"></a>以下参数只有查询订阅类商品时才返回</p>
-        </td>
-        </tr>
-        <tr id="row7327131517351"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p0327151512356"><a name="p0327151512356"></a><a name="p0327151512356"></a>lastOrderId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p13327715133515"><a name="p13327715133515"></a><a name="p13327715133515"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p6327111593512"><a name="p6327111593512"></a><a name="p6327111593512"></a>续期订阅类商品的订单ID，由支付服务器在续期扣费时生成。</p>
-        <div class="note" id="note932781513513"><a name="note932781513513"></a><a name="note932781513513"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p103278158354"><a name="p103278158354"></a><a name="p103278158354"></a>仅首次购买订阅类商品时，“lastOrderId”与“orderId”相同。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row123276152352"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p18327315203510"><a name="p18327315203510"></a><a name="p18327315203510"></a>productGroup</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p4327111519356"><a name="p4327111519356"></a><a name="p4327111519356"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p143271415183520"><a name="p143271415183520"></a><a name="p143271415183520"></a>订阅类商品所属订阅组ID。</p>
-        </td>
-        </tr>
-        <tr id="row1332801553518"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1932771519359"><a name="p1932771519359"></a><a name="p1932771519359"></a>oriPurchaseTime</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p53281715123518"><a name="p53281715123518"></a><a name="p53281715123518"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1032818158359"><a name="p1032818158359"></a><a name="p1032818158359"></a>首次购买时间戳，从1970年1月1日0时起到本订阅类商品首次成功收费的毫秒数。</p>
-        </td>
-        </tr>
-        <tr id="row1328015133514"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1432821503518"><a name="p1432821503518"></a><a name="p1432821503518"></a>subscriptionId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p133280152356"><a name="p133280152356"></a><a name="p133280152356"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p153284157353"><a name="p153284157353"></a><a name="p153284157353"></a>订阅ID。</p>
-        </td>
-        </tr>
-        <tr id="row17328111513350"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p0328121563512"><a name="p0328121563512"></a><a name="p0328121563512"></a>oriSubscriptionId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1932831518358"><a name="p1932831518358"></a><a name="p1932831518358"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p113281155355"><a name="p113281155355"></a><a name="p113281155355"></a>原订阅ID。返回该参数信息时，表示当前订阅从其他商品切换而来，该参数可关联商品切换前的订阅信息。</p>
-        </td>
-        </tr>
-        <tr id="row73281015143512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p23289159356"><a name="p23289159356"></a><a name="p23289159356"></a>quantity</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1232811152358"><a name="p1232811152358"></a><a name="p1232811152358"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1332871513510"><a name="p1332871513510"></a><a name="p1332871513510"></a>订阅类商品购买数量。</p>
-        </td>
-        </tr>
-        <tr id="row13328111593520"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p3328121563516"><a name="p3328121563516"></a><a name="p3328121563516"></a>daysLasted</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1432861583516"><a name="p1432861583516"></a><a name="p1432861583516"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1932871543519"><a name="p1932871543519"></a><a name="p1932871543519"></a>已付费订阅的天数，免费试用期限和优惠续费周期除外。</p>
-        </td>
-        </tr>
-        <tr id="row1732971514354"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1032821515356"><a name="p1032821515356"></a><a name="p1032821515356"></a>numOfPeriods</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1332971512356"><a name="p1332971512356"></a><a name="p1332971512356"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p11329141516353"><a name="p11329141516353"></a><a name="p11329141516353"></a>自动续费周期数，优惠续费周期除外。若值为0或不存在，表示还没有成功续期。</p>
-        </td>
-        </tr>
-        <tr id="row18329181513512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p8329161583516"><a name="p8329161583516"></a><a name="p8329161583516"></a>numOfDiscount</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10329181563516"><a name="p10329181563516"></a><a name="p10329181563516"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p132918154358"><a name="p132918154358"></a><a name="p132918154358"></a>成功续费周期数。</p>
-        </td>
-        </tr>
-        <tr id="row12329515153511"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p43291715123519"><a name="p43291715123519"></a><a name="p43291715123519"></a>expirationDate</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p153299156356"><a name="p153299156356"></a><a name="p153299156356"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p2329615193513"><a name="p2329615193513"></a><a name="p2329615193513"></a>订阅类商品过期的时间戳：</p>
-        <a name="ul932910158352"></a><a name="ul932910158352"></a><ul id="ul932910158352"><li>若是一个将来时间，表示是一个已成功续费订单的续期日期或超期日期。</li><li>若是一个过去时间，表示订阅类商品已过期。</li></ul>
-        </td>
-        </tr>
-        <tr id="row5330101593510"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p11329515183517"><a name="p11329515183517"></a><a name="p11329515183517"></a>expirationIntent</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p2032912153356"><a name="p2032912153356"></a><a name="p2032912153356"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p0329191593514"><a name="p0329191593514"></a><a name="p0329191593514"></a>订阅类商品已过期的原因：</p>
-        <a name="ol1733013155359"></a><a name="ol1733013155359"></a><ol id="ol1733013155359"><li>用户取消。</li><li>商品不可用。</li><li>用户签约信息异常。</li><li>Billing错误。</li><li>用户未同意涨价。</li><li>未知错误。</li></ol>
-        <div class="note" id="note173304155350"><a name="note173304155350"></a><a name="note173304155350"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p133019155358"><a name="p133019155358"></a><a name="p133019155358"></a>若同时有多个过期原因，根据升序的优先级原则，返回优先级较高的原因。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row153301515113512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p143301115163512"><a name="p143301115163512"></a><a name="p143301115163512"></a>retryFlag</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p73301715133516"><a name="p73301715133516"></a><a name="p73301715133516"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p833010156352"><a name="p833010156352"></a><a name="p833010156352"></a>系统是否仍在尝试自动完成续期订阅类商品：</p>
-        <a name="ul16330815203515"></a><a name="ul16330815203515"></a><ul id="ul16330815203515"><li>0：终止尝试。</li><li>1：仍在尝试。</li></ul>
-        </td>
-        </tr>
-        <tr id="row18330151511359"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p143301115133515"><a name="p143301115133515"></a><a name="p143301115133515"></a>introductoryFlag</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p173307153350"><a name="p173307153350"></a><a name="p173307153350"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1833021516351"><a name="p1833021516351"></a><a name="p1833021516351"></a>订阅类商品是否在优惠续费周期内过期：</p>
-        <a name="ul1433031511353"></a><a name="ul1433031511353"></a><ul id="ul1433031511353"><li>0：否。</li><li>1：是。</li></ul>
-        </td>
-        </tr>
-        <tr id="row153311815163516"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1033012157353"><a name="p1033012157353"></a><a name="p1033012157353"></a>trialFlag</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p183313156351"><a name="p183313156351"></a><a name="p183313156351"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p63311215173510"><a name="p63311215173510"></a><a name="p63311215173510"></a>订阅类商品是否在免费试用期限内过期：</p>
-        <a name="ul53314151354"></a><a name="ul53314151354"></a><ul id="ul53314151354"><li>0：否。</li><li>1：是。</li></ul>
-        </td>
-        </tr>
-        <tr id="row10331171512353"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1933131593512"><a name="p1933131593512"></a><a name="p1933131593512"></a>cancelTime</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10331515193510"><a name="p10331515193510"></a><a name="p10331515193510"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p15331915113518"><a name="p15331915113518"></a><a name="p15331915113518"></a>订阅取消时间。在用户通过客服取消订阅，或用户升级、跨级到同组其它商品且立即生效时，需取消原有订阅的上次收据。</p>
-        <div class="note" id="note173311115153515"><a name="note173311115153515"></a><a name="note173311115153515"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p13331215123516"><a name="p13331215123516"></a><a name="p13331215123516"></a>已经取消的收据等同于没有完成购买。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row033231513515"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p633181516354"><a name="p633181516354"></a><a name="p633181516354"></a>cancelReason</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p833181519358"><a name="p833181519358"></a><a name="p833181519358"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p19331215133519"><a name="p19331215133519"></a><a name="p19331215133519"></a>用户取消订阅的原因：</p>
-        <a name="ul3331215193512"></a><a name="ul3331215193512"></a><ul id="ul3331215193512"><li>2：用户升级、跨级等。</li><li>1：用户应用内遇到问题而取消订阅。</li><li>0：其它原因取消，例如用户不小心订阅了商品。<div class="note" id="note533118159351"><a name="note533118159351"></a><a name="note533118159351"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p83313158350"><a name="p83313158350"></a><a name="p83313158350"></a>若该参数为空且cancelTime有值，表示是升级等操作导致的取消。</p>
-        </div></div>
-        </li></ul>
-        </td>
-        </tr>
-        <tr id="row0332131514350"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p203321315153519"><a name="p203321315153519"></a><a name="p203321315153519"></a>renewStatus</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p433241553519"><a name="p433241553519"></a><a name="p433241553519"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p13321515113515"><a name="p13321515113515"></a><a name="p13321515113515"></a>订阅类商品的续期状态：</p>
-        <a name="ul1933271515355"></a><a name="ul1933271515355"></a><ul id="ul1933271515355"><li>1：当前周期到期后自动续期。</li><li>0：用户主动停止续期。应用可以给用户提供其它订阅选项，例如推荐同组更低级别的商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row33321915113513"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7332191516356"><a name="p7332191516356"></a><a name="p7332191516356"></a>priceConsentStatus</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p19332315183518"><a name="p19332315183518"></a><a name="p19332315183518"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1332171515354"><a name="p1332171515354"></a><a name="p1332171515354"></a>订阅类商品提价时的用户意见：</p>
-        <a name="ul18332191512351"></a><a name="ul18332191512351"></a><ul id="ul18332191512351"><li>1：用户已经同意提价。</li><li>0：用户未采取动作，超期后订阅失效。</li></ul>
-        </td>
-        </tr>
-        <tr id="row83321715113514"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183329158357"><a name="p183329158357"></a><a name="p183329158357"></a>renewPrice</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p33321515153513"><a name="p33321515153513"></a><a name="p33321515153513"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p5332181563515"><a name="p5332181563515"></a><a name="p5332181563515"></a>下次续期价格。若有priceConsentStatus，提示用户新的续期价格。</p>
-        </td>
-        </tr>
-        <tr id="row23339152351"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183322015153510"><a name="p183322015153510"></a><a name="p183322015153510"></a>subIsvalid</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p433271517350"><a name="p433271517350"></a><a name="p433271517350"></a>bool</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p13321515193514"><a name="p13321515193514"></a><a name="p13321515193514"></a>订阅类商品提价后的状态：</p>
-        <a name="ul7333191512351"></a><a name="ul7333191512351"></a><ul id="ul7333191512351"><li>true：已收费且未过期，也未退款，您可以为用户提供对应的服务。</li><li>false：未购买，已过期，或购买后已退款。<div class="note" id="note1933391503520"><a name="note1933391503520"></a><a name="note1933391503520"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1233321510354"><a name="p1233321510354"></a><a name="p1233321510354"></a>若用户已经取消订阅，在已购买的订阅类商品过期之前，subIsvalid仍然为true。</p>
-        </div></div>
-        </li></ul>
-        </td>
-        </tr>
-        <tr id="row1933331583517"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p433314151353"><a name="p433314151353"></a><a name="p433314151353"></a>cancelledSubKeepDays</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p933391510351"><a name="p933391510351"></a><a name="p933391510351"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p0333101583520"><a name="p0333101583520"></a><a name="p0333101583520"></a>用户取消订阅后订阅关系保留的天数，不表示当前订阅类商品已取消。</p>
-        </td>
-        </tr>
-        <tr id="row233371563518"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p18333101519353"><a name="p18333101519353"></a><a name="p18333101519353"></a>resumeTime</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10333191514355"><a name="p10333191514355"></a><a name="p10333191514355"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p9333915183512"><a name="p9333915183512"></a><a name="p9333915183512"></a>重新订阅商品的恢复时间。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-
-    -   <a name="li123349158354"></a>ObtainOwnedPurchasesFailResult
+    -   <a name="li26082825120"></a>ObtainOwnedPurchasesFailResult
 
         <a name="table15334315143520"></a>
         <table><thead align="left"><tr id="row1033411157355"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p133337154354"><a name="p133337154354"></a><a name="p133337154354"></a>参数</p>
@@ -902,6 +567,335 @@
         </tr>
         </tbody>
         </table>
+
+        -   <a name="li123330156355"></a>InAppPurchaseData
+
+            <a name="table7333215173518"></a>
+            <table><thead align="left"><tr id="row532191573517"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p1321161563516"><a name="p1321161563516"></a><a name="p1321161563516"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.2"><p id="p9321181513358"><a name="p9321181513358"></a><a name="p9321181513358"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="50%" id="mcps1.1.4.1.3"><p id="p193215157358"><a name="p193215157358"></a><a name="p193215157358"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row14321215103520"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p3321121515352"><a name="p3321121515352"></a><a name="p3321121515352"></a>applicationId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1332141520358"><a name="p1332141520358"></a><a name="p1332141520358"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p10321161512354"><a name="p10321161512354"></a><a name="p10321161512354"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+            </td>
+            </tr>
+            <tr id="row732291517355"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1532161518352"><a name="p1532161518352"></a><a name="p1532161518352"></a>autoRenewing</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p4321815173517"><a name="p4321815173517"></a><a name="p4321815173517"></a>bool</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p17321131543513"><a name="p17321131543513"></a><a name="p17321131543513"></a>是否自动续订：</p>
+            <a name="ul203221415133512"></a><a name="ul203221415133512"></a><ul id="ul203221415133512"><li>非订阅类商品返回false。</li><li>订阅类商品：<a name="ul23221515103519"></a><a name="ul23221515103519"></a><ul id="ul23221515103519"><li>ture：处于订阅状态，且在下一个续费周期自动续订。</li><li>false：订阅类商品已取消订阅。用户可在下个续费周期之前访问历史订阅内容。</li></ul>
+            </li></ul>
+            <div class="note" id="note12322515203512"><a name="note12322515203512"></a><a name="note12322515203512"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p173227157359"><a name="p173227157359"></a><a name="p173227157359"></a>只要未过订阅类商品的宽限期，就会返回true。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row1332211156356"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1932251512357"><a name="p1932251512357"></a><a name="p1932251512357"></a>orderId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p123226159357"><a name="p123226159357"></a><a name="p123226159357"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p203227158352"><a name="p203227158352"></a><a name="p203227158352"></a>华为支付的订单ID，在成功支付后生成。</p>
+            </td>
+            </tr>
+            <tr id="row10322415103514"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183223150358"><a name="p183223150358"></a><a name="p183223150358"></a>kind</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p12322121543513"><a name="p12322121543513"></a><a name="p12322121543513"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p0322141533512"><a name="p0322141533512"></a><a name="p0322141533512"></a>商品类型：</p>
+            <a name="ul432211155357"></a><a name="ul432211155357"></a><ul id="ul432211155357"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 订阅类商品。</li></ul>
+            </td>
+            </tr>
+            <tr id="row33231215143510"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p103221115123517"><a name="p103221115123517"></a><a name="p103221115123517"></a>packageName</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p23221715203519"><a name="p23221715203519"></a><a name="p23221715203519"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p632313153357"><a name="p632313153357"></a><a name="p632313153357"></a>快游戏包名。</p>
+            </td>
+            </tr>
+            <tr id="row332311155354"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p16323191563511"><a name="p16323191563511"></a><a name="p16323191563511"></a>productId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p23231415193513"><a name="p23231415193513"></a><a name="p23231415193513"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p532391518358"><a name="p532391518358"></a><a name="p532391518358"></a>商品ID。</p>
+            </td>
+            </tr>
+            <tr id="row103237157357"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1732351514358"><a name="p1732351514358"></a><a name="p1732351514358"></a>productName</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p8323161517359"><a name="p8323161517359"></a><a name="p8323161517359"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1832351519359"><a name="p1832351519359"></a><a name="p1832351519359"></a>商品名称。</p>
+            </td>
+            </tr>
+            <tr id="row173236151358"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p832311523513"><a name="p832311523513"></a><a name="p832311523513"></a>purchaseTime</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p232331517352"><a name="p232331517352"></a><a name="p232331517352"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p20323315153510"><a name="p20323315153510"></a><a name="p20323315153510"></a>商品购买的时间戳。从1970年1月1日0时起到商品购买时间的毫秒数。</p>
+            </td>
+            </tr>
+            <tr id="row133247158353"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p123231115153514"><a name="p123231115153514"></a><a name="p123231115153514"></a>purchaseState</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p7323415123510"><a name="p7323415123510"></a><a name="p7323415123510"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p3323171518359"><a name="p3323171518359"></a><a name="p3323171518359"></a>订单交易状态：</p>
+            <a name="ul1324171573520"></a><a name="ul1324171573520"></a><ul id="ul1324171573520"><li>-1：初始化。</li><li>0：已购买。</li><li>1：已取消。</li><li>2：已退款。</li></ul>
+            </td>
+            </tr>
+            <tr id="row13243151352"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1532410157356"><a name="p1532410157356"></a><a name="p1532410157356"></a>developerPayload</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1232471543520"><a name="p1232471543520"></a><a name="p1232471543520"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p93241015143512"><a name="p93241015143512"></a><a name="p93241015143512"></a>商户侧保留信息，调用接口时传入。</p>
+            </td>
+            </tr>
+            <tr id="row103248159358"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7324181515357"><a name="p7324181515357"></a><a name="p7324181515357"></a>developerChallenge</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p43244158358"><a name="p43244158358"></a><a name="p43244158358"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p53246152358"><a name="p53246152358"></a><a name="p53246152358"></a>应用请求消耗商品时自定义的挑战字，唯一标识本次消耗请求。消耗成功后此挑战字会记录在购买信息中并返回。如果挑战字与已有挑战字重复，表示重复消耗，同样会原样返回该挑战字。</p>
+            </td>
+            </tr>
+            <tr id="row33240157352"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p43243152358"><a name="p43243152358"></a><a name="p43243152358"></a>consumptionState</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p832481511353"><a name="p832481511353"></a><a name="p832481511353"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p232481513513"><a name="p232481513513"></a><a name="p232481513513"></a>消费状态：</p>
+            <a name="ul17324131583511"></a><a name="ul17324131583511"></a><ul id="ul17324131583511"><li>0：未消费。</li><li>1：已消费。</li></ul>
+            </td>
+            </tr>
+            <tr id="row11325181503511"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183241415153518"><a name="p183241415153518"></a><a name="p183241415153518"></a>purchaseToken</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p132411518355"><a name="p132411518355"></a><a name="p132411518355"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p232517150354"><a name="p232517150354"></a><a name="p232517150354"></a>标识商品和用户对应关系的购买令牌，长度92位，完成支付后由华为支付服务器生成，若您需要存储此信息，建议预留128位的长度。</p>
+            <div class="note" id="note132521503511"><a name="note132521503511"></a><a name="note132521503511"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p732541517352"><a name="p732541517352"></a><a name="p732541517352"></a>订阅类商品正常订阅不会发生改变。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row1632520155359"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p5325111513354"><a name="p5325111513354"></a><a name="p5325111513354"></a>purchaseType</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p113251015143520"><a name="p113251015143520"></a><a name="p113251015143520"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p123251215193511"><a name="p123251215193511"></a><a name="p123251215193511"></a>购买类型：</p>
+            <a name="ul163251215143513"></a><a name="ul163251215143513"></a><ul id="ul163251215143513"><li>0：沙盒环境。</li><li>1：促销（暂不支持）。</li></ul>
+            <div class="note" id="note1632519155351"><a name="note1632519155351"></a><a name="note1632519155351"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p7325131518355"><a name="p7325131518355"></a><a name="p7325131518355"></a>正常购买不返回此参数。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row20325201510355"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1532518156354"><a name="p1532518156354"></a><a name="p1532518156354"></a>currency</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1132516159359"><a name="p1132516159359"></a><a name="p1132516159359"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p173251915113515"><a name="p173251915113515"></a><a name="p173251915113515"></a>支付商品的币种。中国大陆传值为CNY，其他国家/地区请参见<a href="https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/huawei-iap-coverage-0000001050438753" target="_blank" rel="noopener noreferrer">华为IAP范围覆盖</a>。</p>
+            </td>
+            </tr>
+            <tr id="row4326131517354"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p113251415153519"><a name="p113251415153519"></a><a name="p113251415153519"></a>price</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p232551593516"><a name="p232551593516"></a><a name="p232551593516"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p10326115123519"><a name="p10326115123519"></a><a name="p10326115123519"></a>商品展示价格。</p>
+            </td>
+            </tr>
+            <tr id="row932681517359"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1732671517359"><a name="p1732671517359"></a><a name="p1732671517359"></a>country</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p53261715113517"><a name="p53261715113517"></a><a name="p53261715113517"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p9326151518354"><a name="p9326151518354"></a><a name="p9326151518354"></a>国家/地区码。中国大陆为CN，其他国家/地区请参见<a href="https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/huawei-iap-coverage-0000001050438753" target="_blank" rel="noopener noreferrer">华为IAP范围覆盖</a>。</p>
+            </td>
+            </tr>
+            <tr id="row632791515356"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p193261315183510"><a name="p193261315183510"></a><a name="p193261315183510"></a>payType</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p153261215163512"><a name="p153261215163512"></a><a name="p153261215163512"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p19326121593519"><a name="p19326121593519"></a><a name="p19326121593519"></a>支付方式：</p>
+            <a name="ul10327131573516"></a><a name="ul10327131573516"></a><ul id="ul10327131573516"><li>0：花币。</li><li>3：信用卡。</li><li>4：支付宝。</li><li>6：话费。</li><li>13：PayPal。</li><li>16：借记卡。</li><li>17：微信。</li><li>19：礼品卡。</li><li>20：零钱。</li><li>21：花币卡。</li><li>24：WP。</li><li>31：华为Pay。</li><li>32：花呗。</li><li>200：MPESA。</li></ul>
+            </td>
+            </tr>
+            <tr id="row1932713158356"><td class="cellrowborder" colspan="3" valign="top" headers="mcps1.1.4.1.1 mcps1.1.4.1.2 mcps1.1.4.1.3 "><p id="p1132751543513"><a name="p1132751543513"></a><a name="p1132751543513"></a>以下参数只有查询订阅类商品时才返回</p>
+            </td>
+            </tr>
+            <tr id="row7327131517351"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p0327151512356"><a name="p0327151512356"></a><a name="p0327151512356"></a>lastOrderId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p13327715133515"><a name="p13327715133515"></a><a name="p13327715133515"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p6327111593512"><a name="p6327111593512"></a><a name="p6327111593512"></a>续期订阅类商品的订单ID，由支付服务器在续期扣费时生成。</p>
+            <div class="note" id="note932781513513"><a name="note932781513513"></a><a name="note932781513513"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p103278158354"><a name="p103278158354"></a><a name="p103278158354"></a>仅首次购买订阅类商品时，“lastOrderId”与“orderId”相同。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row123276152352"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p18327315203510"><a name="p18327315203510"></a><a name="p18327315203510"></a>productGroup</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p4327111519356"><a name="p4327111519356"></a><a name="p4327111519356"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p143271415183520"><a name="p143271415183520"></a><a name="p143271415183520"></a>订阅类商品所属订阅组ID。</p>
+            </td>
+            </tr>
+            <tr id="row1332801553518"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1932771519359"><a name="p1932771519359"></a><a name="p1932771519359"></a>oriPurchaseTime</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p53281715123518"><a name="p53281715123518"></a><a name="p53281715123518"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1032818158359"><a name="p1032818158359"></a><a name="p1032818158359"></a>首次购买时间戳，从1970年1月1日0时起到本订阅类商品首次成功收费的毫秒数。</p>
+            </td>
+            </tr>
+            <tr id="row1328015133514"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1432821503518"><a name="p1432821503518"></a><a name="p1432821503518"></a>subscriptionId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p133280152356"><a name="p133280152356"></a><a name="p133280152356"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p153284157353"><a name="p153284157353"></a><a name="p153284157353"></a>订阅ID。</p>
+            </td>
+            </tr>
+            <tr id="row17328111513350"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p0328121563512"><a name="p0328121563512"></a><a name="p0328121563512"></a>oriSubscriptionId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1932831518358"><a name="p1932831518358"></a><a name="p1932831518358"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p113281155355"><a name="p113281155355"></a><a name="p113281155355"></a>原订阅ID。返回该参数信息时，表示当前订阅从其他商品切换而来，该参数可关联商品切换前的订阅信息。</p>
+            </td>
+            </tr>
+            <tr id="row73281015143512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p23289159356"><a name="p23289159356"></a><a name="p23289159356"></a>quantity</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1232811152358"><a name="p1232811152358"></a><a name="p1232811152358"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1332871513510"><a name="p1332871513510"></a><a name="p1332871513510"></a>订阅类商品购买数量。</p>
+            </td>
+            </tr>
+            <tr id="row13328111593520"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p3328121563516"><a name="p3328121563516"></a><a name="p3328121563516"></a>daysLasted</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1432861583516"><a name="p1432861583516"></a><a name="p1432861583516"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1932871543519"><a name="p1932871543519"></a><a name="p1932871543519"></a>已付费订阅的天数，免费试用期限和优惠续费周期除外。</p>
+            </td>
+            </tr>
+            <tr id="row1732971514354"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1032821515356"><a name="p1032821515356"></a><a name="p1032821515356"></a>numOfPeriods</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1332971512356"><a name="p1332971512356"></a><a name="p1332971512356"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p11329141516353"><a name="p11329141516353"></a><a name="p11329141516353"></a>自动续费周期数，优惠续费周期除外。若值为0或不存在，表示还没有成功续期。</p>
+            </td>
+            </tr>
+            <tr id="row18329181513512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p8329161583516"><a name="p8329161583516"></a><a name="p8329161583516"></a>numOfDiscount</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10329181563516"><a name="p10329181563516"></a><a name="p10329181563516"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p132918154358"><a name="p132918154358"></a><a name="p132918154358"></a>成功续费周期数。</p>
+            </td>
+            </tr>
+            <tr id="row12329515153511"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p43291715123519"><a name="p43291715123519"></a><a name="p43291715123519"></a>expirationDate</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p153299156356"><a name="p153299156356"></a><a name="p153299156356"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p2329615193513"><a name="p2329615193513"></a><a name="p2329615193513"></a>订阅类商品过期的时间戳：</p>
+            <a name="ul932910158352"></a><a name="ul932910158352"></a><ul id="ul932910158352"><li>若是一个将来时间，表示是一个已成功续费订单的续期日期或超期日期。</li><li>若是一个过去时间，表示订阅类商品已过期。</li></ul>
+            </td>
+            </tr>
+            <tr id="row5330101593510"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p11329515183517"><a name="p11329515183517"></a><a name="p11329515183517"></a>expirationIntent</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p2032912153356"><a name="p2032912153356"></a><a name="p2032912153356"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p0329191593514"><a name="p0329191593514"></a><a name="p0329191593514"></a>订阅类商品已过期的原因：</p>
+            <a name="ol1733013155359"></a><a name="ol1733013155359"></a><ol id="ol1733013155359"><li>用户取消。</li><li>商品不可用。</li><li>用户签约信息异常。</li><li>Billing错误。</li><li>用户未同意涨价。</li><li>未知错误。</li></ol>
+            <div class="note" id="note173304155350"><a name="note173304155350"></a><a name="note173304155350"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p133019155358"><a name="p133019155358"></a><a name="p133019155358"></a>若同时有多个过期原因，根据升序的优先级原则，返回优先级较高的原因。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row153301515113512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p143301115163512"><a name="p143301115163512"></a><a name="p143301115163512"></a>retryFlag</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p73301715133516"><a name="p73301715133516"></a><a name="p73301715133516"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p833010156352"><a name="p833010156352"></a><a name="p833010156352"></a>系统是否仍在尝试自动完成续期订阅类商品：</p>
+            <a name="ul16330815203515"></a><a name="ul16330815203515"></a><ul id="ul16330815203515"><li>0：终止尝试。</li><li>1：仍在尝试。</li></ul>
+            </td>
+            </tr>
+            <tr id="row18330151511359"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p143301115133515"><a name="p143301115133515"></a><a name="p143301115133515"></a>introductoryFlag</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p173307153350"><a name="p173307153350"></a><a name="p173307153350"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1833021516351"><a name="p1833021516351"></a><a name="p1833021516351"></a>订阅类商品是否在优惠续费周期内过期：</p>
+            <a name="ul1433031511353"></a><a name="ul1433031511353"></a><ul id="ul1433031511353"><li>0：否。</li><li>1：是。</li></ul>
+            </td>
+            </tr>
+            <tr id="row153311815163516"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1033012157353"><a name="p1033012157353"></a><a name="p1033012157353"></a>trialFlag</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p183313156351"><a name="p183313156351"></a><a name="p183313156351"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p63311215173510"><a name="p63311215173510"></a><a name="p63311215173510"></a>订阅类商品是否在免费试用期限内过期：</p>
+            <a name="ul53314151354"></a><a name="ul53314151354"></a><ul id="ul53314151354"><li>0：否。</li><li>1：是。</li></ul>
+            </td>
+            </tr>
+            <tr id="row10331171512353"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1933131593512"><a name="p1933131593512"></a><a name="p1933131593512"></a>cancelTime</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10331515193510"><a name="p10331515193510"></a><a name="p10331515193510"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p15331915113518"><a name="p15331915113518"></a><a name="p15331915113518"></a>订阅取消时间。在用户通过客服取消订阅，或用户升级、跨级到同组其它商品且立即生效时，需取消原有订阅的上次收据。</p>
+            <div class="note" id="note173311115153515"><a name="note173311115153515"></a><a name="note173311115153515"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p13331215123516"><a name="p13331215123516"></a><a name="p13331215123516"></a>已经取消的收据等同于没有完成购买。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row033231513515"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p633181516354"><a name="p633181516354"></a><a name="p633181516354"></a>cancelReason</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p833181519358"><a name="p833181519358"></a><a name="p833181519358"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p19331215133519"><a name="p19331215133519"></a><a name="p19331215133519"></a>用户取消订阅的原因：</p>
+            <a name="ul3331215193512"></a><a name="ul3331215193512"></a><ul id="ul3331215193512"><li>2：用户升级、跨级等。</li><li>1：用户应用内遇到问题而取消订阅。</li><li>0：其它原因取消，例如用户不小心订阅了商品。<div class="note" id="note533118159351"><a name="note533118159351"></a><a name="note533118159351"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p83313158350"><a name="p83313158350"></a><a name="p83313158350"></a>若该参数为空且cancelTime有值，表示是升级等操作导致的取消。</p>
+            </div></div>
+            </li></ul>
+            </td>
+            </tr>
+            <tr id="row0332131514350"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p203321315153519"><a name="p203321315153519"></a><a name="p203321315153519"></a>renewStatus</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p433241553519"><a name="p433241553519"></a><a name="p433241553519"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p13321515113515"><a name="p13321515113515"></a><a name="p13321515113515"></a>订阅类商品的续期状态：</p>
+            <a name="ul1933271515355"></a><a name="ul1933271515355"></a><ul id="ul1933271515355"><li>1：当前周期到期后自动续期。</li><li>0：用户主动停止续期。应用可以给用户提供其它订阅选项，例如推荐同组更低级别的商品。</li></ul>
+            </td>
+            </tr>
+            <tr id="row33321915113513"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7332191516356"><a name="p7332191516356"></a><a name="p7332191516356"></a>priceConsentStatus</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p19332315183518"><a name="p19332315183518"></a><a name="p19332315183518"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1332171515354"><a name="p1332171515354"></a><a name="p1332171515354"></a>订阅类商品提价时的用户意见：</p>
+            <a name="ul18332191512351"></a><a name="ul18332191512351"></a><ul id="ul18332191512351"><li>1：用户已经同意提价。</li><li>0：用户未采取动作，超期后订阅失效。</li></ul>
+            </td>
+            </tr>
+            <tr id="row83321715113514"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183329158357"><a name="p183329158357"></a><a name="p183329158357"></a>renewPrice</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p33321515153513"><a name="p33321515153513"></a><a name="p33321515153513"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p5332181563515"><a name="p5332181563515"></a><a name="p5332181563515"></a>下次续期价格。若有priceConsentStatus，提示用户新的续期价格。</p>
+            </td>
+            </tr>
+            <tr id="row23339152351"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p183322015153510"><a name="p183322015153510"></a><a name="p183322015153510"></a>subIsvalid</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p433271517350"><a name="p433271517350"></a><a name="p433271517350"></a>bool</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p13321515193514"><a name="p13321515193514"></a><a name="p13321515193514"></a>订阅类商品提价后的状态：</p>
+            <a name="ul7333191512351"></a><a name="ul7333191512351"></a><ul id="ul7333191512351"><li>true：已收费且未过期，也未退款，您可以为用户提供对应的服务。</li><li>false：未购买，已过期，或购买后已退款。<div class="note" id="note1933391503520"><a name="note1933391503520"></a><a name="note1933391503520"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1233321510354"><a name="p1233321510354"></a><a name="p1233321510354"></a>若用户已经取消订阅，在已购买的订阅类商品过期之前，subIsvalid仍然为true。</p>
+            </div></div>
+            </li></ul>
+            </td>
+            </tr>
+            <tr id="row1933331583517"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p433314151353"><a name="p433314151353"></a><a name="p433314151353"></a>cancelledSubKeepDays</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p933391510351"><a name="p933391510351"></a><a name="p933391510351"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p0333101583520"><a name="p0333101583520"></a><a name="p0333101583520"></a>用户取消订阅后订阅关系保留的天数，不表示当前订阅类商品已取消。</p>
+            </td>
+            </tr>
+            <tr id="row233371563518"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p18333101519353"><a name="p18333101519353"></a><a name="p18333101519353"></a>resumeTime</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10333191514355"><a name="p10333191514355"></a><a name="p10333191514355"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p9333915183512"><a name="p9333915183512"></a><a name="p9333915183512"></a>重新订阅商品的恢复时间。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -966,80 +960,78 @@
 
     查询在AGC控制台配置的商品详情。
 
--   请求参数
-    -   ObtainProductInfoOption
+-   请求参数ObtainProductInfoOption
 
-        <a name="table111321528469"></a>
-        <table><thead align="left"><tr id="row31321952114616"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p51321752134620"><a name="p51321752134620"></a><a name="p51321752134620"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p141321452104613"><a name="p141321452104613"></a><a name="p141321452104613"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p171321352114613"><a name="p171321352114613"></a><a name="p171321352114613"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p11132452154611"><a name="p11132452154611"></a><a name="p11132452154611"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row14132052204613"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1313245254614"><a name="p1313245254614"></a><a name="p1313245254614"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p71332052194619"><a name="p71332052194619"></a><a name="p71332052194619"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p51331452164610"><a name="p51331452164610"></a><a name="p51331452164610"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1133185214612"><a name="p1133185214612"></a><a name="p1133185214612"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row14496182917473"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14490203513569"><a name="p14490203513569"></a><a name="p14490203513569"></a>priceType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p249013510567"><a name="p249013510567"></a><a name="p249013510567"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p4490123517569"><a name="p4490123517569"></a><a name="p4490123517569"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1232174818"><a name="p1232174818"></a><a name="p1232174818"></a>商品类型：</p>
-        <a name="ul6733756125718"></a><a name="ul6733756125718"></a><ul id="ul6733756125718"><li>0：消耗型商品。</li><li>1：非消耗型商品。</li><li>2：订阅类商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row9901153414712"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p976312917574"><a name="p976312917574"></a><a name="p976312917574"></a>productIds</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p39016344477"><a name="p39016344477"></a><a name="p39016344477"></a>List&lt;string&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9901234174716"><a name="p9901234174716"></a><a name="p9901234174716"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p390133415474"><a name="p390133415474"></a><a name="p390133415474"></a>商品ID列表。</p>
-        </td>
-        </tr>
-        <tr id="row14133115274618"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p613325211466"><a name="p613325211466"></a><a name="p613325211466"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p7133115211467"><a name="p7133115211467"></a><a name="p7133115211467"></a>Action&lt;<a href="#li148582396410">ObtainProductInfoSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p61331852134615"><a name="p61331852134615"></a><a name="p61331852134615"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p131331352164617"><a name="p131331352164617"></a><a name="p131331352164617"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1133125214611"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p101335528461"><a name="p101335528461"></a><a name="p101335528461"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p7133185216466"><a name="p7133185216466"></a><a name="p7133185216466"></a>Action&lt;<a href="#li208643392412">ObtainProductInfoFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p813318523461"><a name="p813318523461"></a><a name="p813318523461"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p7133155294612"><a name="p7133155294612"></a><a name="p7133155294612"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row11133175213466"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p313312524467"><a name="p313312524467"></a><a name="p313312524467"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p101335523468"><a name="p101335523468"></a><a name="p101335523468"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p101331552204620"><a name="p101331552204620"></a><a name="p101331552204620"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p8133252134611"><a name="p8133252134611"></a><a name="p8133252134611"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table111321528469"></a>
+    <table><thead align="left"><tr id="row31321952114616"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p51321752134620"><a name="p51321752134620"></a><a name="p51321752134620"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p141321452104613"><a name="p141321452104613"></a><a name="p141321452104613"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p171321352114613"><a name="p171321352114613"></a><a name="p171321352114613"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p11132452154611"><a name="p11132452154611"></a><a name="p11132452154611"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row14132052204613"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1313245254614"><a name="p1313245254614"></a><a name="p1313245254614"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p71332052194619"><a name="p71332052194619"></a><a name="p71332052194619"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p51331452164610"><a name="p51331452164610"></a><a name="p51331452164610"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1133185214612"><a name="p1133185214612"></a><a name="p1133185214612"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row14496182917473"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14490203513569"><a name="p14490203513569"></a><a name="p14490203513569"></a>priceType</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p249013510567"><a name="p249013510567"></a><a name="p249013510567"></a>int</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p4490123517569"><a name="p4490123517569"></a><a name="p4490123517569"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1232174818"><a name="p1232174818"></a><a name="p1232174818"></a>商品类型：</p>
+    <a name="ul6733756125718"></a><a name="ul6733756125718"></a><ul id="ul6733756125718"><li>0：消耗型商品。</li><li>1：非消耗型商品。</li><li>2：订阅类商品。</li></ul>
+    </td>
+    </tr>
+    <tr id="row9901153414712"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p976312917574"><a name="p976312917574"></a><a name="p976312917574"></a>productIds</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p39016344477"><a name="p39016344477"></a><a name="p39016344477"></a>List&lt;string&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9901234174716"><a name="p9901234174716"></a><a name="p9901234174716"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p390133415474"><a name="p390133415474"></a><a name="p390133415474"></a>商品ID列表。</p>
+    </td>
+    </tr>
+    <tr id="row14133115274618"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p613325211466"><a name="p613325211466"></a><a name="p613325211466"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p7133115211467"><a name="p7133115211467"></a><a name="p7133115211467"></a>Action&lt;<a href="#li9678163914419">ObtainProductInfoSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p61331852134615"><a name="p61331852134615"></a><a name="p61331852134615"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p131331352164617"><a name="p131331352164617"></a><a name="p131331352164617"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1133125214611"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p101335528461"><a name="p101335528461"></a><a name="p101335528461"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p7133185216466"><a name="p7133185216466"></a><a name="p7133185216466"></a>Action&lt;<a href="#li12527659165313">ObtainProductInfoFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p813318523461"><a name="p813318523461"></a><a name="p813318523461"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p7133155294612"><a name="p7133155294612"></a><a name="p7133155294612"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row11133175213466"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p313312524467"><a name="p313312524467"></a><a name="p313312524467"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p101335523468"><a name="p101335523468"></a><a name="p101335523468"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p101331552204620"><a name="p101331552204620"></a><a name="p101331552204620"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p8133252134611"><a name="p8133252134611"></a><a name="p8133252134611"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li148582396410"></a>ObtainProductInfoSuccessResult
+    -   <a name="li9678163914419"></a>ObtainProductInfoSuccessResult
 
         <a name="table78585395413"></a>
         <table><thead align="left"><tr id="row10858163984119"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p7857183924120"><a name="p7857183924120"></a><a name="p7857183924120"></a>参数</p>
@@ -1066,7 +1058,7 @@
         </tr>
         <tr id="row16858203911412"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p128581339154110"><a name="p128581339154110"></a><a name="p128581339154110"></a>productInfoList</p>
         </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p685813934118"><a name="p685813934118"></a><a name="p685813934118"></a>List&lt;<a href="#li586314390415">productInfo</a>&gt;</p>
+        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p685813934118"><a name="p685813934118"></a><a name="p685813934118"></a>List&lt;<a href="#li164645725316">productInfo</a>&gt;</p>
         </td>
         <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p78582398418"><a name="p78582398418"></a><a name="p78582398418"></a>商品详细信息。</p>
         </td>
@@ -1074,158 +1066,7 @@
         </tbody>
         </table>
 
-    -   <a name="li586314390415"></a>productInfo
-
-        <a name="table5863939114111"></a>
-        <table><thead align="left"><tr id="row128595396415"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p2085823920417"><a name="p2085823920417"></a><a name="p2085823920417"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.2"><p id="p7858163934116"><a name="p7858163934116"></a><a name="p7858163934116"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="50%" id="mcps1.1.4.1.3"><p id="p985953913413"><a name="p985953913413"></a><a name="p985953913413"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row9859103910419"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p985911396410"><a name="p985911396410"></a><a name="p985911396410"></a>productId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p18592039154117"><a name="p18592039154117"></a><a name="p18592039154117"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p12859839184120"><a name="p12859839184120"></a><a name="p12859839184120"></a>商品ID。</p>
-        </td>
-        </tr>
-        <tr id="row785943974116"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p9859133912414"><a name="p9859133912414"></a><a name="p9859133912414"></a>priceType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p0859193910418"><a name="p0859193910418"></a><a name="p0859193910418"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p17859123984111"><a name="p17859123984111"></a><a name="p17859123984111"></a>商品类型：</p>
-        <a name="ul1385914395416"></a><a name="ul1385914395416"></a><ul id="ul1385914395416"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 订阅类商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row8860133944117"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7859123974115"><a name="p7859123974115"></a><a name="p7859123974115"></a>price</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p19859103924114"><a name="p19859103924114"></a><a name="p19859103924114"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p28595397418"><a name="p28595397418"></a><a name="p28595397418"></a>商品展示价格（含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
-        <div class="note" id="note14860539104119"><a name="note14860539104119"></a><a name="note14860539104119"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p10859239124117"><a name="p10859239124117"></a><a name="p10859239124117"></a>若用户已为非订阅类商品设置促销价格，则返回商品的促销价格。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row128601739114113"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7860123934118"><a name="p7860123934118"></a><a name="p7860123934118"></a>microsPrice</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p7860639134119"><a name="p7860639134119"></a><a name="p7860639134119"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p08608397413"><a name="p08608397413"></a><a name="p08608397413"></a>商品微单位价格。商品实际价格乘以1,000,000后的微单位价格，例如实际价格是1.99美元，则对应的微单位价格为：1.99*1000000=1990000。</p>
-        </td>
-        </tr>
-        <tr id="row686033910418"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p15860203919411"><a name="p15860203919411"></a><a name="p15860203919411"></a>currency</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1986033918411"><a name="p1986033918411"></a><a name="p1986033918411"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p58607390412"><a name="p58607390412"></a><a name="p58607390412"></a>支付商品的币种。</p>
-        </td>
-        </tr>
-        <tr id="row17860203913416"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p158601839174118"><a name="p158601839174118"></a><a name="p158601839174118"></a>productName</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p5860113911417"><a name="p5860113911417"></a><a name="p5860113911417"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p386073924117"><a name="p386073924117"></a><a name="p386073924117"></a>商品名称。</p>
-        </td>
-        </tr>
-        <tr id="row178601239154115"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1186093919412"><a name="p1186093919412"></a><a name="p1186093919412"></a>productDesc</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p78601139124110"><a name="p78601139124110"></a><a name="p78601139124110"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p4860203924118"><a name="p4860203924118"></a><a name="p4860203924118"></a>商品简介。</p>
-        </td>
-        </tr>
-        <tr id="row16861839174111"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p14860103911414"><a name="p14860103911414"></a><a name="p14860103911414"></a>subPeriod</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1286014390413"><a name="p1286014390413"></a><a name="p1286014390413"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p586073919415"><a name="p586073919415"></a><a name="p586073919415"></a>订阅类商品的自动续费周期单位。例如P1W：1周；P1M：1个月 ；P2M：2个月；P6M：6个月；P1Y：1年。</p>
-        </td>
-        </tr>
-        <tr id="row10861739164115"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p9861113984116"><a name="p9861113984116"></a><a name="p9861113984116"></a>subSpecialPrice</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p15861193964114"><a name="p15861193964114"></a><a name="p15861193964114"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p19861439154111"><a name="p19861439154111"></a><a name="p19861439154111"></a>订阅类商品的优惠价格（不含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
-        </td>
-        </tr>
-        <tr id="row14861739114113"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1861173913416"><a name="p1861173913416"></a><a name="p1861173913416"></a>subSpecialPriceMicros</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p086153994119"><a name="p086153994119"></a><a name="p086153994119"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p108611139134120"><a name="p108611139134120"></a><a name="p108611139134120"></a>订阅类商品的优惠微单位价格。商品优惠价格乘以1,000,000后的微单位价格，例如优惠价格是1.99美元，则对应的优惠微单位价格为：1.99*1000000=1990000。</p>
-        </td>
-        </tr>
-        <tr id="row17861103917415"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p198616394416"><a name="p198616394416"></a><a name="p198616394416"></a>subSpecialPeriod</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p886163924115"><a name="p886163924115"></a><a name="p886163924115"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p12861193911415"><a name="p12861193911415"></a><a name="p12861193911415"></a>订阅类商品的优惠周期单位。例如P1W：1周；P1M：1个月 ；P2M：2个月；P6M：6个月；P1Y：1年。</p>
-        </td>
-        </tr>
-        <tr id="row986113396417"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p2086117392412"><a name="p2086117392412"></a><a name="p2086117392412"></a>subSpecialPeriodCycles</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p98611239124117"><a name="p98611239124117"></a><a name="p98611239124117"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p168612398412"><a name="p168612398412"></a><a name="p168612398412"></a>订阅类商品的优惠续费周期。</p>
-        </td>
-        </tr>
-        <tr id="row158611739174116"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p18616390419"><a name="p18616390419"></a><a name="p18616390419"></a>subsFreeTrialPeriod</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p3861113954118"><a name="p3861113954118"></a><a name="p3861113954118"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p48611539114114"><a name="p48611539114114"></a><a name="p48611539114114"></a>订阅类商品的免费试用期限。</p>
-        </td>
-        </tr>
-        <tr id="row786210393411"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p8862163915416"><a name="p8862163915416"></a><a name="p8862163915416"></a>subsGroupId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p158628391419"><a name="p158628391419"></a><a name="p158628391419"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p686218396414"><a name="p686218396414"></a><a name="p686218396414"></a>订阅类商品所属订阅组ID。</p>
-        </td>
-        </tr>
-        <tr id="row12862339134120"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p086223934117"><a name="p086223934117"></a><a name="p086223934117"></a>subsGroupTitle</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1386211395411"><a name="p1386211395411"></a><a name="p1386211395411"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1586214395417"><a name="p1586214395417"></a><a name="p1586214395417"></a>订阅类商品所属订阅组名称。</p>
-        </td>
-        </tr>
-        <tr id="row3862103944110"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p108621639104120"><a name="p108621639104120"></a><a name="p108621639104120"></a>subsProductLevel</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p8862039114112"><a name="p8862039114112"></a><a name="p8862039114112"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p178621739204111"><a name="p178621739204111"></a><a name="p178621739204111"></a>订阅类商品在订阅组的级别。</p>
-        </td>
-        </tr>
-        <tr id="row14862183914419"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p13862639144113"><a name="p13862639144113"></a><a name="p13862639144113"></a>originalMicroPrice</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1086223910419"><a name="p1086223910419"></a><a name="p1086223910419"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p186217393412"><a name="p186217393412"></a><a name="p186217393412"></a>商品原价的微单位价格。商品原价乘以1,000,000后的微单位价格，例如原价是1.99美元，则对应的微单位价格为：1.99*1000000=1990000。</p>
-        </td>
-        </tr>
-        <tr id="row19862339164118"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p11862539194115"><a name="p11862539194115"></a><a name="p11862539194115"></a>originalLocalPrice</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p286218395410"><a name="p286218395410"></a><a name="p286218395410"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p17862339174115"><a name="p17862339174115"></a><a name="p17862339174115"></a>商品原价（含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
-        </td>
-        </tr>
-        <tr id="row286363917413"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p13862193912411"><a name="p13862193912411"></a><a name="p13862193912411"></a>status</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p18863133915418"><a name="p18863133915418"></a><a name="p18863133915418"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p386314392417"><a name="p386314392417"></a><a name="p386314392417"></a>订阅类商品状态：</p>
-        <a name="ul186373974118"></a><a name="ul186373974118"></a><ul id="ul186373974118"><li>0：商品有效。</li><li>1：商品无法订阅，且无法续订。</li><li>3：商品下线，无法订阅，但支持老用户续订。</li></ul>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-
-    -   <a name="li208643392412"></a>ObtainProductInfoFailResult
+    -   <a name="li12527659165313"></a>ObtainProductInfoFailResult
 
         <a name="table1886411391414"></a>
         <table><thead align="left"><tr id="row16863939194112"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p286353917414"><a name="p286353917414"></a><a name="p286353917414"></a>参数</p>
@@ -1252,6 +1093,157 @@
         </tr>
         </tbody>
         </table>
+
+        -   <a name="li164645725316"></a>productInfo
+
+            <a name="table94665755317"></a>
+            <table><thead align="left"><tr id="row1042155725310"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p124255711533"><a name="p124255711533"></a><a name="p124255711533"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.2"><p id="p104285716536"><a name="p104285716536"></a><a name="p104285716536"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="50%" id="mcps1.1.4.1.3"><p id="p1042457145316"><a name="p1042457145316"></a><a name="p1042457145316"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row04245717531"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p94235735318"><a name="p94235735318"></a><a name="p94235735318"></a>productId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1742357165311"><a name="p1742357165311"></a><a name="p1742357165311"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p174210578535"><a name="p174210578535"></a><a name="p174210578535"></a>商品ID。</p>
+            </td>
+            </tr>
+            <tr id="row154295755312"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1542457155310"><a name="p1542457155310"></a><a name="p1542457155310"></a>priceType</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p342105785320"><a name="p342105785320"></a><a name="p342105785320"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1142957205310"><a name="p1142957205310"></a><a name="p1142957205310"></a>商品类型：</p>
+            <a name="ul10425571532"></a><a name="ul10425571532"></a><ul id="ul10425571532"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 订阅类商品。</li></ul>
+            </td>
+            </tr>
+            <tr id="row5431357195313"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p743185715533"><a name="p743185715533"></a><a name="p743185715533"></a>price</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1143957185313"><a name="p1143957185313"></a><a name="p1143957185313"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p443195785315"><a name="p443195785315"></a><a name="p443195785315"></a>商品展示价格（含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
+            <div class="note" id="note144375765310"><a name="note144375765310"></a><a name="note144375765310"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p44317572539"><a name="p44317572539"></a><a name="p44317572539"></a>若用户已为非订阅类商品设置促销价格，则返回商品的促销价格。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row154395705317"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1643185717533"><a name="p1643185717533"></a><a name="p1643185717533"></a>microsPrice</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1043057115310"><a name="p1043057115310"></a><a name="p1043057115310"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1431757165317"><a name="p1431757165317"></a><a name="p1431757165317"></a>商品微单位价格。商品实际价格乘以1,000,000后的微单位价格，例如实际价格是1.99美元，则对应的微单位价格为：1.99*1000000=1990000。</p>
+            </td>
+            </tr>
+            <tr id="row143957155319"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p7431957125314"><a name="p7431957125314"></a><a name="p7431957125314"></a>currency</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p94316572536"><a name="p94316572536"></a><a name="p94316572536"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p74319575532"><a name="p74319575532"></a><a name="p74319575532"></a>支付商品的币种。</p>
+            </td>
+            </tr>
+            <tr id="row1543157105316"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p13431757195318"><a name="p13431757195318"></a><a name="p13431757195318"></a>productName</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p124365715318"><a name="p124365715318"></a><a name="p124365715318"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1843125712532"><a name="p1843125712532"></a><a name="p1843125712532"></a>商品名称。</p>
+            </td>
+            </tr>
+            <tr id="row134412572533"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p114313574537"><a name="p114313574537"></a><a name="p114313574537"></a>productDesc</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1044857115315"><a name="p1044857115315"></a><a name="p1044857115315"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p10441257155317"><a name="p10441257155317"></a><a name="p10441257155317"></a>商品简介。</p>
+            </td>
+            </tr>
+            <tr id="row10441157155314"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1444145755312"><a name="p1444145755312"></a><a name="p1444145755312"></a>subPeriod</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p194435795319"><a name="p194435795319"></a><a name="p194435795319"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p154413571531"><a name="p154413571531"></a><a name="p154413571531"></a>订阅类商品的自动续费周期单位。例如P1W：1周；P1M：1个月 ；P2M：2个月；P6M：6个月；P1Y：1年。</p>
+            </td>
+            </tr>
+            <tr id="row134417574536"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p54419574531"><a name="p54419574531"></a><a name="p54419574531"></a>subSpecialPrice</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p17441057175317"><a name="p17441057175317"></a><a name="p17441057175317"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p744145775316"><a name="p744145775316"></a><a name="p744145775316"></a>订阅类商品的优惠价格（不含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
+            </td>
+            </tr>
+            <tr id="row74455795318"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1844657155313"><a name="p1844657155313"></a><a name="p1844657155313"></a>subSpecialPriceMicros</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p18441657105318"><a name="p18441657105318"></a><a name="p18441657105318"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p9441576531"><a name="p9441576531"></a><a name="p9441576531"></a>订阅类商品的优惠微单位价格。商品优惠价格乘以1,000,000后的微单位价格，例如优惠价格是1.99美元，则对应的优惠微单位价格为：1.99*1000000=1990000。</p>
+            </td>
+            </tr>
+            <tr id="row74419573539"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p04417578534"><a name="p04417578534"></a><a name="p04417578534"></a>subSpecialPeriod</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p844185765314"><a name="p844185765314"></a><a name="p844185765314"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1144185775314"><a name="p1144185775314"></a><a name="p1144185775314"></a>订阅类商品的优惠周期单位。例如P1W：1周；P1M：1个月 ；P2M：2个月；P6M：6个月；P1Y：1年。</p>
+            </td>
+            </tr>
+            <tr id="row1245357105312"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p184525718532"><a name="p184525718532"></a><a name="p184525718532"></a>subSpecialPeriodCycles</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1145155775315"><a name="p1145155775315"></a><a name="p1145155775315"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p545857115315"><a name="p545857115315"></a><a name="p545857115315"></a>订阅类商品的优惠续费周期。</p>
+            </td>
+            </tr>
+            <tr id="row1045857175316"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p2045457205313"><a name="p2045457205313"></a><a name="p2045457205313"></a>subsFreeTrialPeriod</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p44516575536"><a name="p44516575536"></a><a name="p44516575536"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1145957185315"><a name="p1145957185315"></a><a name="p1145957185315"></a>订阅类商品的免费试用期限。</p>
+            </td>
+            </tr>
+            <tr id="row1645105795320"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1445657125311"><a name="p1445657125311"></a><a name="p1445657125311"></a>subsGroupId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p174565711532"><a name="p174565711532"></a><a name="p174565711532"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p194535735311"><a name="p194535735311"></a><a name="p194535735311"></a>订阅类商品所属订阅组ID。</p>
+            </td>
+            </tr>
+            <tr id="row545105718532"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p445157165318"><a name="p445157165318"></a><a name="p445157165318"></a>subsGroupTitle</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p184512572536"><a name="p184512572536"></a><a name="p184512572536"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p20451157145314"><a name="p20451157145314"></a><a name="p20451157145314"></a>订阅类商品所属订阅组名称。</p>
+            </td>
+            </tr>
+            <tr id="row3469572537"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p84575712536"><a name="p84575712536"></a><a name="p84575712536"></a>subsProductLevel</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1045657155316"><a name="p1045657155316"></a><a name="p1045657155316"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p545757195320"><a name="p545757195320"></a><a name="p545757195320"></a>订阅类商品在订阅组的级别。</p>
+            </td>
+            </tr>
+            <tr id="row114615712531"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p14619571531"><a name="p14619571531"></a><a name="p14619571531"></a>originalMicroPrice</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p194610571538"><a name="p194610571538"></a><a name="p194610571538"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p14655710531"><a name="p14655710531"></a><a name="p14655710531"></a>商品原价的微单位价格。商品原价乘以1,000,000后的微单位价格，例如原价是1.99美元，则对应的微单位价格为：1.99*1000000=1990000。</p>
+            </td>
+            </tr>
+            <tr id="row146135795313"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p144614572536"><a name="p144614572536"></a><a name="p144614572536"></a>originalLocalPrice</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p146957105319"><a name="p146957105319"></a><a name="p146957105319"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p114685716534"><a name="p114685716534"></a><a name="p114685716534"></a>商品原价（含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
+            </td>
+            </tr>
+            <tr id="row046857115314"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p746125711534"><a name="p746125711534"></a><a name="p746125711534"></a>status</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p646757145311"><a name="p646757145311"></a><a name="p646757145311"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p34665717539"><a name="p34665717539"></a><a name="p34665717539"></a>订阅类商品状态：</p>
+            <a name="ul54675715312"></a><a name="ul54675715312"></a><ul id="ul54675715312"><li>0：商品有效。</li><li>1：商品无法订阅，且无法续订。</li><li>3：商品下线，无法订阅，但支持老用户续订。</li></ul>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -1313,98 +1305,96 @@
 
     创建在AGC控制台配置的商品购买订单，支持购买消耗型商品、非消耗型商品、订阅类商品。
 
--   请求参数
-    -   CreatePurchaseIntentOption
+-   请求参数CreatePurchaseIntentOption
 
-        <a name="table8638145614460"></a>
-        <table><thead align="left"><tr id="row11638165644616"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1563815614617"><a name="p1563815614617"></a><a name="p1563815614617"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1263820563466"><a name="p1263820563466"></a><a name="p1263820563466"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p14638165664610"><a name="p14638165664610"></a><a name="p14638165664610"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1063813561463"><a name="p1063813561463"></a><a name="p1063813561463"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row1363818569468"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1016216164209"><a name="p1016216164209"></a><a name="p1016216164209"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p11162111602013"><a name="p11162111602013"></a><a name="p11162111602013"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7162121622018"><a name="p7162121622018"></a><a name="p7162121622018"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1116221611208"><a name="p1116221611208"></a><a name="p1116221611208"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row126395565469"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p2163201622014"><a name="p2163201622014"></a><a name="p2163201622014"></a>publicKey</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p816331620204"><a name="p816331620204"></a><a name="p816331620204"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p13163516112010"><a name="p13163516112010"></a><a name="p13163516112010"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p181631616192012"><a name="p181631616192012"></a><a name="p181631616192012"></a>开通应用内支付服务时的公钥。</p>
-        </td>
-        </tr>
-        <tr id="row12639456114616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p916371602015"><a name="p916371602015"></a><a name="p916371602015"></a>productId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p2016321619201"><a name="p2016321619201"></a><a name="p2016321619201"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p3163116202020"><a name="p3163116202020"></a><a name="p3163116202020"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6163181622015"><a name="p6163181622015"></a><a name="p6163181622015"></a>待支付商品ID。</p>
-        </td>
-        </tr>
-        <tr id="row1640656174619"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p5163316142017"><a name="p5163316142017"></a><a name="p5163316142017"></a>priceType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p91631016172010"><a name="p91631016172010"></a><a name="p91631016172010"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p61631616122017"><a name="p61631616122017"></a><a name="p61631616122017"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1116351652012"><a name="p1116351652012"></a><a name="p1116351652012"></a>商品类型：</p>
-        <a name="ul171632163209"></a><a name="ul171632163209"></a><ul id="ul171632163209"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 订阅类商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row520342716531"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1316311616209"><a name="p1316311616209"></a><a name="p1316311616209"></a>developerPayload</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p3163141692011"><a name="p3163141692011"></a><a name="p3163141692011"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p116351672014"><a name="p116351672014"></a><a name="p116351672014"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6163121662012"><a name="p6163121662012"></a><a name="p6163121662012"></a>商户侧保留信息，长度限制为[0, 256]。若传入值，在成功支付后的回调结果中原样返回给应用。</p>
-        </td>
-        </tr>
-        <tr id="row847472817535"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1721824105418"><a name="p1721824105418"></a><a name="p1721824105418"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p16721102455410"><a name="p16721102455410"></a><a name="p16721102455410"></a>Action&lt;<a href="#li1151465910538">CreatePurchaseIntentSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p13721024135415"><a name="p13721024135415"></a><a name="p13721024135415"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1372113248542"><a name="p1372113248542"></a><a name="p1372113248542"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row235962955313"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p972152455418"><a name="p972152455418"></a><a name="p972152455418"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1872152405413"><a name="p1872152405413"></a><a name="p1872152405413"></a>Action&lt;<a href="#li15515145955316">CreatePurchaseIntentFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p137220243546"><a name="p137220243546"></a><a name="p137220243546"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p9722924145410"><a name="p9722924145410"></a><a name="p9722924145410"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row191131330105318"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1472262415546"><a name="p1472262415546"></a><a name="p1472262415546"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p472202465415"><a name="p472202465415"></a><a name="p472202465415"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p372222418549"><a name="p372222418549"></a><a name="p372222418549"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p12722182485411"><a name="p12722182485411"></a><a name="p12722182485411"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table8638145614460"></a>
+    <table><thead align="left"><tr id="row11638165644616"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1563815614617"><a name="p1563815614617"></a><a name="p1563815614617"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1263820563466"><a name="p1263820563466"></a><a name="p1263820563466"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p14638165664610"><a name="p14638165664610"></a><a name="p14638165664610"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1063813561463"><a name="p1063813561463"></a><a name="p1063813561463"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row1363818569468"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1016216164209"><a name="p1016216164209"></a><a name="p1016216164209"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p11162111602013"><a name="p11162111602013"></a><a name="p11162111602013"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7162121622018"><a name="p7162121622018"></a><a name="p7162121622018"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1116221611208"><a name="p1116221611208"></a><a name="p1116221611208"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row126395565469"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p2163201622014"><a name="p2163201622014"></a><a name="p2163201622014"></a>publicKey</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p816331620204"><a name="p816331620204"></a><a name="p816331620204"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p13163516112010"><a name="p13163516112010"></a><a name="p13163516112010"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p181631616192012"><a name="p181631616192012"></a><a name="p181631616192012"></a>开通应用内支付服务时的公钥。</p>
+    </td>
+    </tr>
+    <tr id="row12639456114616"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p916371602015"><a name="p916371602015"></a><a name="p916371602015"></a>productId</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p2016321619201"><a name="p2016321619201"></a><a name="p2016321619201"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p3163116202020"><a name="p3163116202020"></a><a name="p3163116202020"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6163181622015"><a name="p6163181622015"></a><a name="p6163181622015"></a>待支付商品ID。</p>
+    </td>
+    </tr>
+    <tr id="row1640656174619"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p5163316142017"><a name="p5163316142017"></a><a name="p5163316142017"></a>priceType</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p91631016172010"><a name="p91631016172010"></a><a name="p91631016172010"></a>int</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p61631616122017"><a name="p61631616122017"></a><a name="p61631616122017"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1116351652012"><a name="p1116351652012"></a><a name="p1116351652012"></a>商品类型：</p>
+    <a name="ul171632163209"></a><a name="ul171632163209"></a><ul id="ul171632163209"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 订阅类商品。</li></ul>
+    </td>
+    </tr>
+    <tr id="row520342716531"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1316311616209"><a name="p1316311616209"></a><a name="p1316311616209"></a>developerPayload</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p3163141692011"><a name="p3163141692011"></a><a name="p3163141692011"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p116351672014"><a name="p116351672014"></a><a name="p116351672014"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6163121662012"><a name="p6163121662012"></a><a name="p6163121662012"></a>商户侧保留信息，长度限制为[0, 256]。若传入值，在成功支付后的回调结果中原样返回给应用。</p>
+    </td>
+    </tr>
+    <tr id="row847472817535"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1721824105418"><a name="p1721824105418"></a><a name="p1721824105418"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p16721102455410"><a name="p16721102455410"></a><a name="p16721102455410"></a>Action&lt;<a href="#li8479359145318">CreatePurchaseIntentSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p13721024135415"><a name="p13721024135415"></a><a name="p13721024135415"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1372113248542"><a name="p1372113248542"></a><a name="p1372113248542"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row235962955313"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p972152455418"><a name="p972152455418"></a><a name="p972152455418"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1872152405413"><a name="p1872152405413"></a><a name="p1872152405413"></a>Action&lt;<a href="#li558711335513">CreatePurchaseIntentFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p137220243546"><a name="p137220243546"></a><a name="p137220243546"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p9722924145410"><a name="p9722924145410"></a><a name="p9722924145410"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row191131330105318"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1472262415546"><a name="p1472262415546"></a><a name="p1472262415546"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p472202465415"><a name="p472202465415"></a><a name="p472202465415"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p372222418549"><a name="p372222418549"></a><a name="p372222418549"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p12722182485411"><a name="p12722182485411"></a><a name="p12722182485411"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li1151465910538"></a>CreatePurchaseIntentSuccessResult
+    -   <a name="li8479359145318"></a>CreatePurchaseIntentSuccessResult
 
         <a name="table12514205975310"></a>
         <table><thead align="left"><tr id="row13513165910536"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p11512059145311"><a name="p11512059145311"></a><a name="p11512059145311"></a>参数</p>
@@ -1446,7 +1436,7 @@
         </tbody>
         </table>
 
-    -   <a name="li15515145955316"></a>CreatePurchaseIntentFailResult
+    -   <a name="li558711335513"></a>CreatePurchaseIntentFailResult
 
         <a name="table85141259185312"></a>
         <table><thead align="left"><tr id="row45149595539"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p17514959165310"><a name="p17514959165310"></a><a name="p17514959165310"></a>参数</p>
@@ -1518,88 +1508,86 @@
 
     在商品支付成功后，应用需要在发放商品成功之后调用此接口对消耗型商品执行消耗操作。您需把已发货的购买Token传至您的服务器，后续即使消耗失败也可以从您的服务器拉取数据进行对比，避免出现异常。
 
--   请求参数
-    -   ConsumeOwnedPurchaseOption
+-   请求参数ConsumeOwnedPurchaseOption
 
-        <a name="table169753589465"></a>
-        <table><thead align="left"><tr id="row109751658204616"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p0975135874618"><a name="p0975135874618"></a><a name="p0975135874618"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1497565834614"><a name="p1497565834614"></a><a name="p1497565834614"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p13975195810468"><a name="p13975195810468"></a><a name="p13975195810468"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p17975185814464"><a name="p17975185814464"></a><a name="p17975185814464"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row14975115854610"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16975758104610"><a name="p16975758104610"></a><a name="p16975758104610"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1975558204619"><a name="p1975558204619"></a><a name="p1975558204619"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p18975185815465"><a name="p18975185815465"></a><a name="p18975185815465"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p169751258194619"><a name="p169751258194619"></a><a name="p169751258194619"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row59765582462"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p17356153474519"><a name="p17356153474519"></a><a name="p17356153474519"></a>developerChallenge</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p6356113414514"><a name="p6356113414514"></a><a name="p6356113414514"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1335623410458"><a name="p1335623410458"></a><a name="p1335623410458"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p14377193782713"><a name="p14377193782713"></a><a name="p14377193782713"></a>应用请求消耗商品时自定义的挑战字。消耗成功后此挑战字会记录在购买信息中返回，不超过64个字符。若与已有挑战字重复，表示重复消耗，同样会原样返回该挑战字。</p>
-        </td>
-        </tr>
-        <tr id="row169766581464"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16356183424513"><a name="p16356183424513"></a><a name="p16356183424513"></a>purchaseToken</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p410438183617"><a name="p410438183617"></a><a name="p410438183617"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p8357143494510"><a name="p8357143494510"></a><a name="p8357143494510"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1699381051018"><a name="p1699381051018"></a><a name="p1699381051018"></a>用户购买商品的标识。</p>
-        </td>
-        </tr>
-        <tr id="row1976145824614"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p3357734174513"><a name="p3357734174513"></a><a name="p3357734174513"></a>publicKey</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p122157833618"><a name="p122157833618"></a><a name="p122157833618"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1235783419453"><a name="p1235783419453"></a><a name="p1235783419453"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6357153414457"><a name="p6357153414457"></a><a name="p6357153414457"></a>开通应用内支付服务时的公钥。</p>
-        </td>
-        </tr>
-        <tr id="row1606919164114"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1897620586461"><a name="p1897620586461"></a><a name="p1897620586461"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1097615814613"><a name="p1097615814613"></a><a name="p1097615814613"></a>Action&lt;<a href="#li149767583460">ConsumeOwnedPurchaseSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p139761058164613"><a name="p139761058164613"></a><a name="p139761058164613"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p097625864616"><a name="p097625864616"></a><a name="p097625864616"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row10365172084116"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p197685813466"><a name="p197685813466"></a><a name="p197685813466"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p89761258124614"><a name="p89761258124614"></a><a name="p89761258124614"></a>Action&lt;<a href="#li139781058144617">ConsumeOwnedPurchaseFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p189761258164614"><a name="p189761258164614"></a><a name="p189761258164614"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p5976105894610"><a name="p5976105894610"></a><a name="p5976105894610"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row844311211411"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14976165854610"><a name="p14976165854610"></a><a name="p14976165854610"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1197655812461"><a name="p1197655812461"></a><a name="p1197655812461"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p89767582465"><a name="p89767582465"></a><a name="p89767582465"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p89765583460"><a name="p89765583460"></a><a name="p89765583460"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table169753589465"></a>
+    <table><thead align="left"><tr id="row109751658204616"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p0975135874618"><a name="p0975135874618"></a><a name="p0975135874618"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1497565834614"><a name="p1497565834614"></a><a name="p1497565834614"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p13975195810468"><a name="p13975195810468"></a><a name="p13975195810468"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p17975185814464"><a name="p17975185814464"></a><a name="p17975185814464"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row14975115854610"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16975758104610"><a name="p16975758104610"></a><a name="p16975758104610"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1975558204619"><a name="p1975558204619"></a><a name="p1975558204619"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p18975185815465"><a name="p18975185815465"></a><a name="p18975185815465"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p169751258194619"><a name="p169751258194619"></a><a name="p169751258194619"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row59765582462"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p17356153474519"><a name="p17356153474519"></a><a name="p17356153474519"></a>developerChallenge</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p6356113414514"><a name="p6356113414514"></a><a name="p6356113414514"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1335623410458"><a name="p1335623410458"></a><a name="p1335623410458"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p14377193782713"><a name="p14377193782713"></a><a name="p14377193782713"></a>应用请求消耗商品时自定义的挑战字。消耗成功后此挑战字会记录在购买信息中返回，不超过64个字符。若与已有挑战字重复，表示重复消耗，同样会原样返回该挑战字。</p>
+    </td>
+    </tr>
+    <tr id="row169766581464"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16356183424513"><a name="p16356183424513"></a><a name="p16356183424513"></a>purchaseToken</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p410438183617"><a name="p410438183617"></a><a name="p410438183617"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p8357143494510"><a name="p8357143494510"></a><a name="p8357143494510"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1699381051018"><a name="p1699381051018"></a><a name="p1699381051018"></a>用户购买商品的标识。</p>
+    </td>
+    </tr>
+    <tr id="row1976145824614"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p3357734174513"><a name="p3357734174513"></a><a name="p3357734174513"></a>publicKey</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p122157833618"><a name="p122157833618"></a><a name="p122157833618"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1235783419453"><a name="p1235783419453"></a><a name="p1235783419453"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6357153414457"><a name="p6357153414457"></a><a name="p6357153414457"></a>开通应用内支付服务时的公钥。</p>
+    </td>
+    </tr>
+    <tr id="row1606919164114"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1897620586461"><a name="p1897620586461"></a><a name="p1897620586461"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1097615814613"><a name="p1097615814613"></a><a name="p1097615814613"></a>Action&lt;<a href="#li1591993825714">ConsumeOwnedPurchaseSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p139761058164613"><a name="p139761058164613"></a><a name="p139761058164613"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p097625864616"><a name="p097625864616"></a><a name="p097625864616"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row10365172084116"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p197685813466"><a name="p197685813466"></a><a name="p197685813466"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p89761258124614"><a name="p89761258124614"></a><a name="p89761258124614"></a>Action&lt;<a href="#li1459452516569">ConsumeOwnedPurchaseFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p189761258164614"><a name="p189761258164614"></a><a name="p189761258164614"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p5976105894610"><a name="p5976105894610"></a><a name="p5976105894610"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row844311211411"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p14976165854610"><a name="p14976165854610"></a><a name="p14976165854610"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1197655812461"><a name="p1197655812461"></a><a name="p1197655812461"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p89767582465"><a name="p89767582465"></a><a name="p89767582465"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p89765583460"><a name="p89765583460"></a><a name="p89765583460"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li149767583460"></a>ConsumeOwnedPurchaseSuccessResult
+    -   <a name="li1591993825714"></a>ConsumeOwnedPurchaseSuccessResult
 
         <a name="table1097625812465"></a>
         <table><thead align="left"><tr id="row097605814610"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p1897765834612"><a name="p1897765834612"></a><a name="p1897765834612"></a>参数</p>
@@ -1641,139 +1629,7 @@
         </tbody>
         </table>
 
-    -   <a name="li97291150125713"></a>ConsumePurchaseData
-
-        <a name="table1822732641614"></a>
-        <table><thead align="left"><tr id="row2022815264167"><th class="cellrowborder" valign="top" width="24.51%" id="mcps1.1.4.1.1"><p id="p1793705319258"><a name="p1793705319258"></a><a name="p1793705319258"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="20.09%" id="mcps1.1.4.1.2"><p id="p89371753142517"><a name="p89371753142517"></a><a name="p89371753142517"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="55.400000000000006%" id="mcps1.1.4.1.3"><p id="p293705392519"><a name="p293705392519"></a><a name="p293705392519"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row722818267166"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p5853162913162"><a name="p5853162913162"></a><a name="p5853162913162"></a>applicationId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p18853162915168"><a name="p18853162915168"></a><a name="p18853162915168"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p3840184634610"><a name="p3840184634610"></a><a name="p3840184634610"></a>创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row1228726151616"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p4853132911616"><a name="p4853132911616"></a><a name="p4853132911616"></a>autoRenewing</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p158532293165"><a name="p158532293165"></a><a name="p158532293165"></a>bool</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p9885191231918"><a name="p9885191231918"></a><a name="p9885191231918"></a>是否自动续订：</p>
-        <a name="ul88851212111920"></a><a name="ul88851212111920"></a><ul id="ul88851212111920"><li>非订阅类商品返回false。</li><li>订阅类商品：<a name="ul14885131210194"></a><a name="ul14885131210194"></a><ul id="ul14885131210194"><li>ture：处于订阅状态，且在下一个续费周期自动续订。</li><li>false：订阅类商品已取消订阅。用户可在下个续费周期之前访问历史订阅内容。</li></ul>
-        </li></ul>
-        <div class="note" id="note0886181261920"><a name="note0886181261920"></a><a name="note0886181261920"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p688621219194"><a name="p688621219194"></a><a name="p688621219194"></a>只要未过订阅类商品的宽限期，就会返回true。</p>
-        </div></div>
-        </td>
-        </tr>
-        <tr id="row172291226171618"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p3853102951620"><a name="p3853102951620"></a><a name="p3853102951620"></a>orderId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p10789773711"><a name="p10789773711"></a><a name="p10789773711"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p1785382961610"><a name="p1785382961610"></a><a name="p1785382961610"></a>华为支付的订单ID，在成功支付后生成。</p>
-        </td>
-        </tr>
-        <tr id="row52291526131612"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p885318291166"><a name="p885318291166"></a><a name="p885318291166"></a>packageName</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p81844733718"><a name="p81844733718"></a><a name="p81844733718"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p1285332911612"><a name="p1285332911612"></a><a name="p1285332911612"></a>客户端应用包名。</p>
-        </td>
-        </tr>
-        <tr id="row12291526141614"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p13854112910166"><a name="p13854112910166"></a><a name="p13854112910166"></a>productId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p4292127183712"><a name="p4292127183712"></a><a name="p4292127183712"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p20854132941612"><a name="p20854132941612"></a><a name="p20854132941612"></a>商品ID。</p>
-        </td>
-        </tr>
-        <tr id="row4230102617161"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p1854122941619"><a name="p1854122941619"></a><a name="p1854122941619"></a>purchaseTime</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p138921328191617"><a name="p138921328191617"></a><a name="p138921328191617"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p12854529151612"><a name="p12854529151612"></a><a name="p12854529151612"></a>商品购买的时间戳。从1970年1月1日0时起到商品购买时间的毫秒数。</p>
-        </td>
-        </tr>
-        <tr id="row723062601615"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p18854192931616"><a name="p18854192931616"></a><a name="p18854192931616"></a>purchaseState</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p2870162814167"><a name="p2870162814167"></a><a name="p2870162814167"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p88547299169"><a name="p88547299169"></a><a name="p88547299169"></a>订单状态：</p>
-        <a name="ul178547294167"></a><a name="ul178547294167"></a><ul id="ul178547294167"><li>-1：初始化，不可见。</li><li>0：已购买。</li><li>1：已取消。</li><li>2：已退款。</li></ul>
-        </td>
-        </tr>
-        <tr id="row523022631616"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p785452921618"><a name="p785452921618"></a><a name="p785452921618"></a>developerPayload</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p11415121815376"><a name="p11415121815376"></a><a name="p11415121815376"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p1785422911165"><a name="p1785422911165"></a><a name="p1785422911165"></a>商户侧保留信息，调用接口时传入。</p>
-        </td>
-        </tr>
-        <tr id="row182309264166"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p78543299162"><a name="p78543299162"></a><a name="p78543299162"></a>purchaseToken</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p19536718123714"><a name="p19536718123714"></a><a name="p19536718123714"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p128542298169"><a name="p128542298169"></a><a name="p128542298169"></a>用于唯一标识商品和用户对应关系的购买令牌，在支付完成时由华为支付服务器生成。</p>
-        </td>
-        </tr>
-        <tr id="row723182621610"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p78554292166"><a name="p78554292166"></a><a name="p78554292166"></a>developerChallenge</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p5654151823717"><a name="p5654151823717"></a><a name="p5654151823717"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p17855142911162"><a name="p17855142911162"></a><a name="p17855142911162"></a>应用请求消耗商品时自定义的挑战字，唯一标识本次消耗请求。消耗成功后此挑战字会记录在购买信息中并返回。如果挑战字与已有挑战字重复，表示重复消耗，同样会原样返回该挑战字。</p>
-        </td>
-        </tr>
-        <tr id="row20231122621613"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p15855102919164"><a name="p15855102919164"></a><a name="p15855102919164"></a>consumptionState</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p4601123061619"><a name="p4601123061619"></a><a name="p4601123061619"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p16855192921618"><a name="p16855192921618"></a><a name="p16855192921618"></a>消费状态：</p>
-        <a name="ul15855122912166"></a><a name="ul15855122912166"></a><ul id="ul15855122912166"><li>0：未消费。</li><li>1：已消费。</li></ul>
-        </td>
-        </tr>
-        <tr id="row15231192681613"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p7855122910166"><a name="p7855122910166"></a><a name="p7855122910166"></a>currency</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p785517297167"><a name="p785517297167"></a><a name="p785517297167"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p19855162921610"><a name="p19855162921610"></a><a name="p19855162921610"></a>支付商品的币种。</p>
-        </td>
-        </tr>
-        <tr id="row1223132611612"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p17855829171610"><a name="p17855829171610"></a><a name="p17855829171610"></a>price</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p4785103231611"><a name="p4785103231611"></a><a name="p4785103231611"></a>long</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p17185236415"><a name="p17185236415"></a><a name="p17185236415"></a>商品展示价格（含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
-        </td>
-        </tr>
-        <tr id="row19231132615169"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p98551229141618"><a name="p98551229141618"></a><a name="p98551229141618"></a>country</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p1119185513719"><a name="p1119185513719"></a><a name="p1119185513719"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p6986639124210"><a name="p6986639124210"></a><a name="p6986639124210"></a>国家/地区码。中国大陆为CN，其他国家/地区请参见<a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/huawei-iap-coverage-0000001050438753" target="_blank" rel="noopener noreferrer">华为IAP范围覆盖</a>。</p>
-        </td>
-        </tr>
-        <tr id="row1923202611163"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p28551529131616"><a name="p28551529131616"></a><a name="p28551529131616"></a>responseCode</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p10227175512379"><a name="p10227175512379"></a><a name="p10227175512379"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p11856192971612"><a name="p11856192971612"></a><a name="p11856192971612"></a>返回码，成功返回为0。</p>
-        </td>
-        </tr>
-        <tr id="row523220268162"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p16856112961616"><a name="p16856112961616"></a><a name="p16856112961616"></a>responseMessage</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p0339145517379"><a name="p0339145517379"></a><a name="p0339145517379"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p885622951615"><a name="p885622951615"></a><a name="p885622951615"></a>返回码描述信息。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
-
-    -   <a name="li139781058144617"></a>ConsumeOwnedPurchaseFailResult
+    -   <a name="li1459452516569"></a>ConsumeOwnedPurchaseFailResult
 
         <a name="table14978115884611"></a>
         <table><thead align="left"><tr id="row1797985884611"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p209798587469"><a name="p209798587469"></a><a name="p209798587469"></a>参数</p>
@@ -1800,6 +1656,138 @@
         </tr>
         </tbody>
         </table>
+
+        -   <a name="li97291150125713"></a>ConsumePurchaseData
+
+            <a name="table1822732641614"></a>
+            <table><thead align="left"><tr id="row2022815264167"><th class="cellrowborder" valign="top" width="24.51%" id="mcps1.1.4.1.1"><p id="p1793705319258"><a name="p1793705319258"></a><a name="p1793705319258"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="20.09%" id="mcps1.1.4.1.2"><p id="p89371753142517"><a name="p89371753142517"></a><a name="p89371753142517"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="55.400000000000006%" id="mcps1.1.4.1.3"><p id="p293705392519"><a name="p293705392519"></a><a name="p293705392519"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row722818267166"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p5853162913162"><a name="p5853162913162"></a><a name="p5853162913162"></a>applicationId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p18853162915168"><a name="p18853162915168"></a><a name="p18853162915168"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p3840184634610"><a name="p3840184634610"></a><a name="p3840184634610"></a>创建快游戏后分配的唯一标识。</p>
+            </td>
+            </tr>
+            <tr id="row1228726151616"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p4853132911616"><a name="p4853132911616"></a><a name="p4853132911616"></a>autoRenewing</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p158532293165"><a name="p158532293165"></a><a name="p158532293165"></a>bool</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p9885191231918"><a name="p9885191231918"></a><a name="p9885191231918"></a>是否自动续订：</p>
+            <a name="ul88851212111920"></a><a name="ul88851212111920"></a><ul id="ul88851212111920"><li>非订阅类商品返回false。</li><li>订阅类商品：<a name="ul14885131210194"></a><a name="ul14885131210194"></a><ul id="ul14885131210194"><li>ture：处于订阅状态，且在下一个续费周期自动续订。</li><li>false：订阅类商品已取消订阅。用户可在下个续费周期之前访问历史订阅内容。</li></ul>
+            </li></ul>
+            <div class="note" id="note0886181261920"><a name="note0886181261920"></a><a name="note0886181261920"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p688621219194"><a name="p688621219194"></a><a name="p688621219194"></a>只要未过订阅类商品的宽限期，就会返回true。</p>
+            </div></div>
+            </td>
+            </tr>
+            <tr id="row172291226171618"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p3853102951620"><a name="p3853102951620"></a><a name="p3853102951620"></a>orderId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p10789773711"><a name="p10789773711"></a><a name="p10789773711"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p1785382961610"><a name="p1785382961610"></a><a name="p1785382961610"></a>华为支付的订单ID，在成功支付后生成。</p>
+            </td>
+            </tr>
+            <tr id="row52291526131612"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p885318291166"><a name="p885318291166"></a><a name="p885318291166"></a>packageName</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p81844733718"><a name="p81844733718"></a><a name="p81844733718"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p1285332911612"><a name="p1285332911612"></a><a name="p1285332911612"></a>客户端应用包名。</p>
+            </td>
+            </tr>
+            <tr id="row12291526141614"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p13854112910166"><a name="p13854112910166"></a><a name="p13854112910166"></a>productId</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p4292127183712"><a name="p4292127183712"></a><a name="p4292127183712"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p20854132941612"><a name="p20854132941612"></a><a name="p20854132941612"></a>商品ID。</p>
+            </td>
+            </tr>
+            <tr id="row4230102617161"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p1854122941619"><a name="p1854122941619"></a><a name="p1854122941619"></a>purchaseTime</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p138921328191617"><a name="p138921328191617"></a><a name="p138921328191617"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p12854529151612"><a name="p12854529151612"></a><a name="p12854529151612"></a>商品购买的时间戳。从1970年1月1日0时起到商品购买时间的毫秒数。</p>
+            </td>
+            </tr>
+            <tr id="row723062601615"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p18854192931616"><a name="p18854192931616"></a><a name="p18854192931616"></a>purchaseState</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p2870162814167"><a name="p2870162814167"></a><a name="p2870162814167"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p88547299169"><a name="p88547299169"></a><a name="p88547299169"></a>订单状态：</p>
+            <a name="ul178547294167"></a><a name="ul178547294167"></a><ul id="ul178547294167"><li>-1：初始化，不可见。</li><li>0：已购买。</li><li>1：已取消。</li><li>2：已退款。</li></ul>
+            </td>
+            </tr>
+            <tr id="row523022631616"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p785452921618"><a name="p785452921618"></a><a name="p785452921618"></a>developerPayload</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p11415121815376"><a name="p11415121815376"></a><a name="p11415121815376"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p1785422911165"><a name="p1785422911165"></a><a name="p1785422911165"></a>商户侧保留信息，调用接口时传入。</p>
+            </td>
+            </tr>
+            <tr id="row182309264166"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p78543299162"><a name="p78543299162"></a><a name="p78543299162"></a>purchaseToken</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p19536718123714"><a name="p19536718123714"></a><a name="p19536718123714"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p128542298169"><a name="p128542298169"></a><a name="p128542298169"></a>用于唯一标识商品和用户对应关系的购买令牌，在支付完成时由华为支付服务器生成。</p>
+            </td>
+            </tr>
+            <tr id="row723182621610"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p78554292166"><a name="p78554292166"></a><a name="p78554292166"></a>developerChallenge</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p5654151823717"><a name="p5654151823717"></a><a name="p5654151823717"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p17855142911162"><a name="p17855142911162"></a><a name="p17855142911162"></a>应用请求消耗商品时自定义的挑战字，唯一标识本次消耗请求。消耗成功后此挑战字会记录在购买信息中并返回。如果挑战字与已有挑战字重复，表示重复消耗，同样会原样返回该挑战字。</p>
+            </td>
+            </tr>
+            <tr id="row20231122621613"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p15855102919164"><a name="p15855102919164"></a><a name="p15855102919164"></a>consumptionState</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p4601123061619"><a name="p4601123061619"></a><a name="p4601123061619"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p16855192921618"><a name="p16855192921618"></a><a name="p16855192921618"></a>消费状态：</p>
+            <a name="ul15855122912166"></a><a name="ul15855122912166"></a><ul id="ul15855122912166"><li>0：未消费。</li><li>1：已消费。</li></ul>
+            </td>
+            </tr>
+            <tr id="row15231192681613"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p7855122910166"><a name="p7855122910166"></a><a name="p7855122910166"></a>currency</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p785517297167"><a name="p785517297167"></a><a name="p785517297167"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p19855162921610"><a name="p19855162921610"></a><a name="p19855162921610"></a>支付商品的币种。</p>
+            </td>
+            </tr>
+            <tr id="row1223132611612"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p17855829171610"><a name="p17855829171610"></a><a name="p17855829171610"></a>price</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p4785103231611"><a name="p4785103231611"></a><a name="p4785103231611"></a>long</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p17185236415"><a name="p17185236415"></a><a name="p17185236415"></a>商品展示价格（含税）。格式为“币种 商品价格”，例如“EUR 0.15”；部分国家/地区格式为“货币符号 商品价格”，例如中国大陆“￥0.15”。</p>
+            </td>
+            </tr>
+            <tr id="row19231132615169"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p98551229141618"><a name="p98551229141618"></a><a name="p98551229141618"></a>country</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p1119185513719"><a name="p1119185513719"></a><a name="p1119185513719"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p6986639124210"><a name="p6986639124210"></a><a name="p6986639124210"></a>国家/地区码。中国大陆为CN，其他国家/地区请参见<a href="https://developer.huawei.com/consumer/cn/doc/HMSCore-Guides/huawei-iap-coverage-0000001050438753" target="_blank" rel="noopener noreferrer">华为IAP范围覆盖</a>。</p>
+            </td>
+            </tr>
+            <tr id="row1923202611163"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p28551529131616"><a name="p28551529131616"></a><a name="p28551529131616"></a>responseCode</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p10227175512379"><a name="p10227175512379"></a><a name="p10227175512379"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p11856192971612"><a name="p11856192971612"></a><a name="p11856192971612"></a>返回码，成功返回为0。</p>
+            </td>
+            </tr>
+            <tr id="row523220268162"><td class="cellrowborder" valign="top" width="24.51%" headers="mcps1.1.4.1.1 "><p id="p16856112961616"><a name="p16856112961616"></a><a name="p16856112961616"></a>responseMessage</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="20.09%" headers="mcps1.1.4.1.2 "><p id="p0339145517379"><a name="p0339145517379"></a><a name="p0339145517379"></a>string</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="55.400000000000006%" headers="mcps1.1.4.1.3 "><p id="p885622951615"><a name="p885622951615"></a><a name="p885622951615"></a>返回码描述信息。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -1845,89 +1833,87 @@
     -   若是消耗型商品，此接口返回商品列表中执行过发货和消耗操作的商品信息。
     -   若是订阅类商品，此接口返回在应用中所有的订阅收据。
 
--   请求参数
-    -   ObtainOwnedPurchaseRecordOption
+-   请求参数ObtainOwnedPurchaseRecordOption
 
-        <a name="table82701012473"></a>
-        <table><thead align="left"><tr id="row14270111471"><th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.1"><p id="p3270915475"><a name="p3270915475"></a><a name="p3270915475"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="30%" id="mcps1.1.5.1.2"><p id="p1927011174711"><a name="p1927011174711"></a><a name="p1927011174711"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p2270171154715"><a name="p2270171154715"></a><a name="p2270171154715"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1827041114712"><a name="p1827041114712"></a><a name="p1827041114712"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row17754938194310"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p103464101511"><a name="p103464101511"></a><a name="p103464101511"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p133461106515"><a name="p133461106515"></a><a name="p133461106515"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p5346810185117"><a name="p5346810185117"></a><a name="p5346810185117"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1134631020518"><a name="p1134631020518"></a><a name="p1134631020518"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row1846673904315"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p10346201012515"><a name="p10346201012515"></a><a name="p10346201012515"></a>priceType</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p10346111015512"><a name="p10346111015512"></a><a name="p10346111015512"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p183461810205116"><a name="p183461810205116"></a><a name="p183461810205116"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1634611095116"><a name="p1634611095116"></a><a name="p1634611095116"></a>商品类型：</p>
-        <a name="ul6346210125118"></a><a name="ul6346210125118"></a><ul id="ul6346210125118"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 自动续订商品。</li></ul>
-        </td>
-        </tr>
-        <tr id="row1717404074317"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p7346171012512"><a name="p7346171012512"></a><a name="p7346171012512"></a>publicKey</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p134621025114"><a name="p134621025114"></a><a name="p134621025114"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p10346131016519"><a name="p10346131016519"></a><a name="p10346131016519"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p2034781012518"><a name="p2034781012518"></a><a name="p2034781012518"></a>开通应用内支付服务时的公钥。</p>
-        </td>
-        </tr>
-        <tr id="row1187410401433"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p4347121011514"><a name="p4347121011514"></a><a name="p4347121011514"></a>continuationToken</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p1334761005114"><a name="p1334761005114"></a><a name="p1334761005114"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p434710100517"><a name="p434710100517"></a><a name="p434710100517"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p13473104513"><a name="p13473104513"></a><a name="p13473104513"></a>数据定位标志。首次请求时无需传入。</p>
-        </td>
-        </tr>
-        <tr id="row1170055344314"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p15271611475"><a name="p15271611475"></a><a name="p15271611475"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p22718154719"><a name="p22718154719"></a><a name="p22718154719"></a>Action&lt;<a href="#li527117118470">ObtainOwnedPurchaseRecordSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p627111194720"><a name="p627111194720"></a><a name="p627111194720"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p32716114713"><a name="p32716114713"></a><a name="p32716114713"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1047416548437"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p027171194710"><a name="p027171194710"></a><a name="p027171194710"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p3271316474"><a name="p3271316474"></a><a name="p3271316474"></a>Action&lt;<a href="#li192738119472">ObtainOwnedPurchaseRecordFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p827119114716"><a name="p827119114716"></a><a name="p827119114716"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p02713174711"><a name="p02713174711"></a><a name="p02713174711"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row8674165514319"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p122714134711"><a name="p122714134711"></a><a name="p122714134711"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p92713134714"><a name="p92713134714"></a><a name="p92713134714"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1827112113476"><a name="p1827112113476"></a><a name="p1827112113476"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p152711115470"><a name="p152711115470"></a><a name="p152711115470"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table82701012473"></a>
+    <table><thead align="left"><tr id="row14270111471"><th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.1"><p id="p3270915475"><a name="p3270915475"></a><a name="p3270915475"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="30%" id="mcps1.1.5.1.2"><p id="p1927011174711"><a name="p1927011174711"></a><a name="p1927011174711"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p2270171154715"><a name="p2270171154715"></a><a name="p2270171154715"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1827041114712"><a name="p1827041114712"></a><a name="p1827041114712"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row17754938194310"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p103464101511"><a name="p103464101511"></a><a name="p103464101511"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p133461106515"><a name="p133461106515"></a><a name="p133461106515"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p5346810185117"><a name="p5346810185117"></a><a name="p5346810185117"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1134631020518"><a name="p1134631020518"></a><a name="p1134631020518"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row1846673904315"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p10346201012515"><a name="p10346201012515"></a><a name="p10346201012515"></a>priceType</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p10346111015512"><a name="p10346111015512"></a><a name="p10346111015512"></a>int</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p183461810205116"><a name="p183461810205116"></a><a name="p183461810205116"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1634611095116"><a name="p1634611095116"></a><a name="p1634611095116"></a>商品类型：</p>
+    <a name="ul6346210125118"></a><a name="ul6346210125118"></a><ul id="ul6346210125118"><li>0 : 消耗型商品。</li><li>1 : 非消耗型商品。</li><li>2 : 自动续订商品。</li></ul>
+    </td>
+    </tr>
+    <tr id="row1717404074317"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p7346171012512"><a name="p7346171012512"></a><a name="p7346171012512"></a>publicKey</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p134621025114"><a name="p134621025114"></a><a name="p134621025114"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p10346131016519"><a name="p10346131016519"></a><a name="p10346131016519"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p2034781012518"><a name="p2034781012518"></a><a name="p2034781012518"></a>开通应用内支付服务时的公钥。</p>
+    </td>
+    </tr>
+    <tr id="row1187410401433"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p4347121011514"><a name="p4347121011514"></a><a name="p4347121011514"></a>continuationToken</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p1334761005114"><a name="p1334761005114"></a><a name="p1334761005114"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p434710100517"><a name="p434710100517"></a><a name="p434710100517"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p13473104513"><a name="p13473104513"></a><a name="p13473104513"></a>数据定位标志。首次请求时无需传入。</p>
+    </td>
+    </tr>
+    <tr id="row1170055344314"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p15271611475"><a name="p15271611475"></a><a name="p15271611475"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p22718154719"><a name="p22718154719"></a><a name="p22718154719"></a>Action&lt;<a href="#li527117118470">ObtainOwnedPurchaseRecordSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p627111194720"><a name="p627111194720"></a><a name="p627111194720"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p32716114713"><a name="p32716114713"></a><a name="p32716114713"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1047416548437"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p027171194710"><a name="p027171194710"></a><a name="p027171194710"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p3271316474"><a name="p3271316474"></a><a name="p3271316474"></a>Action&lt;<a href="#li192738119472">ObtainOwnedPurchaseRecordFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p827119114716"><a name="p827119114716"></a><a name="p827119114716"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p02713174711"><a name="p02713174711"></a><a name="p02713174711"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row8674165514319"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.1 "><p id="p122714134711"><a name="p122714134711"></a><a name="p122714134711"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.5.1.2 "><p id="p92713134714"><a name="p92713134714"></a><a name="p92713134714"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1827112113476"><a name="p1827112113476"></a><a name="p1827112113476"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p152711115470"><a name="p152711115470"></a><a name="p152711115470"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li527117118470"></a>ObtainOwnedPurchaseRecordSuccessResult
+    -   ObtainOwnedPurchaseRecordSuccessResult
 
         <a name="table6271115472"></a>
         <table><thead align="left"><tr id="row427119111473"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p527231144717"><a name="p527231144717"></a><a name="p527231144717"></a>参数</p>
@@ -2001,7 +1987,7 @@
         </tbody>
         </table>
 
-    -   <a name="li192738119472"></a>ObtainOwnedPurchaseRecordFailResult
+    -   ObtainOwnedPurchaseRecordFailResult
 
         <a name="table1427418194714"></a>
         <table><thead align="left"><tr id="row627421104711"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p1227481144719"><a name="p1227481144719"></a><a name="p1227481144719"></a>参数</p>
@@ -2093,80 +2079,78 @@
     -   可跳转至华为编辑订阅页。
     -   可跳转至华为管理订阅页。
 
--   请求参数
-    -   StartIapActivityOption
+-   请求参数StartIapActivityOption
 
-        <a name="table14475631474"></a>
-        <table><thead align="left"><tr id="row1747519364716"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1947513144714"><a name="p1947513144714"></a><a name="p1947513144714"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1947510313474"><a name="p1947510313474"></a><a name="p1947510313474"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p164753364715"><a name="p164753364715"></a><a name="p164753364715"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1047515314710"><a name="p1047515314710"></a><a name="p1047515314710"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row2604195515470"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p15924205419"><a name="p15924205419"></a><a name="p15924205419"></a>applicationID</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p10924110746"><a name="p10924110746"></a><a name="p10924110746"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p2092420044"><a name="p2092420044"></a><a name="p2092420044"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1392410013410"><a name="p1392410013410"></a><a name="p1392410013410"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
-        </td>
-        </tr>
-        <tr id="row164761456154719"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p09242004415"><a name="p09242004415"></a><a name="p09242004415"></a>type</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1192415012410"><a name="p1192415012410"></a><a name="p1192415012410"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p29241601643"><a name="p29241601643"></a><a name="p29241601643"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p13924801346"><a name="p13924801346"></a><a name="p13924801346"></a>跳转的页面类型：</p>
-        <a name="ul149242019412"></a><a name="ul149242019412"></a><ul id="ul149242019412"><li>2：华为管理订阅页。</li><li>3：华为编辑订阅页。</li></ul>
-        </td>
-        </tr>
-        <tr id="row929116575476"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p15924509412"><a name="p15924509412"></a><a name="p15924509412"></a>subscribeProductId</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p4924301942"><a name="p4924301942"></a><a name="p4924301942"></a>string</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p139241906420"><a name="p139241906420"></a><a name="p139241906420"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6924302414"><a name="p6924302414"></a><a name="p6924302414"></a>已订阅的商品ID。仅当跳转至华为编辑订阅页时传入参数值。</p>
-        </td>
-        </tr>
-        <tr id="row168436591478"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p5476739479"><a name="p5476739479"></a><a name="p5476739479"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1547683104712"><a name="p1547683104712"></a><a name="p1547683104712"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p11476531472"><a name="p11476531472"></a><a name="p11476531472"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1447611316470"><a name="p1447611316470"></a><a name="p1447611316470"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row4732170204811"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p34763334718"><a name="p34763334718"></a><a name="p34763334718"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p194761316479"><a name="p194761316479"></a><a name="p194761316479"></a>Action&lt;<a href="#li1447917312475">StartIapActivityFailResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p184765364713"><a name="p184765364713"></a><a name="p184765364713"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p134764324719"><a name="p134764324719"></a><a name="p134764324719"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row1159716114488"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p747617304715"><a name="p747617304715"></a><a name="p747617304715"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p34761315478"><a name="p34761315478"></a><a name="p34761315478"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p13476123144711"><a name="p13476123144711"></a><a name="p13476123144711"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p34769394713"><a name="p34769394713"></a><a name="p34769394713"></a>接口成功、失败均会调用的回调函数。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table14475631474"></a>
+    <table><thead align="left"><tr id="row1747519364716"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1947513144714"><a name="p1947513144714"></a><a name="p1947513144714"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p1947510313474"><a name="p1947510313474"></a><a name="p1947510313474"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p164753364715"><a name="p164753364715"></a><a name="p164753364715"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p1047515314710"><a name="p1047515314710"></a><a name="p1047515314710"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row2604195515470"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p15924205419"><a name="p15924205419"></a><a name="p15924205419"></a>applicationID</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p10924110746"><a name="p10924110746"></a><a name="p10924110746"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p2092420044"><a name="p2092420044"></a><a name="p2092420044"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1392410013410"><a name="p1392410013410"></a><a name="p1392410013410"></a>快游戏APP ID，在华为开发者联盟上创建快游戏后分配的唯一标识。</p>
+    </td>
+    </tr>
+    <tr id="row164761456154719"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p09242004415"><a name="p09242004415"></a><a name="p09242004415"></a>type</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1192415012410"><a name="p1192415012410"></a><a name="p1192415012410"></a>int</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p29241601643"><a name="p29241601643"></a><a name="p29241601643"></a>M</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p13924801346"><a name="p13924801346"></a><a name="p13924801346"></a>跳转的页面类型：</p>
+    <a name="ul149242019412"></a><a name="ul149242019412"></a><ul id="ul149242019412"><li>2：华为管理订阅页。</li><li>3：华为编辑订阅页。</li></ul>
+    </td>
+    </tr>
+    <tr id="row929116575476"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p15924509412"><a name="p15924509412"></a><a name="p15924509412"></a>subscribeProductId</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p4924301942"><a name="p4924301942"></a><a name="p4924301942"></a>string</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p139241906420"><a name="p139241906420"></a><a name="p139241906420"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p6924302414"><a name="p6924302414"></a><a name="p6924302414"></a>已订阅的商品ID。仅当跳转至华为编辑订阅页时传入参数值。</p>
+    </td>
+    </tr>
+    <tr id="row168436591478"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p5476739479"><a name="p5476739479"></a><a name="p5476739479"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1547683104712"><a name="p1547683104712"></a><a name="p1547683104712"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p11476531472"><a name="p11476531472"></a><a name="p11476531472"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1447611316470"><a name="p1447611316470"></a><a name="p1447611316470"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row4732170204811"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p34763334718"><a name="p34763334718"></a><a name="p34763334718"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p194761316479"><a name="p194761316479"></a><a name="p194761316479"></a>Action&lt;<a href="#li13775174611211">StartIapActivityFailResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p184765364713"><a name="p184765364713"></a><a name="p184765364713"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p134764324719"><a name="p134764324719"></a><a name="p134764324719"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row1159716114488"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p747617304715"><a name="p747617304715"></a><a name="p747617304715"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p34761315478"><a name="p34761315478"></a><a name="p34761315478"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p13476123144711"><a name="p13476123144711"></a><a name="p13476123144711"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p34769394713"><a name="p34769394713"></a><a name="p34769394713"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li1447917312475"></a>StartIapActivityFailResult
+    -   <a name="li13775174611211"></a>StartIapActivityFailResult
 
         <a name="table1547913313478"></a>
         <table><thead align="left"><tr id="row124791735477"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p134791332475"><a name="p134791332475"></a><a name="p134791332475"></a>参数</p>
@@ -2218,7 +2202,7 @@
 
 ### 错误码<a name="section0935245195318"></a>
 
-更多错误码可参考[通用错误码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/client-error-code-0000001050746111)。
+更多错误码可参考[通用错误码](https://developer.huawei.com/consumer/cn/doc/HMSCore-References/client-error-code-0000001050746111)。
 
 <a name="table3109851131612"></a>
 <table><thead align="left"><tr id="row13110185131612"><th class="cellrowborder" valign="top" width="50%" id="mcps1.1.3.1.1"><p id="p10110145141615"><a name="p10110145141615"></a><a name="p10110145141615"></a>错误码</p>

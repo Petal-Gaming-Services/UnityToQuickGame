@@ -170,7 +170,7 @@
     </tbody>
     </table>
 
--   return
+-   返回参数
     -   true：存在本地缓存资源。
     -   false：不存在本地缓存资源。
 

@@ -57,39 +57,39 @@
     </tbody>
     </table>
 
--   <a name="li116945035018"></a>OnErrorResult
+    -   <a name="li116945035018"></a>OnErrorResult
 
-    <a name="table182784025919"></a>
-    <table><thead align="left"><tr id="row152788025917"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1278508598"><a name="p1278508598"></a><a name="p1278508598"></a>参数</p>
-    </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p227850175918"><a name="p227850175918"></a><a name="p227850175918"></a>类型</p>
-    </th>
-    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p152781601593"><a name="p152781601593"></a><a name="p152781601593"></a>必填(M)/选填(O)</p>
-    </th>
-    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p9278101598"><a name="p9278101598"></a><a name="p9278101598"></a>说明</p>
-    </th>
-    </tr>
-    </thead>
-    <tbody><tr id="row17278907593"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p8449142317118"><a name="p8449142317118"></a><a name="p8449142317118"></a>message</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p12449142319118"><a name="p12449142319118"></a><a name="p12449142319118"></a>string</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p84481223131120"><a name="p84481223131120"></a><a name="p84481223131120"></a>M</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p19428152313116"><a name="p19428152313116"></a><a name="p19428152313116"></a>错误信息。</p>
-    </td>
-    </tr>
-    <tr id="row726011240119"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p626011244112"><a name="p626011244112"></a><a name="p626011244112"></a>stack</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p13260424131114"><a name="p13260424131114"></a><a name="p13260424131114"></a>string</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p326010249113"><a name="p326010249113"></a><a name="p326010249113"></a>M</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p132605247116"><a name="p132605247116"></a><a name="p132605247116"></a>错误调用堆栈。</p>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+        <a name="table182784025919"></a>
+        <table><thead align="left"><tr id="row152788025917"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1278508598"><a name="p1278508598"></a><a name="p1278508598"></a>参数</p>
+        </th>
+        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p227850175918"><a name="p227850175918"></a><a name="p227850175918"></a>类型</p>
+        </th>
+        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p152781601593"><a name="p152781601593"></a><a name="p152781601593"></a>必填(M)/选填(O)</p>
+        </th>
+        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p9278101598"><a name="p9278101598"></a><a name="p9278101598"></a>说明</p>
+        </th>
+        </tr>
+        </thead>
+        <tbody><tr id="row17278907593"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p8449142317118"><a name="p8449142317118"></a><a name="p8449142317118"></a>message</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p12449142319118"><a name="p12449142319118"></a><a name="p12449142319118"></a>string</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p84481223131120"><a name="p84481223131120"></a><a name="p84481223131120"></a>M</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p19428152313116"><a name="p19428152313116"></a><a name="p19428152313116"></a>错误信息。</p>
+        </td>
+        </tr>
+        <tr id="row726011240119"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p626011244112"><a name="p626011244112"></a><a name="p626011244112"></a>stack</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p13260424131114"><a name="p13260424131114"></a><a name="p13260424131114"></a>string</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p326010249113"><a name="p326010249113"></a><a name="p326010249113"></a>M</p>
+        </td>
+        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p132605247116"><a name="p132605247116"></a><a name="p132605247116"></a>错误调用堆栈。</p>
+        </td>
+        </tr>
+        </tbody>
+        </table>
 
 -   示例代码
 
@@ -141,7 +141,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p444143510509"><a name="p444143510509"></a><a name="p444143510509"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p7441123595012"><a name="p7441123595012"></a><a name="p7441123595012"></a>OnError传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p7441123595012"><a name="p7441123595012"></a><a name="p7441123595012"></a>OnError传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>

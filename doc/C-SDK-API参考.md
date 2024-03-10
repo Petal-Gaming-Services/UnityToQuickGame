@@ -24,3 +24,9 @@
 
 -   **[全局错误事件API](全局错误事件API.md)**  
 
+-   **[生命周期API](生命周期API.md)**  
+
+-   **[DeepLink API](DeepLink-API.md)**  
+
+-   **[桌面图标API](桌面图标API.md)**  
+

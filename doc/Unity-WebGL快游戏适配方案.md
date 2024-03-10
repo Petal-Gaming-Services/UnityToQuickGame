@@ -5,7 +5,8 @@
 -   [工作原理](#section19868189193414)
 -   [转换案例](#section19703164714290)
 -   [准备工作](#section1081804723120)
-    -   [AppGallery Connect控制台准备](#section1245866121711)
+    -   [可行性评估](#section983612549576)
+    -   [AGC控制台准备](#section1245866121711)
     -   [工具准备](#section10468162781718)
     -   [素材准备](#section162721931181311)
 
@@ -85,11 +86,88 @@ Unity游戏是使用C\#语言开发的游戏，而快游戏的运行环境却是
 
 ## 准备工作<a name="section1081804723120"></a>
 
-### AppGallery Connect控制台准备<a name="section1245866121711"></a>
+### 可行性评估<a name="section983612549576"></a>
 
--   在开发者联盟官网[注册开发者帐号](https://developer.huawei.com/consumer/cn/doc/start/registration-and-verification-0000001053628148)，并[实名认证](https://developer.huawei.com/consumer/cn/doc/start/ht-edrna-0000001154848578)。
--   在AppGallery Connect控制台[创建项目](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-create-quickgame-0000001159652387#section165468151910)并[在项目下添加快游戏](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-create-quickgame-0000001159652387#section18202125183612)。
--   上架快游戏必须接入华为帐号能力，您在AppGallery Connect控制台需[打开游戏服务API开关](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-enable-game-kit-0000001113292730#section1724214523574)与[打开华为帐号API开关](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-enable-account-kit-0000001159772367#section1468372716348)。**其它API开关**请根据接入的快游戏能力进行配置。
+<a name="table441441115813"></a>
+<table><thead align="left"><tr id="row541417586"><th class="cellrowborder" valign="top" width="15%" id="mcps1.1.4.1.1"><p id="p1523435912584"><a name="p1523435912584"></a><a name="p1523435912584"></a>能力</p>
+</th>
+<th class="cellrowborder" valign="top" width="12%" id="mcps1.1.4.1.2"><p id="p42341659175811"><a name="p42341659175811"></a><a name="p42341659175811"></a>是否支持</p>
+</th>
+<th class="cellrowborder" valign="top" width="73%" id="mcps1.1.4.1.3"><p id="p3234135910586"><a name="p3234135910586"></a><a name="p3234135910586"></a>解决方案</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row184541105814"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p1184361814201"><a name="p1184361814201"></a><a name="p1184361814201"></a>Unity基础模块</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p07101001201"><a name="p07101001201"></a><a name="p07101001201"></a>支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p11115163915195"><a name="p11115163915195"></a><a name="p11115163915195"></a>支持动画、物理、AI、UI等基础模块。</p>
+</td>
+</tr>
+<tr id="row12464135810"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p3843918122020"><a name="p3843918122020"></a><a name="p3843918122020"></a>渲染管线与接口</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p177101902205"><a name="p177101902205"></a><a name="p177101902205"></a>支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p9115939101917"><a name="p9115939101917"></a><a name="p9115939101917"></a>支持标准渲染管线USS、通用渲染管线URP，但只支持WebGL1.0的特性。</p>
+</td>
+</tr>
+<tr id="row647417589"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p16843131817203"><a name="p16843131817203"></a><a name="p16843131817203"></a>资源加载</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p471014016201"><a name="p471014016201"></a><a name="p471014016201"></a>支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p121151739121916"><a name="p121151739121916"></a><a name="p121151739121916"></a>Addressable、AssetBundle网络异步加载。</p>
+</td>
+</tr>
+<tr id="row18517413582"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p138443185204"><a name="p138443185204"></a><a name="p138443185204"></a>Unity音频</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p177101703201"><a name="p177101703201"></a><a name="p177101703201"></a>支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p611620392195"><a name="p611620392195"></a><a name="p611620392195"></a>Unity Audio基本能力支持，支持fmod插件，暂未支持wwise。长音频建议适配快游戏音频InnerAudioContext以优化内存。</p>
+</td>
+</tr>
+<tr id="row9514155813"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p1484431852013"><a name="p1484431852013"></a><a name="p1484431852013"></a>第三方插件</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p471040122017"><a name="p471040122017"></a><a name="p471040122017"></a>部分支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p11116153912193"><a name="p11116153912193"></a><a name="p11116153912193"></a>支持大部分插件，C#插件与非平台相关的C原生插件。</p>
+</td>
+</tr>
+<tr id="row651341135814"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p14844171817209"><a name="p14844171817209"></a><a name="p14844171817209"></a>网络系统</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p117101501204"><a name="p117101501204"></a><a name="p117101501204"></a>需调整</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p19116939161911"><a name="p19116939161911"></a><a name="p19116939161911"></a>不支持System.Net接口，HTTP使用UnityWebRequest，TCP使用WebSocket通信替代(如开源的UnityWebSocket插件)。</p>
+</td>
+</tr>
+<tr id="row65104113585"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p1384401832019"><a name="p1384401832019"></a><a name="p1384401832019"></a>多线程</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p971018072014"><a name="p971018072014"></a><a name="p971018072014"></a>不支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p61164399197"><a name="p61164399197"></a><a name="p61164399197"></a>删除多线程用法，使用异步等其他替代方式。</p>
+</td>
+</tr>
+<tr id="row13923144675819"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p88446187207"><a name="p88446187207"></a><a name="p88446187207"></a>文件系统</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p3710190112020"><a name="p3710190112020"></a><a name="p3710190112020"></a>需调整</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p1411633914196"><a name="p1411633914196"></a><a name="p1411633914196"></a>不支持System.File接口，但可使用HW-WASM-SDK实现文件存储，大小限制为200MB。玩家存档请使用服务器，AssetsBundle缓存适配插件已自动支持。</p>
+</td>
+</tr>
+<tr id="row1197205035119"><td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.4.1.1 "><p id="p619812509516"><a name="p619812509516"></a><a name="p619812509516"></a>纹理压缩格式</p>
+</td>
+<td class="cellrowborder" valign="top" width="12%" headers="mcps1.1.4.1.2 "><p id="p5198185012519"><a name="p5198185012519"></a><a name="p5198185012519"></a>支持</p>
+</td>
+<td class="cellrowborder" valign="top" width="73%" headers="mcps1.1.4.1.3 "><p id="p101981450195119"><a name="p101981450195119"></a><a name="p101981450195119"></a>astc、etc1、pvrtc。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### AGC控制台准备<a name="section1245866121711"></a>
+
+-   在开发者联盟官网[注册帐号并实名认证](https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-registration-account-0000001794901061)。
+-   在AppGallery Connect控制台[创建项目和快游戏](https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-create-quickgame-0000001159652387#section165468151910)。
+-   上架快游戏必须接入华为帐号能力，您在AppGallery Connect控制台需[打开游戏服务API和华为帐号API开关](https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-enable-game-kit-0000001113292730#section1724214523574)。**其它API开关**请根据接入的快游戏能力进行配置。
 
 ### 工具准备<a name="section10468162781718"></a>
 
@@ -110,10 +188,10 @@ Unity游戏是使用C\#语言开发的游戏，而快游戏的运行环境却是
     </tbody>
     </table>
 
--   若[使用快游戏开发者工具打包](第三步-打包快游戏.md#section1973035142715)快游戏，您需下载并安装最新的[快游戏开发者工具](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-releasenotes-dev-tool-0000001619298089)。若[使用快游戏打包工具打包](第三步-打包快游戏.md#section089016114271)快游戏，您需下载**adapter**文件夹的适配层脚本代码、**tools**文件夹的快游戏打包工具，同时前往[node官网](https://nodejs.org/en/download)下载并安装node.js，且npm版本大于9.6.1。
+-   若[使用快游戏开发者工具打包](第三步-打包快游戏.md#section1973035142715)快游戏，您需下载并安装最新的[快游戏开发者工具](https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-download-tool-0000001754077209)。若[使用快游戏打包工具打包](第三步-打包快游戏.md#section089016114271)快游戏，您需下载**adapter**文件夹的适配层脚本代码、**tools**文件夹的快游戏打包工具，同时前往[node官网](https://nodejs.org/en/download)下载并安装node.js，且npm版本大于9.6.1。
 -   准备Android 6.0及以上版本的手机/平板设备，要求：
-    -   设备已[安装快应用加载器](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-installtool-0000001166035569#section20867195051318)。
-    -   设备已成功连接电脑，详细操作可参考[手机如何成功连接电脑](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-developer-mode-0000001634026457)。
+    -   设备已[安装快应用加载器](https://developer.huawei.com/consumer/cn/doc/Tools-Library/quickapp-ide-download-0000001101172926#section9347192715112)。
+    -   设备已成功连接电脑，详细操作可参考[手机如何成功连接电脑](https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-developer-mode-0000001634026457)。
 
 ### 素材准备<a name="section162721931181311"></a>
 
@@ -126,7 +204,7 @@ Unity游戏是使用C\#语言开发的游戏，而快游戏的运行环境却是
 </thead>
 <tbody><tr id="row198981414162"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.3.1.1 "><p id="p17941441111317"><a name="p17941441111317"></a><a name="p17941441111317"></a>签名证书文件</p>
 </td>
-<td class="cellrowborder" valign="top" width="70%" headers="mcps1.1.3.1.2 "><p id="p1275014120157"><a name="p1275014120157"></a><a name="p1275014120157"></a>在快游戏开发者工具中生成证书、密钥文件，详细操作请参见<a href="https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-tool-sign-0000001618643557" target="_blank" rel="noopener noreferrer">生成证书、密钥文件</a>。</p>
+<td class="cellrowborder" valign="top" width="70%" headers="mcps1.1.3.1.2 "><p id="p1275014120157"><a name="p1275014120157"></a><a name="p1275014120157"></a>在快游戏开发者工具中生成证书、密钥文件，详细操作请参见<a href="https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-tool-sign-0000001618643557" target="_blank" rel="noopener noreferrer">生成证书、密钥文件</a>。</p>
 </td>
 </tr>
 <tr id="row1258024221613"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.1.3.1.1 "><p id="p17200133111149"><a name="p17200133111149"></a><a name="p17200133111149"></a>快游戏图标</p>
@@ -153,11 +231,11 @@ Unity游戏项目使用C\#开发语言，快游戏使用JS开发语言，C\#不�
 
 ### 本地调试<a name="section23801612224"></a>
 
-为了保证转换后的快游戏有更好的软件性能与用户体验，您需在快应用加载器运行/调试游戏。您可以根据接入的快游戏服务逐一进行功能测试，详情可参考[快游戏开发指南手册](https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickgame-dev-runtimegame-guide-0000001159778255)。
+为了保证转换后的快游戏有更好的软件性能与用户体验，您可在快游戏开发者工具中根据接入的快游戏服务逐一进行运行/调试，具体操作可参考[快游戏开发指南手册](https://developer.huawei.com/consumer/cn/doc/quickApp-Guides/quickgame-tool-debug-0000001568083488)。
 
 ### 发布上架<a name="section20355777264"></a>
 
-前往AppGallery Connect控制台上架转换后的快游戏。
+前往AppGallery Connect控制台上架转换后的快游戏，具体步骤如下：
 
 1.  在AppGallery Connect控制台[配置快游戏的基本信息](https://developer.huawei.com/consumer/cn/doc/distribution/app/agc-help-configure-appinfo-0000001100086630)。
 2.  在AppGallery Connect控制台[发布快游戏](https://developer.huawei.com/consumer/cn/doc/distribution/app/agc-help--release-fastapp-0000001099836868)。

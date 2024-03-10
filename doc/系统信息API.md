@@ -32,52 +32,50 @@
 
     获取系统信息。
 
--   请求参数
-    -   GetSystemInfoOption
+-   请求参数GetSystemInfoOption
 
-        <a name="table28084319227"></a>
-        <table><thead align="left"><tr id="row6808838224"><th class="cellrowborder" valign="top" width="20.1%" id="mcps1.1.5.1.1"><p id="p12808143192212"><a name="p12808143192212"></a><a name="p12808143192212"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="24.9%" id="mcps1.1.5.1.2"><p id="p480853192220"><a name="p480853192220"></a><a name="p480853192220"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p280853102211"><a name="p280853102211"></a><a name="p280853102211"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p188085322215"><a name="p188085322215"></a><a name="p188085322215"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row1780813372213"><td class="cellrowborder" valign="top" width="20.1%" headers="mcps1.1.5.1.1 "><p id="p3366132612283"><a name="p3366132612283"></a><a name="p3366132612283"></a>success</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="24.9%" headers="mcps1.1.5.1.2 "><p id="p7366182662810"><a name="p7366182662810"></a><a name="p7366182662810"></a>Action&lt;<a href="#li13293443122913">GetSystemInfoSuccessResult</a>&gt;</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1663873252810"><a name="p1663873252810"></a><a name="p1663873252810"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p736652612816"><a name="p736652612816"></a><a name="p736652612816"></a>接口调用成功的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row31489416282"><td class="cellrowborder" valign="top" width="20.1%" headers="mcps1.1.5.1.1 "><p id="p12366226102819"><a name="p12366226102819"></a><a name="p12366226102819"></a>fail</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="24.9%" headers="mcps1.1.5.1.2 "><p id="p436692682819"><a name="p436692682819"></a><a name="p436692682819"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p14637183292819"><a name="p14637183292819"></a><a name="p14637183292819"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p20366126192819"><a name="p20366126192819"></a><a name="p20366126192819"></a>接口调用失败的回调函数。</p>
-        </td>
-        </tr>
-        <tr id="row16614752285"><td class="cellrowborder" valign="top" width="20.1%" headers="mcps1.1.5.1.1 "><p id="p1336615265283"><a name="p1336615265283"></a><a name="p1336615265283"></a>complete</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="24.9%" headers="mcps1.1.5.1.2 "><p id="p236617268286"><a name="p236617268286"></a><a name="p236617268286"></a>Action</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p063723282815"><a name="p063723282815"></a><a name="p063723282815"></a>O</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p236712269287"><a name="p236712269287"></a><a name="p236712269287"></a>接口调用结束的回调函数（调用成功、失败都会执行）。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+    <a name="table28084319227"></a>
+    <table><thead align="left"><tr id="row6808838224"><th class="cellrowborder" valign="top" width="20.1%" id="mcps1.1.5.1.1"><p id="p12808143192212"><a name="p12808143192212"></a><a name="p12808143192212"></a>参数</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="24.9%" id="mcps1.1.5.1.2"><p id="p480853192220"><a name="p480853192220"></a><a name="p480853192220"></a>类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p280853102211"><a name="p280853102211"></a><a name="p280853102211"></a>必填(M)/选填(O)</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p188085322215"><a name="p188085322215"></a><a name="p188085322215"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row1780813372213"><td class="cellrowborder" valign="top" width="20.1%" headers="mcps1.1.5.1.1 "><p id="p3366132612283"><a name="p3366132612283"></a><a name="p3366132612283"></a>success</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="24.9%" headers="mcps1.1.5.1.2 "><p id="p7366182662810"><a name="p7366182662810"></a><a name="p7366182662810"></a>Action&lt;<a href="#li1038911568395">GetSystemInfoSuccessResult</a>&gt;</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1663873252810"><a name="p1663873252810"></a><a name="p1663873252810"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p736652612816"><a name="p736652612816"></a><a name="p736652612816"></a>接口调用成功的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row31489416282"><td class="cellrowborder" valign="top" width="20.1%" headers="mcps1.1.5.1.1 "><p id="p12366226102819"><a name="p12366226102819"></a><a name="p12366226102819"></a>fail</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="24.9%" headers="mcps1.1.5.1.2 "><p id="p436692682819"><a name="p436692682819"></a><a name="p436692682819"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p14637183292819"><a name="p14637183292819"></a><a name="p14637183292819"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p20366126192819"><a name="p20366126192819"></a><a name="p20366126192819"></a>接口调用失败的回调函数。</p>
+    </td>
+    </tr>
+    <tr id="row16614752285"><td class="cellrowborder" valign="top" width="20.1%" headers="mcps1.1.5.1.1 "><p id="p1336615265283"><a name="p1336615265283"></a><a name="p1336615265283"></a>complete</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="24.9%" headers="mcps1.1.5.1.2 "><p id="p236617268286"><a name="p236617268286"></a><a name="p236617268286"></a>Action</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p063723282815"><a name="p063723282815"></a><a name="p063723282815"></a>O</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p236712269287"><a name="p236712269287"></a><a name="p236712269287"></a>若有函数传入，将在成功、失败后调用该函数。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
 
--   返回参数
-    -   <a name="li13293443122913"></a>GetSystemInfoSuccessResult
+    -   <a name="li1038911568395"></a>GetSystemInfoSuccessResult
 
         <a name="table6702115111211"></a>
         <table><thead align="left"><tr id="row11703125115212"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p32768371310"><a name="p32768371310"></a><a name="p32768371310"></a>参数</p>
@@ -232,61 +230,61 @@
         </tbody>
         </table>
 
-    -   <a name="li16775158123016"></a>SafeArea
+        -   <a name="li16775158123016"></a>SafeArea
 
-        <a name="table4403163810710"></a>
-        <table><thead align="left"><tr id="row17401113817720"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p94011381577"><a name="p94011381577"></a><a name="p94011381577"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.2"><p id="p2401938079"><a name="p2401938079"></a><a name="p2401938079"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="50%" id="mcps1.1.4.1.3"><p id="p13401133816710"><a name="p13401133816710"></a><a name="p13401133816710"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row24024381373"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p840293812710"><a name="p840293812710"></a><a name="p840293812710"></a>bottom</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p144026381578"><a name="p144026381578"></a><a name="p144026381578"></a>double</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p184021138272"><a name="p184021138272"></a><a name="p184021138272"></a>安全区域右下角纵坐标。</p>
-        </td>
-        </tr>
-        <tr id="row1240216387710"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p44021438879"><a name="p44021438879"></a><a name="p44021438879"></a>left</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p740223815711"><a name="p740223815711"></a><a name="p740223815711"></a>double</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p2040216381278"><a name="p2040216381278"></a><a name="p2040216381278"></a>安全区域左上角横坐标。</p>
-        </td>
-        </tr>
-        <tr id="row134022386713"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1402133811717"><a name="p1402133811717"></a><a name="p1402133811717"></a>right</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p11402163816714"><a name="p11402163816714"></a><a name="p11402163816714"></a>double</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p140211383720"><a name="p140211383720"></a><a name="p140211383720"></a>安全区域右下角横坐标。</p>
-        </td>
-        </tr>
-        <tr id="row10402738374"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p6402123812712"><a name="p6402123812712"></a><a name="p6402123812712"></a>top</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p24024381718"><a name="p24024381718"></a><a name="p24024381718"></a>double</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1440211387713"><a name="p1440211387713"></a><a name="p1440211387713"></a>安全区域左上角纵坐标。</p>
-        </td>
-        </tr>
-        <tr id="row1040214387712"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p840218381875"><a name="p840218381875"></a><a name="p840218381875"></a>height</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10402238874"><a name="p10402238874"></a><a name="p10402238874"></a>double</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1540203810710"><a name="p1540203810710"></a><a name="p1540203810710"></a>安全区域的高度，大小为实际高度（以px为单位）/设备屏幕密度。</p>
-        </td>
-        </tr>
-        <tr id="row94038381275"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p440211388711"><a name="p440211388711"></a><a name="p440211388711"></a>width</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1140315385720"><a name="p1140315385720"></a><a name="p1140315385720"></a>double</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p84031389712"><a name="p84031389712"></a><a name="p84031389712"></a>安全区域的宽度，大小为实际宽度（以px为单位）/设备屏幕密度。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+            <a name="table4403163810710"></a>
+            <table><thead align="left"><tr id="row17401113817720"><th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.1"><p id="p94011381577"><a name="p94011381577"></a><a name="p94011381577"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.4.1.2"><p id="p2401938079"><a name="p2401938079"></a><a name="p2401938079"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="50%" id="mcps1.1.4.1.3"><p id="p13401133816710"><a name="p13401133816710"></a><a name="p13401133816710"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row24024381373"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p840293812710"><a name="p840293812710"></a><a name="p840293812710"></a>bottom</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p144026381578"><a name="p144026381578"></a><a name="p144026381578"></a>double</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p184021138272"><a name="p184021138272"></a><a name="p184021138272"></a>安全区域右下角纵坐标。</p>
+            </td>
+            </tr>
+            <tr id="row1240216387710"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p44021438879"><a name="p44021438879"></a><a name="p44021438879"></a>left</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p740223815711"><a name="p740223815711"></a><a name="p740223815711"></a>double</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p2040216381278"><a name="p2040216381278"></a><a name="p2040216381278"></a>安全区域左上角横坐标。</p>
+            </td>
+            </tr>
+            <tr id="row134022386713"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p1402133811717"><a name="p1402133811717"></a><a name="p1402133811717"></a>right</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p11402163816714"><a name="p11402163816714"></a><a name="p11402163816714"></a>double</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p140211383720"><a name="p140211383720"></a><a name="p140211383720"></a>安全区域右下角横坐标。</p>
+            </td>
+            </tr>
+            <tr id="row10402738374"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p6402123812712"><a name="p6402123812712"></a><a name="p6402123812712"></a>top</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p24024381718"><a name="p24024381718"></a><a name="p24024381718"></a>double</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1440211387713"><a name="p1440211387713"></a><a name="p1440211387713"></a>安全区域左上角纵坐标。</p>
+            </td>
+            </tr>
+            <tr id="row1040214387712"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p840218381875"><a name="p840218381875"></a><a name="p840218381875"></a>height</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p10402238874"><a name="p10402238874"></a><a name="p10402238874"></a>double</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p1540203810710"><a name="p1540203810710"></a><a name="p1540203810710"></a>安全区域的高度，大小为实际高度（以px为单位）/设备屏幕密度。</p>
+            </td>
+            </tr>
+            <tr id="row94038381275"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.1 "><p id="p440211388711"><a name="p440211388711"></a><a name="p440211388711"></a>width</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.4.1.2 "><p id="p1140315385720"><a name="p1140315385720"></a><a name="p1140315385720"></a>double</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="50%" headers="mcps1.1.4.1.3 "><p id="p84031389712"><a name="p84031389712"></a><a name="p84031389712"></a>安全区域的宽度，大小为实际宽度（以px为单位）/设备屏幕密度。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -326,9 +324,9 @@
 
     获取系统信息（同步方法）。
 
--   return
+-   返回参数
 
-    [GetSystemInfoSuccessResult](#li13293443122913)
+    [GetSystemInfoSuccessResult](#li1038911568395)
 
 -   示例代码
 

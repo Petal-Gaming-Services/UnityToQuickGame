@@ -72,4 +72,19 @@ public class MainScene : MonoBehaviour
     {
         SceneManager.LoadScene("SystemEventsScene");
     }
+    
+    public void OnLifecycleClick()
+    {
+        SceneManager.LoadScene("LifecycleScene");
+    }
+    
+    public void OnDeeplinkClick()
+    {
+        SceneManager.LoadScene("DeeplinkScene");
+    }
+    
+    public void OnShortCutClick()
+    {
+        SceneManager.LoadScene("ShortcutScene");
+    }
 }

@@ -83,7 +83,7 @@
     </thead>
     <tbody><tr id="row1871143114119"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p271203120410"><a name="p271203120410"></a><a name="p271203120410"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p171331174119"><a name="p171331174119"></a><a name="p171331174119"></a>Action&lt;<a href="#li182319109422">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p171331174119"><a name="p171331174119"></a><a name="p171331174119"></a>Action&lt;<a href="#li486995819372">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p19711731194115"><a name="p19711731194115"></a><a name="p19711731194115"></a>M</p>
     </td>
@@ -93,8 +93,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li182319109422"></a>OnTouchStartCallbackResult
+    -   <a name="li486995819372"></a>OnTouchStartCallbackResult
 
         <a name="table8103141513011"></a>
         <table><thead align="left"><tr id="row2010381516306"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p6103151519309"><a name="p6103151519309"></a><a name="p6103151519309"></a>参数</p>
@@ -137,66 +136,66 @@
         </tbody>
         </table>
 
-    -   <a name="li56808513329"></a>Touch
+        -   <a name="li56808513329"></a>Touch
 
-        <a name="table196712218329"></a>
-        <table><thead align="left"><tr id="row296762210323"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p10967122213325"><a name="p10967122213325"></a><a name="p10967122213325"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p14967152218328"><a name="p14967152218328"></a><a name="p14967152218328"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p49671822133214"><a name="p49671822133214"></a><a name="p49671822133214"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p109671225323"><a name="p109671225323"></a><a name="p109671225323"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row149672220329"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p175012031153213"><a name="p175012031153213"></a><a name="p175012031153213"></a>clientX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p450118314325"><a name="p450118314325"></a><a name="p450118314325"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7967122163219"><a name="p7967122163219"></a><a name="p7967122163219"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p33453313326"><a name="p33453313326"></a><a name="p33453313326"></a>触点相对于可见视区左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row16967112216322"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16500931113217"><a name="p16500931113217"></a><a name="p16500931113217"></a>clientY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p10500231203210"><a name="p10500231203210"></a><a name="p10500231203210"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p159672022173215"><a name="p159672022173215"></a><a name="p159672022173215"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p19120717340"><a name="p19120717340"></a><a name="p19120717340"></a>触点相对于可见视区下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        <tr id="row69686224327"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p149918313322"><a name="p149918313322"></a><a name="p149918313322"></a>identifier</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p24995313324"><a name="p24995313324"></a><a name="p24995313324"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p796832211326"><a name="p796832211326"></a><a name="p796832211326"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p43215339326"><a name="p43215339326"></a><a name="p43215339326"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
-        </td>
-        </tr>
-        <tr id="row15204193453214"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p122041342324"><a name="p122041342324"></a><a name="p122041342324"></a>pageX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p92041034143210"><a name="p92041034143210"></a><a name="p92041034143210"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9204183403217"><a name="p9204183403217"></a><a name="p9204183403217"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p16204934193215"><a name="p16204934193215"></a><a name="p16204934193215"></a>触点相对于页面左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row96541449183217"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p196542494324"><a name="p196542494324"></a><a name="p196542494324"></a>pageY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p13654174923213"><a name="p13654174923213"></a><a name="p13654174923213"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p6654194915322"><a name="p6654194915322"></a><a name="p6654194915322"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p17654134912325"><a name="p17654134912325"></a><a name="p17654134912325"></a>触点相对于页面下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+            <a name="table196712218329"></a>
+            <table><thead align="left"><tr id="row296762210323"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p10967122213325"><a name="p10967122213325"></a><a name="p10967122213325"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p14967152218328"><a name="p14967152218328"></a><a name="p14967152218328"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p49671822133214"><a name="p49671822133214"></a><a name="p49671822133214"></a>必填(M)/选填(O)</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p109671225323"><a name="p109671225323"></a><a name="p109671225323"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row149672220329"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p175012031153213"><a name="p175012031153213"></a><a name="p175012031153213"></a>clientX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p450118314325"><a name="p450118314325"></a><a name="p450118314325"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7967122163219"><a name="p7967122163219"></a><a name="p7967122163219"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p33453313326"><a name="p33453313326"></a><a name="p33453313326"></a>触点相对于可见视区左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row16967112216322"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p16500931113217"><a name="p16500931113217"></a><a name="p16500931113217"></a>clientY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p10500231203210"><a name="p10500231203210"></a><a name="p10500231203210"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p159672022173215"><a name="p159672022173215"></a><a name="p159672022173215"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p19120717340"><a name="p19120717340"></a><a name="p19120717340"></a>触点相对于可见视区下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            <tr id="row69686224327"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p149918313322"><a name="p149918313322"></a><a name="p149918313322"></a>identifier</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p24995313324"><a name="p24995313324"></a><a name="p24995313324"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p796832211326"><a name="p796832211326"></a><a name="p796832211326"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p43215339326"><a name="p43215339326"></a><a name="p43215339326"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
+            </td>
+            </tr>
+            <tr id="row15204193453214"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p122041342324"><a name="p122041342324"></a><a name="p122041342324"></a>pageX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p92041034143210"><a name="p92041034143210"></a><a name="p92041034143210"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9204183403217"><a name="p9204183403217"></a><a name="p9204183403217"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p16204934193215"><a name="p16204934193215"></a><a name="p16204934193215"></a>触点相对于页面左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row96541449183217"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p196542494324"><a name="p196542494324"></a><a name="p196542494324"></a>pageY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p13654174923213"><a name="p13654174923213"></a><a name="p13654174923213"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p6654194915322"><a name="p6654194915322"></a><a name="p6654194915322"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p17654134912325"><a name="p17654134912325"></a><a name="p17654134912325"></a>触点相对于页面下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -244,11 +243,11 @@
     </thead>
     <tbody><tr id="row875041764311"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p575051717437"><a name="p575051717437"></a><a name="p575051717437"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p57503172434"><a name="p57503172434"></a><a name="p57503172434"></a>Action&lt;<a href="#li182319109422">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p11339527165010"><a name="p11339527165010"></a><a name="p11339527165010"></a>Action&lt;<a href="#li486995819372">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p7751151774312"><a name="p7751151774312"></a><a name="p7751151774312"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p12414755414"><a name="p12414755414"></a><a name="p12414755414"></a>OnTouchStart传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p12414755414"><a name="p12414755414"></a><a name="p12414755414"></a>OnTouchStart传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>
@@ -275,7 +274,7 @@
     </thead>
     <tbody><tr id="row187124674314"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p5871194694314"><a name="p5871194694314"></a><a name="p5871194694314"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p78713463436"><a name="p78713463436"></a><a name="p78713463436"></a>Action&lt;<a href="#li18821850154316">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p78713463436"><a name="p78713463436"></a><a name="p78713463436"></a>Action&lt;<a href="#li1248533915381">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p118717464437"><a name="p118717464437"></a><a name="p118717464437"></a>M</p>
     </td>
@@ -285,8 +284,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li18821850154316"></a>OnTouchStartCallbackResult
+    -   <a name="li1248533915381"></a>OnTouchStartCallbackResult
 
         <a name="table1283411502434"></a>
         <table><thead align="left"><tr id="row1833050194319"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p1783317509435"><a name="p1783317509435"></a><a name="p1783317509435"></a>参数</p>
@@ -329,66 +327,66 @@
         </tbody>
         </table>
 
-    -   <a name="li1984463834117"></a>Touch
+        -   <a name="li1984463834117"></a>Touch
 
-        <a name="table48452038124117"></a>
-        <table><thead align="left"><tr id="row5845173814112"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p19845193814117"><a name="p19845193814117"></a><a name="p19845193814117"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p58451238134115"><a name="p58451238134115"></a><a name="p58451238134115"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p1884503894110"><a name="p1884503894110"></a><a name="p1884503894110"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p9845638174114"><a name="p9845638174114"></a><a name="p9845638174114"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row2845338184110"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1084533824117"><a name="p1084533824117"></a><a name="p1084533824117"></a>clientX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1684543844112"><a name="p1684543844112"></a><a name="p1684543844112"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p3845538104111"><a name="p3845538104111"></a><a name="p3845538104111"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p138456384419"><a name="p138456384419"></a><a name="p138456384419"></a>触点相对于可见视区左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row784513804114"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1484533815414"><a name="p1484533815414"></a><a name="p1484533815414"></a>clientY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p148451938104110"><a name="p148451938104110"></a><a name="p148451938104110"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p18451538164117"><a name="p18451538164117"></a><a name="p18451538164117"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1384573874114"><a name="p1384573874114"></a><a name="p1384573874114"></a>触点相对于可见视区下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        <tr id="row1584514383411"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p38457387412"><a name="p38457387412"></a><a name="p38457387412"></a>identifier</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1984523814118"><a name="p1984523814118"></a><a name="p1984523814118"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1584613817415"><a name="p1584613817415"></a><a name="p1584613817415"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p11846163874119"><a name="p11846163874119"></a><a name="p11846163874119"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
-        </td>
-        </tr>
-        <tr id="row3846838164119"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p384616383418"><a name="p384616383418"></a><a name="p384616383418"></a>pageX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p118461438104111"><a name="p118461438104111"></a><a name="p118461438104111"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p484653818413"><a name="p484653818413"></a><a name="p484653818413"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p384663813418"><a name="p384663813418"></a><a name="p384663813418"></a>触点相对于页面左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row20846143804113"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p984673813411"><a name="p984673813411"></a><a name="p984673813411"></a>pageY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p12846163813412"><a name="p12846163813412"></a><a name="p12846163813412"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p198461538154116"><a name="p198461538154116"></a><a name="p198461538154116"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p8846103818412"><a name="p8846103818412"></a><a name="p8846103818412"></a>触点相对于页面下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+            <a name="table48452038124117"></a>
+            <table><thead align="left"><tr id="row5845173814112"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p19845193814117"><a name="p19845193814117"></a><a name="p19845193814117"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p58451238134115"><a name="p58451238134115"></a><a name="p58451238134115"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p1884503894110"><a name="p1884503894110"></a><a name="p1884503894110"></a>必填(M)/选填(O)</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p9845638174114"><a name="p9845638174114"></a><a name="p9845638174114"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row2845338184110"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1084533824117"><a name="p1084533824117"></a><a name="p1084533824117"></a>clientX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1684543844112"><a name="p1684543844112"></a><a name="p1684543844112"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p3845538104111"><a name="p3845538104111"></a><a name="p3845538104111"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p138456384419"><a name="p138456384419"></a><a name="p138456384419"></a>触点相对于可见视区左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row784513804114"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1484533815414"><a name="p1484533815414"></a><a name="p1484533815414"></a>clientY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p148451938104110"><a name="p148451938104110"></a><a name="p148451938104110"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p18451538164117"><a name="p18451538164117"></a><a name="p18451538164117"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1384573874114"><a name="p1384573874114"></a><a name="p1384573874114"></a>触点相对于可见视区下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            <tr id="row1584514383411"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p38457387412"><a name="p38457387412"></a><a name="p38457387412"></a>identifier</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1984523814118"><a name="p1984523814118"></a><a name="p1984523814118"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1584613817415"><a name="p1584613817415"></a><a name="p1584613817415"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p11846163874119"><a name="p11846163874119"></a><a name="p11846163874119"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
+            </td>
+            </tr>
+            <tr id="row3846838164119"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p384616383418"><a name="p384616383418"></a><a name="p384616383418"></a>pageX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p118461438104111"><a name="p118461438104111"></a><a name="p118461438104111"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p484653818413"><a name="p484653818413"></a><a name="p484653818413"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p384663813418"><a name="p384663813418"></a><a name="p384663813418"></a>触点相对于页面左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row20846143804113"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p984673813411"><a name="p984673813411"></a><a name="p984673813411"></a>pageY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p12846163813412"><a name="p12846163813412"></a><a name="p12846163813412"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p198461538154116"><a name="p198461538154116"></a><a name="p198461538154116"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p8846103818412"><a name="p8846103818412"></a><a name="p8846103818412"></a>触点相对于页面下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -436,11 +434,11 @@
     </thead>
     <tbody><tr id="row96651068444"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1566517612447"><a name="p1566517612447"></a><a name="p1566517612447"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p0991165815468"><a name="p0991165815468"></a><a name="p0991165815468"></a>Action&lt;<a href="#li18821850154316">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p143298489504"><a name="p143298489504"></a><a name="p143298489504"></a>Action&lt;<a href="#li1248533915381">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p166516124414"><a name="p166516124414"></a><a name="p166516124414"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p15665765448"><a name="p15665765448"></a><a name="p15665765448"></a>OnTouchMove传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p15665765448"><a name="p15665765448"></a><a name="p15665765448"></a>OnTouchMove传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>
@@ -467,7 +465,7 @@
     </thead>
     <tbody><tr id="row25201831194412"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p7520113112447"><a name="p7520113112447"></a><a name="p7520113112447"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p14520631104418"><a name="p14520631104418"></a><a name="p14520631104418"></a>Action&lt;<a href="#li144771634134412">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p14520631104418"><a name="p14520631104418"></a><a name="p14520631104418"></a>Action&lt;<a href="#li161569233918">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p152063110441"><a name="p152063110441"></a><a name="p152063110441"></a>M</p>
     </td>
@@ -477,8 +475,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li144771634134412"></a>OnTouchStartCallbackResult
+    -   <a name="li161569233918"></a>OnTouchStartCallbackResult
 
         <a name="table1141414193544"></a>
         <table><thead align="left"><tr id="row84141019195415"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p15414191935419"><a name="p15414191935419"></a><a name="p15414191935419"></a>参数</p>
@@ -521,66 +518,66 @@
         </tbody>
         </table>
 
-    -   <a name="li1191152794215"></a>Touch
+        -   <a name="li1191152794215"></a>Touch
 
-        <a name="table17915273421"></a>
-        <table><thead align="left"><tr id="row169132711427"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p791927164210"><a name="p791927164210"></a><a name="p791927164210"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p69111279425"><a name="p69111279425"></a><a name="p69111279425"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p6915271421"><a name="p6915271421"></a><a name="p6915271421"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p139122713428"><a name="p139122713428"></a><a name="p139122713428"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row10918271423"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1891162724214"><a name="p1891162724214"></a><a name="p1891162724214"></a>clientX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p169122713428"><a name="p169122713428"></a><a name="p169122713428"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p89182714214"><a name="p89182714214"></a><a name="p89182714214"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p391122714219"><a name="p391122714219"></a><a name="p391122714219"></a>触点相对于可见视区左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row179242714219"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p6921827174217"><a name="p6921827174217"></a><a name="p6921827174217"></a>clientY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p199222774218"><a name="p199222774218"></a><a name="p199222774218"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9921727144219"><a name="p9921727144219"></a><a name="p9921727144219"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p892227134215"><a name="p892227134215"></a><a name="p892227134215"></a>触点相对于可见视区下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        <tr id="row792122764211"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1392152715428"><a name="p1392152715428"></a><a name="p1392152715428"></a>identifier</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p192152724219"><a name="p192152724219"></a><a name="p192152724219"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p392627174212"><a name="p392627174212"></a><a name="p392627174212"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p129292712428"><a name="p129292712428"></a><a name="p129292712428"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
-        </td>
-        </tr>
-        <tr id="row69262754212"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p692192774214"><a name="p692192774214"></a><a name="p692192774214"></a>pageX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p3921927164217"><a name="p3921927164217"></a><a name="p3921927164217"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1092122712427"><a name="p1092122712427"></a><a name="p1092122712427"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p18921527144219"><a name="p18921527144219"></a><a name="p18921527144219"></a>触点相对于页面左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row20921127154218"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1092132754212"><a name="p1092132754212"></a><a name="p1092132754212"></a>pageY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p79213270423"><a name="p79213270423"></a><a name="p79213270423"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p119210274427"><a name="p119210274427"></a><a name="p119210274427"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p129215274426"><a name="p129215274426"></a><a name="p129215274426"></a>触点相对于页面下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+            <a name="table17915273421"></a>
+            <table><thead align="left"><tr id="row169132711427"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p791927164210"><a name="p791927164210"></a><a name="p791927164210"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p69111279425"><a name="p69111279425"></a><a name="p69111279425"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p6915271421"><a name="p6915271421"></a><a name="p6915271421"></a>必填(M)/选填(O)</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p139122713428"><a name="p139122713428"></a><a name="p139122713428"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row10918271423"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1891162724214"><a name="p1891162724214"></a><a name="p1891162724214"></a>clientX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p169122713428"><a name="p169122713428"></a><a name="p169122713428"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p89182714214"><a name="p89182714214"></a><a name="p89182714214"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p391122714219"><a name="p391122714219"></a><a name="p391122714219"></a>触点相对于可见视区左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row179242714219"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p6921827174217"><a name="p6921827174217"></a><a name="p6921827174217"></a>clientY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p199222774218"><a name="p199222774218"></a><a name="p199222774218"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9921727144219"><a name="p9921727144219"></a><a name="p9921727144219"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p892227134215"><a name="p892227134215"></a><a name="p892227134215"></a>触点相对于可见视区下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            <tr id="row792122764211"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1392152715428"><a name="p1392152715428"></a><a name="p1392152715428"></a>identifier</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p192152724219"><a name="p192152724219"></a><a name="p192152724219"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p392627174212"><a name="p392627174212"></a><a name="p392627174212"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p129292712428"><a name="p129292712428"></a><a name="p129292712428"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
+            </td>
+            </tr>
+            <tr id="row69262754212"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p692192774214"><a name="p692192774214"></a><a name="p692192774214"></a>pageX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p3921927164217"><a name="p3921927164217"></a><a name="p3921927164217"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1092122712427"><a name="p1092122712427"></a><a name="p1092122712427"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p18921527144219"><a name="p18921527144219"></a><a name="p18921527144219"></a>触点相对于页面左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row20921127154218"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1092132754212"><a name="p1092132754212"></a><a name="p1092132754212"></a>pageY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p79213270423"><a name="p79213270423"></a><a name="p79213270423"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p119210274427"><a name="p119210274427"></a><a name="p119210274427"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p129215274426"><a name="p129215274426"></a><a name="p129215274426"></a>触点相对于页面下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -628,11 +625,11 @@
     </thead>
     <tbody><tr id="row10193344114416"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p12194174416446"><a name="p12194174416446"></a><a name="p12194174416446"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p13194164494413"><a name="p13194164494413"></a><a name="p13194164494413"></a>Action&lt;<a href="#li144771634134412">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p195499815116"><a name="p195499815116"></a><a name="p195499815116"></a>Action&lt;<a href="#li161569233918">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1819420447444"><a name="p1819420447444"></a><a name="p1819420447444"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1319410445447"><a name="p1319410445447"></a><a name="p1319410445447"></a>OnTouchEnd传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p1319410445447"><a name="p1319410445447"></a><a name="p1319410445447"></a>OnTouchEnd传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>
@@ -659,7 +656,7 @@
     </thead>
     <tbody><tr id="row18924154164519"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1692474124513"><a name="p1692474124513"></a><a name="p1692474124513"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1924944454"><a name="p1924944454"></a><a name="p1924944454"></a>Action&lt;<a href="#li20326116144613">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1924944454"><a name="p1924944454"></a><a name="p1924944454"></a>Action&lt;<a href="#li810914260398">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p9924124154515"><a name="p9924124154515"></a><a name="p9924124154515"></a>M</p>
     </td>
@@ -669,8 +666,7 @@
     </tbody>
     </table>
 
--   返回参数
-    -   <a name="li20326116144613"></a>OnTouchStartCallbackResult
+    -   <a name="li810914260398"></a>OnTouchStartCallbackResult
 
         <a name="table11208117135613"></a>
         <table><thead align="left"><tr id="row8208147135615"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p13208127145613"><a name="p13208127145613"></a><a name="p13208127145613"></a>参数</p>
@@ -713,66 +709,66 @@
         </tbody>
         </table>
 
-    -   <a name="li5112117194311"></a>Touch
+        -   <a name="li5112117194311"></a>Touch
 
-        <a name="table41121475438"></a>
-        <table><thead align="left"><tr id="row511217711433"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p16112117104319"><a name="p16112117104319"></a><a name="p16112117104319"></a>参数</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p5112137144317"><a name="p5112137144317"></a><a name="p5112137144317"></a>类型</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p2112137194314"><a name="p2112137194314"></a><a name="p2112137194314"></a>必填(M)/选填(O)</p>
-        </th>
-        <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p141121571436"><a name="p141121571436"></a><a name="p141121571436"></a>说明</p>
-        </th>
-        </tr>
-        </thead>
-        <tbody><tr id="row111129711433"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1411212712439"><a name="p1411212712439"></a><a name="p1411212712439"></a>clientX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p141121875439"><a name="p141121875439"></a><a name="p141121875439"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1211318774317"><a name="p1211318774317"></a><a name="p1211318774317"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p211327104318"><a name="p211327104318"></a><a name="p211327104318"></a>触点相对于可见视区左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row10113167104312"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p211311774312"><a name="p211311774312"></a><a name="p211311774312"></a>clientY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p4113107104312"><a name="p4113107104312"></a><a name="p4113107104312"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p21136744315"><a name="p21136744315"></a><a name="p21136744315"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p911316704316"><a name="p911316704316"></a><a name="p911316704316"></a>触点相对于可见视区下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        <tr id="row191137719434"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p161134710439"><a name="p161134710439"></a><a name="p161134710439"></a>identifier</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p611387144313"><a name="p611387144313"></a><a name="p611387144313"></a>int</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p61133716430"><a name="p61133716430"></a><a name="p61133716430"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p711310716435"><a name="p711310716435"></a><a name="p711310716435"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
-        </td>
-        </tr>
-        <tr id="row311327104319"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1711397164311"><a name="p1711397164311"></a><a name="p1711397164311"></a>pageX</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p171131674436"><a name="p171131674436"></a><a name="p171131674436"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p4113127194313"><a name="p4113127194313"></a><a name="p4113127194313"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p61132774316"><a name="p61132774316"></a><a name="p61132774316"></a>触点相对于页面左边沿的X坐标。</p>
-        </td>
-        </tr>
-        <tr id="row191131715434"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p121131375438"><a name="p121131375438"></a><a name="p121131375438"></a>pageY</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p16113774435"><a name="p16113774435"></a><a name="p16113774435"></a>float</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1711413711437"><a name="p1711413711437"></a><a name="p1711413711437"></a>M</p>
-        </td>
-        <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p16114477432"><a name="p16114477432"></a><a name="p16114477432"></a>触点相对于页面下边沿的Y坐标。</p>
-        </td>
-        </tr>
-        </tbody>
-        </table>
+            <a name="table41121475438"></a>
+            <table><thead align="left"><tr id="row511217711433"><th class="cellrowborder" valign="top" width="20%" id="mcps1.1.5.1.1"><p id="p16112117104319"><a name="p16112117104319"></a><a name="p16112117104319"></a>参数</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="25%" id="mcps1.1.5.1.2"><p id="p5112137144317"><a name="p5112137144317"></a><a name="p5112137144317"></a>类型</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="15%" id="mcps1.1.5.1.3"><p id="p2112137194314"><a name="p2112137194314"></a><a name="p2112137194314"></a>必填(M)/选填(O)</p>
+            </th>
+            <th class="cellrowborder" valign="top" width="40%" id="mcps1.1.5.1.4"><p id="p141121571436"><a name="p141121571436"></a><a name="p141121571436"></a>说明</p>
+            </th>
+            </tr>
+            </thead>
+            <tbody><tr id="row111129711433"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1411212712439"><a name="p1411212712439"></a><a name="p1411212712439"></a>clientX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p141121875439"><a name="p141121875439"></a><a name="p141121875439"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1211318774317"><a name="p1211318774317"></a><a name="p1211318774317"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p211327104318"><a name="p211327104318"></a><a name="p211327104318"></a>触点相对于可见视区左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row10113167104312"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p211311774312"><a name="p211311774312"></a><a name="p211311774312"></a>clientY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p4113107104312"><a name="p4113107104312"></a><a name="p4113107104312"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p21136744315"><a name="p21136744315"></a><a name="p21136744315"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p911316704316"><a name="p911316704316"></a><a name="p911316704316"></a>触点相对于可见视区下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            <tr id="row191137719434"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p161134710439"><a name="p161134710439"></a><a name="p161134710439"></a>identifier</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p611387144313"><a name="p611387144313"></a><a name="p611387144313"></a>int</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p61133716430"><a name="p61133716430"></a><a name="p61133716430"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p711310716435"><a name="p711310716435"></a><a name="p711310716435"></a>唯一标识符。一次触摸的整个过程中该标识符不变，用于判断是否为同一次触摸过程。</p>
+            </td>
+            </tr>
+            <tr id="row311327104319"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p1711397164311"><a name="p1711397164311"></a><a name="p1711397164311"></a>pageX</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p171131674436"><a name="p171131674436"></a><a name="p171131674436"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p4113127194313"><a name="p4113127194313"></a><a name="p4113127194313"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p61132774316"><a name="p61132774316"></a><a name="p61132774316"></a>触点相对于页面左边沿的X坐标。</p>
+            </td>
+            </tr>
+            <tr id="row191131715434"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p121131375438"><a name="p121131375438"></a><a name="p121131375438"></a>pageY</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p16113774435"><a name="p16113774435"></a><a name="p16113774435"></a>float</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p1711413711437"><a name="p1711413711437"></a><a name="p1711413711437"></a>M</p>
+            </td>
+            <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p16114477432"><a name="p16114477432"></a><a name="p16114477432"></a>触点相对于页面下边沿的Y坐标。</p>
+            </td>
+            </tr>
+            </tbody>
+            </table>
 
 -   示例代码
 
@@ -820,11 +816,11 @@
     </thead>
     <tbody><tr id="row188191415462"><td class="cellrowborder" valign="top" width="20%" headers="mcps1.1.5.1.1 "><p id="p181101434612"><a name="p181101434612"></a><a name="p181101434612"></a>result</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p136631613489"><a name="p136631613489"></a><a name="p136631613489"></a>Action&lt;<a href="#li20326116144613">OnTouchStartCallbackResult</a>&gt;</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.1.5.1.2 "><p id="p1312414382515"><a name="p1312414382515"></a><a name="p1312414382515"></a>Action&lt;<a href="#li810914260398">OnTouchStartCallbackResult</a>&gt;</p>
     </td>
     <td class="cellrowborder" valign="top" width="15%" headers="mcps1.1.5.1.3 "><p id="p181114114611"><a name="p181114114611"></a><a name="p181114114611"></a>M</p>
     </td>
-    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p5811614124617"><a name="p5811614124617"></a><a name="p5811614124617"></a>OnTouchCancel传入的监听函数。不传此参数则移除所有监听函数。</p>
+    <td class="cellrowborder" valign="top" width="40%" headers="mcps1.1.5.1.4 "><p id="p5811614124617"><a name="p5811614124617"></a><a name="p5811614124617"></a>OnTouchCancel传入的监听函数。不传此参数将默认传null，则移除所有监听函数。</p>
     </td>
     </tr>
     </tbody>
